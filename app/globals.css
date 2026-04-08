@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #999;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.dknv { display: flex; }
+.mbt { display: none; }
+
+@media (max-width: 768px) {
+  .dknv { display: none !important; }
+  .mbt { display: block !important; }
+  .hgr, .fgr, .cgr { grid-template-columns: 1fr !important; }
+  .sgr { grid-template-columns: repeat(2, 1fr) !important; }
+  .pgr { grid-template-columns: 1fr !important; }
+  .svcgr > div { width: 100% !important; min-width: 0 !important; }
+
+  #home > div:nth-child(2) {
+    text-align: left;
+    padding-top: 3rem;
+  }
+  #home h1, #home p {
+    text-align: left;
+  }
+  #home button {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  /* Featured projects mobile slider */
+  .pgr {
+    display: flex !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem !important;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+  }
+  .pgr::-webkit-scrollbar { display: none; }
+  .pgr > div {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+  }
+  .pslnav { display: flex !important; }
+}
+
+@media (max-width: 480px) {
+  .sgr { grid-template-columns: 1fr !important; }
+}
