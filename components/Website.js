@@ -27,7 +27,7 @@ function useC(theme) {
 
 const TX = {
   en: {
-    nav:{home:"Home",about:"About",services:"Services",portfolio:"Portfolio",contact:"Contact"},
+    nav:{home:"Home",about:"About",services:"Services",careers:"Careers",portfolio:"Portfolio",contact:"Contact"},
     hero:{l1:"Crafting Spaces That",l2:"Tell Your Story",sub:"We transform ordinary spaces into extraordinary environments with our bespoke design solutions and expert craftsmanship.",cta:"View Our Portfolio"},
     stats:{a:"12+",al:"Years Experience",b:"400+",bl:"Projects Completed",c:"80\u201390",cl:"Team Members",d:"100%",dl:"Client Commitment"},
     about:{title:"Our Story",p1:"WIDE-ELEVEN CO., LTD. has been established since February of 2014, prioritizing in the industry of interior design & construction. We are committed to provide the best interior construction services to our clients by transforming their dreaming design of space into reality, within the budget and time frame as allowed.",p2:"Over the past 12 years, we have expanded gradually, and have been working on more than 400 projects to date, with an accumulative number of clients coming from the appraisal for our credibility, speed and quality of work.",ms:"Our Mission",mt:"To transform every client's vision into reality through exceptional craftsmanship, innovative design solutions, and unwavering commitment to quality \u2014 on time, within budget, and beyond expectations.",bg:"Years of Excellence"},
@@ -36,10 +36,11 @@ const TX = {
     port:{title:"Featured Projects",all:"View All Projects",det:"View Details",at:"All Projects",as:"Explore our complete portfolio.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
     ct:{title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved."},
-    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair"}
+    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
+    careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
-    nav:{home:"หน้าแรก",about:"เกี่ยวกับเรา",services:"บริการ",portfolio:"ผลงาน",contact:"ติดต่อ"},
+    nav:{home:"หน้าแรก",about:"เกี่ยวกับเรา",services:"บริการ",careers:"ร่วมงานกับเรา",portfolio:"ผลงาน",contact:"ติดต่อ"},
     hero:{l1:"สร้างสรรค์พื้นที่",l2:"ที่บอกเล่าตัวตนของคุณ",sub:"เราเปลี่ยนพื้นที่ธรรมดาให้กลายเป็นสภาพแวดล้อมที่พิเศษ ด้วยโซลูชันการออกแบบเฉพาะตัวและฝีมือช่างระดับมืออาชีพ",cta:"ดูผลงานของเรา"},
     stats:{a:"12+",al:"ปีประสบการณ์",b:"400+",bl:"โครงการที่สำเร็จ",c:"80\u201390",cl:"สมาชิกทีมงาน",d:"100%",dl:"ความมุ่งมั่นต่อลูกค้า"},
     about:{title:"เรื่องราวของเรา",p1:"บริษัท ไวด์-อีเลฟเว่น จำกัด ก่อตั้งขึ้นเมื่อเดือนกุมภาพันธ์ พ.ศ. 2557 โดยมุ่งเน้นในอุตสาหกรรมออกแบบและก่อสร้างตกแต่งภายใน เรามุ่งมั่นมอบบริการก่อสร้างตกแต่งภายในที่ดีที่สุดให้กับลูกค้า โดยเปลี่ยนการออกแบบพื้นที่ในฝันให้กลายเป็นความจริง ภายใต้งบประมาณและกรอบเวลาที่กำหนด",p2:"ตลอดระยะเวลากว่า 12 ปีที่ผ่านมา เราเติบโตอย่างต่อเนื่อง และได้ดำเนินงานมากกว่า 400 โครงการจนถึงปัจจุบัน ด้วยจำนวนลูกค้าที่เพิ่มขึ้นจากการยอมรับในความน่าเชื่อถือ ความรวดเร็ว และคุณภาพของงาน",ms:"พันธกิจของเรา",mt:"เปลี่ยนวิสัยทัศน์ของลูกค้าทุกรายให้เป็นจริง ด้วยฝีมือช่างชั้นยอด โซลูชันการออกแบบที่สร้างสรรค์ และความมุ่งมั่นในคุณภาพอย่างไม่ลดละ \u2014 ตรงเวลา ตามงบประมาณ และเหนือความคาดหมาย",bg:"ปีแห่งความเป็นเลิศ"},
@@ -48,7 +49,8 @@ const TX = {
     port:{title:"โครงการเด่น",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",at:"โครงการทั้งหมด",as:"สำรวจผลงานทั้งหมดของเรา",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
     ct:{title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์"},
-    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่"}
+    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
+    careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
 };
 
@@ -99,6 +101,7 @@ export default function App() {
   const [projects, setProjects] = useState(DEM_P);
   const [clients, setClients] = useState(DEM_C);
   const [cats, setCats] = useState(DEF_CATS);
+  const [jobs, setJobs] = useState([]);
   const [auth, setAuth] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [pageLoading, setPageLoading] = useState(true);
@@ -110,14 +113,16 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const [pp, cc, ca] = await Promise.all([
+        const [pp, cc, ca, jj] = await Promise.all([
           api.getProjects().catch(() => null),
           api.getClients().catch(() => null),
           api.getCategories().catch(() => null),
+          api.getJobs().catch(() => null),
         ]);
         if (pp && pp.length > 0) setProjects(pp);
         if (cc && cc.length > 0) setClients(cc);
         if (ca && ca.length > 0) setCats(ca.map(c => c.name || c));
+        if (jj) setJobs(jj);
       } catch (e) { console.error('Failed to load data:', e); }
       setLoaded(true);
     })();
@@ -142,7 +147,7 @@ export default function App() {
 
   if (page === "admin") return (
     <div ref={wr} style={{ fontFamily: FB, background: c.bg, color: c.text, height: "100vh", overflowY: "auto" }}>
-      <Fonts /><Admin t={t} c={c} theme={theme} projects={projects} setProjects={setProjects} clients={clients} setClients={setClients} cats={cats} setCats={setCats} auth={auth} setAuth={setAuth} onBack={() => go("home")} />
+      <Fonts /><Admin t={t} c={c} theme={theme} projects={projects} setProjects={setProjects} clients={clients} setClients={setClients} cats={cats} setCats={setCats} jobs={jobs} setJobs={setJobs} auth={auth} setAuth={setAuth} onBack={() => go("home")} />
     </div>
   );
 
@@ -155,6 +160,7 @@ export default function App() {
         </a>
         <div className="dknv" style={{ display: "flex", gap: "2.5rem", alignItems: "center" }}>
           {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav[id]}</a>)}
+          <a onClick={() => go("careers")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.careers}</a>
           <a onClick={() => go("portfolio")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.portfolio}</a>
           <a onClick={() => scrollTo("contact")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.contact}</a>
         </div>
@@ -168,6 +174,7 @@ export default function App() {
       {mob && <div style={{ position: "fixed", inset: 0, background: theme === "light" ? "rgba(255,255,255,.97)" : "rgba(13,13,13,.97)", backdropFilter: "blur(20px)", zIndex: 999, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1.8rem" }}>
         <button onClick={() => setMob(false)} style={{ position: "absolute", top: "1.2rem", right: "1.5rem", background: "none", border: "none", color: c.text, fontSize: "1.8rem", cursor: "pointer" }}>{"\u2715"}</button>
         {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav[id]}</a>)}
+        <a onClick={() => go("careers")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.careers}</a>
         <a onClick={() => go("portfolio")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.portfolio}</a>
         <a onClick={() => scrollTo("contact")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.contact}</a>
       </div>}
@@ -175,12 +182,14 @@ export default function App() {
       {page === "home" && <HomePage t={t} c={c} theme={theme} projects={projects} clients={clients} onAll={() => go("portfolio")} onProj={p => go("project", p)} />}
       {page === "portfolio" && <AllProjects t={t} c={c} projects={projects} cats={cats} onProj={p => go("project", p)} onBack={() => go("home")} />}
       {page === "project" && selP && <ProjDetail t={t} c={c} theme={theme} project={selP} onBack={() => go("portfolio")} />}
+      {page === "careers" && <CareersPage t={t} c={c} theme={theme} jobs={jobs} onJob={j => go("job", j)} />}
+      {page === "job" && selP && <JobDetail t={t} c={c} theme={theme} job={selP} onBack={() => go("careers")} />}
       <ChatWidget />
 
       <footer style={{ padding: "3rem 6% 1.5rem", borderTop: "1px solid " + c.border, background: c.bg }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1.5fr", gap: "2.5rem", marginBottom: "2rem" }} className="fgr">
           <div><div style={{ fontFamily: FD, fontSize: "1rem", fontWeight: 700, color: c.text, marginBottom: "0.4rem" }}><span style={{ fontSize: "1.2rem" }}>W</span>IDE-ELEVEN CO., LTD.</div><p style={{ fontSize: "0.8rem", color: c.text2, lineHeight: 1.7 }}>{t.ft.tg}</p><p style={{ fontSize: "0.72rem", color: c.text3 }}>{t.ft.th}</p></div>
-          <div><h5 style={{ fontSize: "0.66rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: "0.6rem", fontWeight: 600 }}>{t.ft.nv}</h5>{["home","about","services","contact"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav[id]}</a>)}<a onClick={() => go("portfolio")} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav.portfolio}</a></div>
+          <div><h5 style={{ fontSize: "0.66rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: "0.6rem", fontWeight: 600 }}>{t.ft.nv}</h5>{["home","about","services","contact"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav[id]}</a>)}<a onClick={() => go("portfolio")} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav.portfolio}</a><a onClick={() => go("careers")} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav.careers}</a></div>
           <div><h5 style={{ fontSize: "0.66rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: "0.6rem", fontWeight: 600 }}>{t.ft.co}</h5><p style={{ fontSize: "0.78rem", color: c.text2, lineHeight: 1.8 }}>Tel: 02-409-2308<br />wide11bangkok@gmail.com<br />8/110 Soi Thian Talay 7<br />Bang Khun Thian, Bangkok 10150</p></div>
         </div>
         <div style={{ textAlign: "center", paddingTop: "1rem", borderTop: "1px solid " + c.border }}><p style={{ fontSize: "0.68rem", color: c.text3 }}>{t.ft.rg}</p><a onClick={() => go("admin")} style={{ fontSize: "0.6rem", color: c.text3, textDecoration: "none", cursor: "pointer" }}>Admin</a></div>
@@ -482,7 +491,7 @@ function ProjDetail({ t, c, theme, project, onBack }) {
   </div>;
 }
 
-function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, setCats, auth, setAuth, onBack }) {
+function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, setCats, jobs, setJobs, auth, setAuth, onBack }) {
   const [tab, setTab] = useState("projects");
   const [editing, setEditing] = useState(null);
   const [fd, setFd] = useState({});
@@ -496,7 +505,8 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
 
   if (!auth) return <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}><ALogin t={t} c={c} onAuth={() => setAuth(true)} onBack={onBack} /></div>;
 
-  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else setFd({ name: "", logo: "" }); setEditing("new"); };
+  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else if (tab === "careers") setFd({ title: "", department: "", location: "", description: "", requirements: "", apply_email: "", is_active: true }); else setFd({ name: "", logo: "" }); setEditing("new"); };
+  const toggleJob = async (job) => { try { const updated = await api.updateJob(job.id, { ...job, is_active: !job.is_active }); setJobs(jobs.map(j => j.id === job.id ? updated : j)); } catch (e) { alert('Error: ' + e.message); } };
   const startEdit = item => { setFd({ ...item, gallery: item.gallery || [], before_after: item.before_after || [] }); setEditing(item); };
   const isDemo = (id) => typeof id === 'string' && /^\d+$/.test(id);
   const save = async () => {
@@ -509,6 +519,14 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
         } else {
           const updated = await api.updateProject(editing.id, fd);
           setProjects(projects.map(p => p.id === editing.id ? updated : p));
+        }
+      } else if (tab === "careers") {
+        if (editing === "new") {
+          const created = await api.createJob(fd);
+          setJobs([created, ...jobs]);
+        } else {
+          const updated = await api.updateJob(editing.id, fd);
+          setJobs(jobs.map(j => j.id === editing.id ? updated : j));
         }
       } else {
         if (editing === "new" || isDemo(editing.id)) {
@@ -526,6 +544,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
   const del = async (id) => {
     if (!confirm('Are you sure?')) return;
     try {
+      if (tab === "careers") { await api.deleteJob(id); setJobs(jobs.filter(j => j.id !== id)); return; }
       if (isDemo(id)) {
         // Demo data — just remove from local state
         if (tab === "projects") setProjects(projects.filter(p => p.id !== id));
@@ -576,7 +595,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       </div>
     </div>
     <div style={{ display: "flex", gap: 0, marginBottom: "1.5rem", flexWrap: "wrap" }}>
-      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
+      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca], ["careers", t.ad.jb]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
     </div>
 
     {tab === "categories" && <div>
@@ -587,7 +606,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>{cats.map(cat => { const catObj = catObjs.find(co => co.name === cat); return <div key={cat} style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", padding: ".4rem .8rem", border: "1px solid " + c.border, borderRadius: 4, fontSize: ".8rem", color: c.text }}>{cat}<button onClick={async () => { if (catObj) { try { await api.deleteCategory(catObj.id); } catch {} } setCats(cats.filter(x => x !== cat)); }} style={{ background: "none", border: "none", color: "#c44", cursor: "pointer", fontSize: ".9rem", lineHeight: 1 }}>{"\u00D7"}</button></div>; })}</div>
     </div>}
 
-    {tab !== "categories" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
+    {tab !== "categories" && tab !== "careers" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
       {tab === "projects" ? <div style={{ display: "flex", flexDirection: "column", gap: ".8rem" }}>
         <div><label style={lS}>{t.ad.pn}</label><input style={iS} value={fd.name || ""} onChange={e => setFd(f => ({ ...f, name: e.target.value }))} /></div>
         <div><label style={lS}>{t.ad.pc}</label><select style={iS} value={fd.category || ""} onChange={e => setFd(f => ({ ...f, category: e.target.value }))}>{cats.map(o => <option key={o} value={o}>{o}</option>)}</select></div>
@@ -661,7 +680,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       <div style={{ display: "flex", gap: ".5rem", marginTop: ".5rem" }}><button style={bS(true, false)} onClick={save}>{t.ad.sv}</button><button style={bS(false, false)} onClick={() => setEditing(null)}>{t.ad.cn}</button></div>
     </div>}
 
-    {tab !== "categories" && !editing && <div>
+    {tab !== "categories" && tab !== "careers" && !editing && <div>
       <div style={{ marginBottom: "1.2rem" }}><button style={bS(true, false)} onClick={startNew}>{t.ad.an}</button></div>
       {(tab === "projects" ? projects : clients).length === 0 ? <div style={{ textAlign: "center", padding: "2rem", color: c.text3, border: "1px dashed " + c.border, borderRadius: 8 }}>{tab === "projects" ? t.ad.np : t.ad.nc}</div>
       : <div style={{ overflowX: "auto" }}><table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -676,6 +695,44 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
           </td>
         </tr>)}</tbody>
       </table></div>}
+    </div>}
+
+    {tab === "careers" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
+      <div><label style={lS}>{t.ad.jt}</label><input style={iS} value={fd.title || ""} onChange={e => setFd(f => ({ ...f, title: e.target.value }))} /></div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: ".8rem" }}>
+        <div><label style={lS}>{t.ad.jdp}</label><input style={iS} value={fd.department || ""} onChange={e => setFd(f => ({ ...f, department: e.target.value }))} /></div>
+        <div><label style={lS}>{t.ad.jlc}</label><input style={iS} value={fd.location || ""} onChange={e => setFd(f => ({ ...f, location: e.target.value }))} /></div>
+      </div>
+      <div><label style={lS}>{t.ad.jds}</label><textarea style={{ ...iS, minHeight: 100, resize: "vertical" }} value={fd.description || ""} onChange={e => setFd(f => ({ ...f, description: e.target.value }))} /></div>
+      <div><label style={lS}>{t.ad.jrq}</label><textarea style={{ ...iS, minHeight: 120, resize: "vertical" }} placeholder={"- Bachelor's degree in relevant field\n- 3+ years experience\n- Strong communication skills"} value={fd.requirements || ""} onChange={e => setFd(f => ({ ...f, requirements: e.target.value }))} /></div>
+      <div><label style={lS}>{t.ad.jem}</label><input type="email" style={iS} placeholder="wide11bangkok@gmail.com" value={fd.apply_email || ""} onChange={e => setFd(f => ({ ...f, apply_email: e.target.value }))} /></div>
+      <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+        <label style={lS}>{t.ad.iac}</label>
+        <button onClick={() => setFd(f => ({ ...f, is_active: !f.is_active }))} style={{ padding: ".3rem .9rem", fontSize: ".7rem", borderRadius: 20, border: "1px solid " + (fd.is_active ? "#4caf50" : c.border), background: fd.is_active ? "#4caf50" : "none", color: fd.is_active ? "#fff" : c.text2, cursor: "pointer", fontFamily: FB, fontWeight: 600, letterSpacing: ".5px" }}>{fd.is_active ? t.ad.iac : t.ad.jin}</button>
+      </div>
+      <div style={{ display: "flex", gap: ".5rem", marginTop: ".5rem" }}><button style={bS(true, false)} onClick={save}>{t.ad.sv}</button><button style={bS(false, false)} onClick={() => setEditing(null)}>{t.ad.cn}</button></div>
+    </div>}
+
+    {tab === "careers" && !editing && <div>
+      <div style={{ marginBottom: "1.2rem" }}><button style={bS(true, false)} onClick={startNew}>{t.ad.an}</button></div>
+      {jobs.length === 0
+        ? <div style={{ textAlign: "center", padding: "2rem", color: c.text3, border: "1px dashed " + c.border, borderRadius: 8 }}>{t.ad.nj}</div>
+        : <div style={{ overflowX: "auto" }}><table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead><tr>{["", t.ad.jt, t.ad.jdp, t.ad.jlc, ""].map((h, i) => <th key={i} style={{ textAlign: "left", padding: ".55rem .7rem", fontSize: ".66rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, borderBottom: "1px solid " + c.border }}>{h}</th>)}</tr></thead>
+          <tbody>{jobs.map(job => <tr key={job.id}>
+            <td style={{ padding: ".55rem .7rem", borderBottom: "1px solid " + c.border, width: 80 }}>
+              <span style={{ display: "inline-block", padding: ".2rem .6rem", borderRadius: 10, fontSize: ".65rem", background: job.is_active ? "#4caf50" : "#777", color: "#fff", fontWeight: 600, whiteSpace: "nowrap" }}>{job.is_active ? t.ad.iac : t.ad.jin}</span>
+            </td>
+            <td style={{ padding: ".55rem .7rem", borderBottom: "1px solid " + c.border, fontWeight: 500, fontSize: ".85rem" }}>{job.title}</td>
+            <td style={{ padding: ".55rem .7rem", borderBottom: "1px solid " + c.border, color: c.text2, fontSize: ".8rem" }}>{job.department}</td>
+            <td style={{ padding: ".55rem .7rem", borderBottom: "1px solid " + c.border, color: c.text2, fontSize: ".8rem" }}>{job.location}</td>
+            <td style={{ padding: ".55rem .7rem", borderBottom: "1px solid " + c.border, whiteSpace: "nowrap" }}>
+              <button style={bS(false, false)} onClick={() => toggleJob(job)}>{t.ad.tgl}</button>
+              <button style={bS(false, false)} onClick={() => startEdit(job)}>{t.ad.ed}</button>
+              <button style={bS(false, true)} onClick={() => del(job.id)}>{t.ad.dl}</button>
+            </td>
+          </tr>)}</tbody>
+        </table></div>}
     </div>}
   </div>;
 }
@@ -741,5 +798,106 @@ function ALogin({ t, c, onAuth, onBack }) {
     <button onClick={go} disabled={loading} style={{ width: "100%", padding: ".7rem", background: YELLOW, color: "#111", border: "none", fontFamily: FB, fontSize: ".75rem", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, fontWeight: 700, opacity: loading ? 0.6 : 1 }}>{loading ? "..." : t.ad.en}</button>
     {err && <p style={{ color: "#c44", fontSize: ".75rem", marginTop: ".5rem" }}>{err}</p>}
     <a onClick={onBack} style={{ fontSize: ".7rem", color: c.text3, cursor: "pointer", textDecoration: "none", marginTop: ".75rem", display: "inline-block" }}>{"\u2190 " + t.ad.bk}</a>
+  </div>;
+}
+
+function CareersPage({ t, c, theme, jobs, onJob }) {
+  const [expanded, setExpanded] = useState(null);
+  const activeJobs = (jobs || []).filter(j => j.is_active);
+
+  return <div style={{ minHeight: "80vh", background: c.bg }}>
+    <div style={{ background: c.bg2, padding: "5rem 6% 3.5rem", borderBottom: "1px solid " + c.border }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+        <Reveal><p style={{ fontSize: ".72rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".6rem" }}>Wide-Eleven Co., Ltd.</p></Reveal>
+        <Reveal delay={0.1}><h1 style={{ fontFamily: FD, fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 700, color: c.text, marginBottom: ".8rem", lineHeight: 1.15 }}>{t.careers.title}</h1></Reveal>
+        <Reveal delay={0.2}><p style={{ fontSize: "1rem", color: c.text2, maxWidth: 520, lineHeight: 1.75 }}>{t.careers.sub}</p></Reveal>
+      </div>
+    </div>
+
+    <div style={{ maxWidth: 1100, margin: "0 auto", padding: "3.5rem 6%" }}>
+      {activeJobs.length === 0
+        ? <Reveal><div style={{ textAlign: "center", padding: "5rem 0", color: c.text3 }}>
+            <div style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>💼</div>
+            <p style={{ fontFamily: FD, fontSize: "1.3rem", color: c.text2 }}>{t.careers.none}</p>
+          </div></Reveal>
+        : <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+            {activeJobs.map((job, idx) => (
+              <Reveal key={job.id} delay={idx * 0.05}>
+                <div style={{ background: c.card, border: "1px solid " + c.border, borderRadius: 10, overflow: "hidden", boxShadow: expanded === job.id ? "0 4px 20px rgba(0,0,0,.08)" : "none", transition: "box-shadow .2s" }}>
+                  <div onClick={() => setExpanded(expanded === job.id ? null : job.id)} style={{ padding: "1.6rem 1.8rem", display: "flex", justifyContent: "space-between", alignItems: "flex-start", cursor: "pointer", flexWrap: "wrap", gap: "1rem" }}>
+                    <div>
+                      <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 600, color: c.text, marginBottom: ".45rem" }}>{job.title}</h3>
+                      <div style={{ display: "flex", gap: "1.2rem", flexWrap: "wrap", alignItems: "center" }}>
+                        {job.department && <span style={{ fontSize: ".78rem", color: YELLOW, fontWeight: 700, letterSpacing: ".5px" }}>{job.department}</span>}
+                        {job.location && <span style={{ fontSize: ".78rem", color: c.text3 }}>{"📍 " + job.location}</span>}
+                      </div>
+                    </div>
+                    <span style={{ fontSize: "1.1rem", color: c.text3, transition: "transform .25s", transform: expanded === job.id ? "rotate(180deg)" : "rotate(0deg)", flexShrink: 0, marginTop: ".2rem" }}>{"▾"}</span>
+                  </div>
+                  {expanded === job.id && <div style={{ padding: "0 1.8rem 1.6rem", borderTop: "1px solid " + c.border }}>
+                    <p style={{ color: c.text2, fontSize: ".9rem", lineHeight: 1.8, paddingTop: "1rem", marginBottom: "1.2rem" }}>{job.description}</p>
+                    <button onClick={() => onJob(job)} style={{ padding: ".65rem 1.8rem", background: YELLOW, color: "#111", border: "none", fontFamily: FB, fontSize: ".78rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3 }}>{t.careers.det}</button>
+                  </div>}
+                </div>
+              </Reveal>
+            ))}
+          </div>}
+    </div>
+  </div>;
+}
+
+function JobDetail({ t, c, theme, job, onBack }) {
+  const applyEmail = job.apply_email || "wide11bangkok@gmail.com";
+  const subject = encodeURIComponent("Application for " + job.title);
+  const body = encodeURIComponent(
+    "Hi Wide-Eleven Team,\n\nI am interested in applying for the " + job.title + " position.\n\nPlease find my details below:\n\nName: \nPhone: \nEmail: \nYears of Experience: \n\nI look forward to hearing from you.\n\nBest regards,"
+  );
+  const mailHref = "mailto:" + applyEmail + "?subject=" + subject + "&body=" + body;
+  const reqs = (job.requirements || "").split("\n").filter(r => r.trim());
+
+  return <div style={{ minHeight: "80vh", background: c.bg }}>
+    <div style={{ maxWidth: 800, margin: "0 auto", padding: "3.5rem 6% 5rem" }}>
+      <button onClick={onBack} style={{ background: "none", border: "none", color: c.text2, fontFamily: FB, fontSize: ".78rem", cursor: "pointer", marginBottom: "2.5rem", letterSpacing: "1.5px", textTransform: "uppercase", padding: 0, display: "flex", alignItems: "center", gap: ".4rem" }}>{"← " + t.careers.bk}</button>
+
+      <Reveal>
+        <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid " + c.border }}>
+          <p style={{ fontSize: ".7rem", letterSpacing: "2px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".5rem" }}>Wide-Eleven Co., Ltd.</p>
+          <h1 style={{ fontFamily: FD, fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 700, color: c.text, marginBottom: ".8rem", lineHeight: 1.15 }}>{job.title}</h1>
+          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap", marginBottom: "1.8rem", alignItems: "center" }}>
+            {job.department && <span style={{ fontSize: ".85rem", color: YELLOW, fontWeight: 700 }}>{job.department}</span>}
+            {job.location && <span style={{ fontSize: ".85rem", color: c.text3 }}>{"📍 " + job.location}</span>}
+          </div>
+          <a href={mailHref} style={{ display: "inline-block", padding: ".85rem 2.4rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+        </div>
+      </Reveal>
+
+      {job.description && <Reveal delay={0.1}>
+        <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid " + c.border }}>
+          <h2 style={{ fontFamily: FD, fontSize: "1.2rem", fontWeight: 600, color: c.text, marginBottom: "1rem" }}>{t.careers.desc}</h2>
+          <p style={{ color: c.text2, fontSize: ".95rem", lineHeight: 1.85, whiteSpace: "pre-wrap" }}>{job.description}</p>
+        </div>
+      </Reveal>}
+
+      {reqs.length > 0 && <Reveal delay={0.15}>
+        <div style={{ marginBottom: "2.5rem", paddingBottom: "2rem", borderBottom: "1px solid " + c.border }}>
+          <h2 style={{ fontFamily: FD, fontSize: "1.2rem", fontWeight: 600, color: c.text, marginBottom: "1rem" }}>{t.careers.reqs}</h2>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {reqs.map((r, i) => (
+              <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: ".7rem", padding: ".45rem 0", color: c.text2, fontSize: ".9rem", lineHeight: 1.75 }}>
+                <span style={{ color: YELLOW, fontWeight: 700, flexShrink: 0, marginTop: ".15rem", fontSize: "1rem" }}>{"•"}</span>
+                <span>{r.replace(/^[-•*]\s*/, "").trim()}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Reveal>}
+
+      <Reveal delay={0.2}>
+        <div style={{ padding: "2.2rem", background: c.bg2, borderRadius: 10, textAlign: "center", border: "1px solid " + c.border }}>
+          <p style={{ fontFamily: FD, fontSize: "1.1rem", color: c.text, marginBottom: "1.2rem" }}>{t.careers.cta}</p>
+          <a href={mailHref} style={{ display: "inline-block", padding: ".9rem 2.8rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+        </div>
+      </Reveal>
+    </div>
   </div>;
 }
