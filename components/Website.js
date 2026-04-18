@@ -852,7 +852,7 @@ function JobDetail({ t, c, theme, job, onBack }) {
   const body = encodeURIComponent(
     "Hi Wide-Eleven Team,\n\nI am interested in applying for the " + job.title + " position.\n\nPlease find my details below:\n\nName: \nPhone: \nEmail: \nYears of Experience: \n\nI look forward to hearing from you.\n\nBest regards,"
   );
-  const mailHref = "mailto:" + applyEmail + "?subject=" + subject + "&body=" + body;
+  const mailHref = "https://mail.google.com/mail/?view=cm&to=" + encodeURIComponent(applyEmail) + "&su=" + subject + "&body=" + body;
   const reqs = (job.requirements || "").split("\n").filter(r => r.trim());
 
   return <div style={{ minHeight: "80vh", background: c.bg }}>
@@ -868,8 +868,8 @@ function JobDetail({ t, c, theme, job, onBack }) {
             {job.location && <span style={{ fontSize: ".85rem", color: c.text3 }}>{"📍 " + job.location}</span>}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1.2rem", flexWrap: "wrap" }}>
-            <a href={mailHref} style={{ display: "inline-block", padding: ".85rem 2.4rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
-            <span style={{ fontSize: ".82rem", color: c.text3 }}>{"or email: "}<a href={"mailto:" + applyEmail} style={{ color: c.text2, textDecoration: "underline", textUnderlineOffset: 3 }}>{applyEmail}</a></span>
+            <a href={mailHref} target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", padding: ".85rem 2.4rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+            <span style={{ fontSize: ".82rem", color: c.text3 }}>{"or email: "}<span style={{ color: c.text2, userSelect: "all" }}>{applyEmail}</span></span>
           </div>
         </div>
       </Reveal>
@@ -898,8 +898,8 @@ function JobDetail({ t, c, theme, job, onBack }) {
       <Reveal delay={0.2}>
         <div style={{ padding: "2.2rem", background: c.bg2, borderRadius: 10, textAlign: "center", border: "1px solid " + c.border }}>
           <p style={{ fontFamily: FD, fontSize: "1.1rem", color: c.text, marginBottom: "1.2rem" }}>{t.careers.cta}</p>
-          <a href={mailHref} style={{ display: "inline-block", padding: ".9rem 2.8rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
-          <p style={{ marginTop: ".9rem", fontSize: ".8rem", color: c.text3 }}>{"or email us at "}<a href={"mailto:" + applyEmail} style={{ color: c.text2, textDecoration: "underline", textUnderlineOffset: 3 }}>{applyEmail}</a></p>
+          <a href={mailHref} target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", padding: ".9rem 2.8rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+          <p style={{ marginTop: ".9rem", fontSize: ".8rem", color: c.text3 }}>{"or email us at "}<span style={{ color: c.text2, userSelect: "all" }}>{applyEmail}</span></p>
         </div>
       </Reveal>
     </div>
