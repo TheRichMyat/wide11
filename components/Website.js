@@ -22,7 +22,7 @@ const FB = "'DM Sans', sans-serif";
 
 function useC(theme) {
   if (theme === "dark") return { bg:"#0D0D0D", bg2:"#151515", bg3:"#1D1D1D", dark:"#0A0A0A", yellow:YELLOW, text:WHITE, text2:"#A8A19A", text3:"#6A655F", border:"#282828", card:"#1A1A1A" };
-  return { bg:"#FFFFFF", bg2:"#F5F3F0", bg3:WHITE, dark:"#1B2230", yellow:YELLOW, text:"#2A2A2A", text2:"#5A5A5A", text3:"#9A9590", border:"#E0DCD6", card:"#FFFFFF" };
+  return { bg:"#FAFAF8", bg2:"#EFEBE4", bg3:"#E4DED6", dark:"#1B2230", yellow:YELLOW, text:"#1A1A1A", text2:"#444140", text3:"#6E6860", border:"#C4BAB0", card:"#FFFFFF" };
 }
 
 const TX = {
@@ -255,7 +255,7 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
         <Reveal><h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, marginBottom: ".4rem" }}>{t.svc.title}</h2><div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 2.5rem", borderRadius: 2 }} /></Reveal>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "1.2rem", justifyContent: "center" }} className="svcgr">
           {t.svc.items.map((s, i) => (
-            <Reveal key={i} delay={i * 0.05} style={{ width: "calc(33.333% - 0.8rem)", minWidth: 250 }}><div style={{ background: theme === "light" ? "#fff" : c.bg3, padding: "1.8rem 1.3rem", borderRadius: 10, textAlign: "left", border: "1px solid " + c.border, transition: "transform .3s", cursor: "default", height: "100%" }}
+            <Reveal key={i} delay={i * 0.05} style={{ width: "calc(33.333% - 0.8rem)", minWidth: 250 }}><div style={{ background: theme === "light" ? "#fff" : c.bg3, padding: "1.8rem 1.3rem", borderRadius: 10, textAlign: "left", border: "1px solid " + c.border, boxShadow: theme === "light" ? "0 2px 14px rgba(0,0,0,.07)" : "none", transition: "transform .3s, box-shadow .3s", cursor: "default", height: "100%" }}
               onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; }} onMouseLeave={e => { e.currentTarget.style.transform = ""; }}>
               <div style={{ width: 40, height: 40, borderRadius: 8, background: "rgba(255,195,0,.12)", display: "flex", alignItems: "center", justifyContent: "center", color: "#b8920a", marginBottom: "1rem", fontSize: "1.1rem", fontWeight: 700, fontFamily: FD }}>{String(i + 1).padStart(2, "0")}</div>
               <h3 style={{ fontFamily: FD, fontSize: "1.05rem", fontWeight: 600, marginBottom: ".5rem", color: c.text }}>{s.t}</h3>
@@ -823,7 +823,7 @@ function CareersPage({ t, c, theme, jobs, onJob }) {
         : <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
             {activeJobs.map((job, idx) => (
               <Reveal key={job.id} delay={idx * 0.05}>
-                <div style={{ background: c.card, border: "1px solid " + c.border, borderRadius: 10, overflow: "hidden", boxShadow: expanded === job.id ? "0 4px 20px rgba(0,0,0,.08)" : "none", transition: "box-shadow .2s" }}>
+                <div style={{ background: c.card, border: "1px solid " + c.border, borderRadius: 10, overflow: "hidden", boxShadow: expanded === job.id ? "0 6px 28px rgba(0,0,0,.11)" : theme === "light" ? "0 2px 12px rgba(0,0,0,.07)" : "none", transition: "box-shadow .25s" }}>
                   <div onClick={() => setExpanded(expanded === job.id ? null : job.id)} style={{ padding: "1.6rem 1.8rem", display: "flex", justifyContent: "space-between", alignItems: "flex-start", cursor: "pointer", flexWrap: "wrap", gap: "1rem" }}>
                     <div>
                       <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 600, color: c.text, marginBottom: ".45rem" }}>{job.title}</h3>
@@ -832,7 +832,7 @@ function CareersPage({ t, c, theme, jobs, onJob }) {
                         {job.location && <span style={{ fontSize: ".78rem", color: c.text3 }}>{"📍 " + job.location}</span>}
                       </div>
                     </div>
-                    <span style={{ fontSize: "1.1rem", color: c.text3, transition: "transform .25s", transform: expanded === job.id ? "rotate(180deg)" : "rotate(0deg)", flexShrink: 0, marginTop: ".2rem" }}>{"▾"}</span>
+                    <span style={{ fontSize: "1.3rem", color: c.text2, transition: "transform .25s", transform: expanded === job.id ? "rotate(180deg)" : "rotate(0deg)", flexShrink: 0, marginTop: ".2rem" }}>{"▾"}</span>
                   </div>
                   {expanded === job.id && <div style={{ padding: "0 1.8rem 1.6rem", borderTop: "1px solid " + c.border }}>
                     <p style={{ color: c.text2, fontSize: ".9rem", lineHeight: 1.8, paddingTop: "1rem", marginBottom: "1.2rem" }}>{job.description}</p>
