@@ -867,7 +867,10 @@ function JobDetail({ t, c, theme, job, onBack }) {
             {job.department && <span style={{ fontSize: ".85rem", color: YELLOW, fontWeight: 700 }}>{job.department}</span>}
             {job.location && <span style={{ fontSize: ".85rem", color: c.text3 }}>{"📍 " + job.location}</span>}
           </div>
-          <a href={mailHref} style={{ display: "inline-block", padding: ".85rem 2.4rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+          <div style={{ display: "flex", alignItems: "center", gap: "1.2rem", flexWrap: "wrap" }}>
+            <a href={mailHref} style={{ display: "inline-block", padding: ".85rem 2.4rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+            <span style={{ fontSize: ".82rem", color: c.text3 }}>{"or email: "}<a href={"mailto:" + applyEmail} style={{ color: c.text2, textDecoration: "underline", textUnderlineOffset: 3 }}>{applyEmail}</a></span>
+          </div>
         </div>
       </Reveal>
 
@@ -896,6 +899,7 @@ function JobDetail({ t, c, theme, job, onBack }) {
         <div style={{ padding: "2.2rem", background: c.bg2, borderRadius: 10, textAlign: "center", border: "1px solid " + c.border }}>
           <p style={{ fontFamily: FD, fontSize: "1.1rem", color: c.text, marginBottom: "1.2rem" }}>{t.careers.cta}</p>
           <a href={mailHref} style={{ display: "inline-block", padding: ".9rem 2.8rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".82rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, textDecoration: "none" }}>{t.careers.apply}</a>
+          <p style={{ marginTop: ".9rem", fontSize: ".8rem", color: c.text3 }}>{"or email us at "}<a href={"mailto:" + applyEmail} style={{ color: c.text2, textDecoration: "underline", textUnderlineOffset: 3 }}>{applyEmail}</a></p>
         </div>
       </Reveal>
     </div>
