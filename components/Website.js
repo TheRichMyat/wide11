@@ -847,12 +847,18 @@ function CareersPage({ t, c, theme, jobs, onJob }) {
 }
 
 function JobDetail({ t, c, theme, job, onBack }) {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => { setIsMobile(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)); }, []);
+
   const applyEmail = job.apply_email || "wide11bangkok@gmail.com";
   const subject = encodeURIComponent("Application for " + job.title);
   const body = encodeURIComponent(
     "Hi Wide-Eleven Team,\n\nI am interested in applying for the " + job.title + " position.\n\nPlease find my details below:\n\nName: \nPhone: \nEmail: \nYears of Experience: \n\nI look forward to hearing from you.\n\nBest regards,"
   );
-  const mailHref = "https://mail.google.com/mail/?view=cm&to=" + encodeURIComponent(applyEmail) + "&su=" + subject + "&body=" + body;
+  // Mobile: mailto opens Gmail app directly. Desktop: Gmail web compose.
+  const mailHref = isMobile
+    ? "mailto:" + applyEmail + "?subject=" + subject + "&body=" + body
+    : "https://mail.google.com/mail/?view=cm&to=" + encodeURIComponent(applyEmail) + "&su=" + subject + "&body=" + body;
   const reqs = (job.requirements || "").split("\n").filter(r => r.trim());
 
   return <div style={{ minHeight: "80vh", background: c.bg }}>
