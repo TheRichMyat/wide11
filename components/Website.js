@@ -253,13 +253,13 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
     <section id="services" style={{ background: c.bg2, padding: "5.5rem 6%" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", textAlign: "center" }}>
         <Reveal><h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, marginBottom: ".4rem" }}>{t.svc.title}</h2><div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 2.5rem", borderRadius: 2 }} /></Reveal>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "1.2rem", justifyContent: "center" }} className="svcgr">
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem", justifyContent: "center" }} className="svcgr">
           {t.svc.items.map((s, i) => (
-            <Reveal key={i} delay={i * 0.05} style={{ width: "calc(33.333% - 0.8rem)", minWidth: 250 }}><div style={{ background: theme === "light" ? "#fff" : c.bg3, padding: "1.8rem 1.3rem", borderRadius: 10, textAlign: "left", border: "1px solid " + c.border, boxShadow: theme === "light" ? "0 2px 14px rgba(0,0,0,.07)" : "none", transition: "transform .3s, box-shadow .3s", cursor: "default", height: "100%" }}
+            <Reveal key={i} delay={i * 0.05} style={{ width: "calc(33.333% - 0.8rem)", minWidth: 250 }}><div style={{ background: theme === "light" ? "#fff" : c.bg3, padding: "1.2rem 1rem", borderRadius: 10, textAlign: "left", border: "1px solid " + c.border, boxShadow: theme === "light" ? "0 2px 14px rgba(0,0,0,.07)" : "none", transition: "transform .3s, box-shadow .3s", cursor: "default", height: "100%" }}
               onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; }} onMouseLeave={e => { e.currentTarget.style.transform = ""; }}>
-              <div style={{ width: 40, height: 40, borderRadius: 8, background: "rgba(255,195,0,.12)", display: "flex", alignItems: "center", justifyContent: "center", color: "#b8920a", marginBottom: "1rem", fontSize: "1.1rem", fontWeight: 700, fontFamily: FD }}>{String(i + 1).padStart(2, "0")}</div>
-              <h3 style={{ fontFamily: FD, fontSize: "1.05rem", fontWeight: 600, marginBottom: ".5rem", color: c.text }}>{s.t}</h3>
-              <p style={{ fontSize: "0.82rem", color: c.text2, lineHeight: 1.7 }}>{s.d}</p>
+              <div style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,195,0,.12)", display: "flex", alignItems: "center", justifyContent: "center", color: "#b8920a", marginBottom: "0.6rem", fontSize: "0.9rem", fontWeight: 700, fontFamily: FD }}>{String(i + 1).padStart(2, "0")}</div>
+              <h3 style={{ fontFamily: FD, fontSize: "0.95rem", fontWeight: 600, marginBottom: ".3rem", color: c.text }}>{s.t}</h3>
+              <p style={{ fontSize: "0.78rem", color: c.text2, lineHeight: 1.5 }}>{s.d}</p>
             </div></Reveal>
           ))}
         </div>
