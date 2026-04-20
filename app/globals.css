@@ -40,6 +40,11 @@ input:focus, textarea:focus, select:focus {
 .dknv { display: flex; }
 .mbt { display: none; }
 
+@media (max-width: 1024px) {
+  .dknv { display: none !important; }
+  .mbt { display: block !important; }
+}
+
 @media (max-width: 768px) {
   .dknv { display: none !important; }
   .mbt { display: block !important; }
