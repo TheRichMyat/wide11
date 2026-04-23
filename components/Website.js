@@ -33,10 +33,10 @@ const TX = {
     about:{title:"Our Story",p1:"WIDE-ELEVEN CO., LTD. has been established since February of 2014, prioritizing in the industry of interior design & construction. We are committed to provide the best interior construction services to our clients by transforming their dreaming design of space into reality, within the budget and time frame as allowed.",p2:"Over the past 12 years, we have expanded gradually, and have been working on more than 400 projects to date, with an accumulative number of clients coming from the appraisal for our credibility, speed and quality of work.",ms:"Our Mission",mt:"To transform every client's vision into reality through exceptional craftsmanship, innovative design solutions, and unwavering commitment to quality \u2014 on time, within budget, and beyond expectations.",bg:"Years of Excellence"},
     cli:{title:"Our Clients & Partners"},
     svc:{title:"Our Expertise",heading:"End-to-End Solutions, Tailored for You",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",s:"Design & Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",s:"Interior Fit-Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",s:"Refurbishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",s:"MEP Works",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",s:"Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
-    port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
+    port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery",bktp:"Back to Projects",ov:"Project Overview",typ:"Project Type",ar:"Area",comp:"Completion",osc:"Our Scope",ba:"Before & After",bf:"Before",af:"After",rel:"Related Projects"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
-    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
+    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
@@ -46,10 +46,10 @@ const TX = {
     about:{title:"เรื่องราวของเรา",p1:"บริษัท ไวด์-อีเลฟเว่น จำกัด ก่อตั้งขึ้นเมื่อเดือนกุมภาพันธ์ พ.ศ. 2557 โดยมุ่งเน้นในอุตสาหกรรมออกแบบและก่อสร้างตกแต่งภายใน เรามุ่งมั่นมอบบริการก่อสร้างตกแต่งภายในที่ดีที่สุดให้กับลูกค้า โดยเปลี่ยนการออกแบบพื้นที่ในฝันให้กลายเป็นความจริง ภายใต้งบประมาณและกรอบเวลาที่กำหนด",p2:"ตลอดระยะเวลากว่า 12 ปีที่ผ่านมา เราเติบโตอย่างต่อเนื่อง และได้ดำเนินงานมากกว่า 400 โครงการจนถึงปัจจุบัน ด้วยจำนวนลูกค้าที่เพิ่มขึ้นจากการยอมรับในความน่าเชื่อถือ ความรวดเร็ว และคุณภาพของงาน",ms:"พันธกิจของเรา",mt:"เปลี่ยนวิสัยทัศน์ของลูกค้าทุกรายให้เป็นจริง ด้วยฝีมือช่างชั้นยอด โซลูชันการออกแบบที่สร้างสรรค์ และความมุ่งมั่นในคุณภาพอย่างไม่ลดละ \u2014 ตรงเวลา ตามงบประมาณ และเหนือความคาดหมาย",bg:"ปีแห่งความเป็นเลิศ"},
     cli:{title:"ลูกค้าและพันธมิตรของเรา"},
     svc:{title:"ความเชี่ยวชาญของเรา",heading:"โซลูชันครบวงจร ปรับให้เหมาะกับคุณ",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",s:"ออกแบบและวางแผน",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",s:"ตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",s:"งานปรับปรุง",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",s:"งานระบบ MEP",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",s:"ประเมินงบประมาณ",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
-    port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
+    port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ",bktp:"กลับไปหน้าผลงาน",ov:"ภาพรวมโครงการ",typ:"ประเภทโครงการ",ar:"พื้นที่",comp:"ปีที่แล้วเสร็จ",osc:"ขอบเขตงานของเรา",ba:"ก่อน & หลัง",bf:"ก่อน",af:"หลัง",rel:"โครงการที่เกี่ยวข้อง"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
-    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
+    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
 };
@@ -181,7 +181,7 @@ export default function App() {
 
       {page === "home" && <HomePage t={t} c={c} theme={theme} projects={projects} clients={clients} onAll={() => go("portfolio")} onProj={p => go("project", p)} />}
       {page === "portfolio" && <AllProjects t={t} c={c} theme={theme} projects={projects} cats={cats} onProj={p => go("project", p)} onBack={() => go("home")} />}
-      {page === "project" && selP && <ProjDetail t={t} c={c} theme={theme} project={selP} onBack={() => go("portfolio")} />}
+      {page === "project" && selP && <ProjDetail t={t} c={c} theme={theme} project={selP} projects={projects} onHome={() => go("home")} onPortfolio={() => go("portfolio")} onProj={p => go("project", p)} onBack={() => go("portfolio")} />}
       {page === "careers" && <CareersPage t={t} c={c} theme={theme} jobs={jobs} onJob={j => go("job", j)} />}
       {page === "job" && selP && <JobDetail t={t} c={c} theme={theme} job={selP} onBack={() => go("careers")} />}
       <ChatWidget />
@@ -742,63 +742,299 @@ function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
   </div>;
 }
 
-function ProjDetail({ t, c, theme, project, onBack }) {
-  const [activeImg, setActiveImg] = useState(0);
-  const gallery = project.gallery && project.gallery.length > 0 ? project.gallery : [project.image];
-  const prev = () => setActiveImg(i => (i - 1 + gallery.length) % gallery.length);
-  const next = () => setActiveImg(i => (i + 1) % gallery.length);
+// Helpers for ProjDetail
+function getFirstSentence(text) {
+  if (!text) return "";
+  const m = text.match(/^[^.!?]+[.!?]/);
+  if (m) return m[0].trim();
+  return text.length > 150 ? text.slice(0, 150).trim() + "\u2026" : text;
+}
+function getOverviewText(description) {
+  if (!description) return "";
+  const first = getFirstSentence(description);
+  const rest = description.slice(first.length).trim();
+  return rest.length > 0 ? rest : description;
+}
+function getScopeItems(scope) {
+  if (!scope) return [];
+  return scope.replace(/\r?\n/g, ',').split(',').map(s => s.trim()).filter(Boolean);
+}
 
-  // Keyboard arrow navigation
+// Detail-page inline icon set (small stroke SVGs, gold)
+function DIcon({ kind }) {
+  const p = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: YELLOW, strokeWidth: 1.7, strokeLinecap: "round", strokeLinejoin: "round" };
+  if (kind === "user")   return <svg {...p}><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>;
+  if (kind === "map")    return <svg {...p}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>;
+  if (kind === "build")  return <svg {...p}><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21V12h6v9M9 7h.01M15 7h.01M9 11h.01M15 11h.01"/></svg>;
+  if (kind === "ruler")  return <svg {...p}><path d="M21 3L3 21"/><path d="M7 9l2 2M10 6l2 2M13 3l2 2M4 12l2 2M9 17l2 2M14 20l2 2"/></svg>;
+  if (kind === "cal")    return <svg {...p}><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>;
+  if (kind === "check")  return <svg {...p}><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>;
+  return null;
+}
+
+function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onProj, onBack }) {
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+  const stripRef = useRef(null);
+
+  const galleryAll = Array.isArray(project.gallery) && project.gallery.length > 0 ? project.gallery : [];
+  const scopeItems = getScopeItems(project.scope);
+  const catSingular = (project.category || "").replace(/\s*Projects?$/i, "").trim();
+  const catEyebrow = (catSingular || "PROJECT").toUpperCase() + " " + (t.port.suf || "PROJECT").toUpperCase();
+  const firstSentence = getFirstSentence(project.description);
+  const overviewText = getOverviewText(project.description);
+
+  const isLight = theme === "light";
+  const cream = isLight ? "#f5f1ea" : c.bg2;
+  const creamAlt = isLight ? "#ece6dc" : c.bg3;
+  const panelBg = isLight ? "#ffffff" : c.bg3;
+  const panelText = isLight ? "#1a1a1a" : "#ffffff";
+  const panelMuted = isLight ? "rgba(0,0,0,.55)" : "rgba(255,255,255,.55)";
+  const panelBorder = isLight ? "rgba(0,0,0,.1)" : "rgba(255,255,255,.1)";
+  const softBorder = isLight ? "rgba(0,0,0,.06)" : "rgba(255,255,255,.06)";
+
+  // Lightbox keyboard + body scroll lock
   useEffect(() => {
-    const handleKey = (e) => {
-      if (gallery.length <= 1) return;
-      if (e.key === 'ArrowLeft') prev();
-      if (e.key === 'ArrowRight') next();
+    if (lightboxIndex === null) return;
+    const onKey = (e) => {
+      if (e.key === "Escape") setLightboxIndex(null);
+      else if (e.key === "ArrowLeft") setLightboxIndex(i => (i - 1 + galleryAll.length) % galleryAll.length);
+      else if (e.key === "ArrowRight") setLightboxIndex(i => (i + 1) % galleryAll.length);
     };
-    window.addEventListener('keydown', handleKey);
-    return () => window.removeEventListener('keydown', handleKey);
-  }, [gallery.length]);
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [lightboxIndex, galleryAll.length]);
 
-  return <div style={{ paddingTop: "7rem", maxWidth: 900, margin: "0 auto", padding: "7rem 6% 4rem" }}>
-    <button onClick={onBack} style={{ padding: ".5rem 1.5rem", background: "#111", color: YELLOW, border: "none", fontFamily: FB, fontSize: ".78rem", fontWeight: 600, letterSpacing: "1.5px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3 }}>{"\u2190 " + t.port.bk}</button>
-    <Reveal>
-      <div style={{ position: "relative", marginTop: "1.2rem", marginBottom: "1rem", maxHeight: 500, display: "flex", alignItems: "center", justifyContent: "center", background: "#000", borderRadius: 8, overflow: "hidden" }}>
-        <img src={gallery[activeImg] || project.image} alt={project.name} style={{ maxWidth: "100%", maxHeight: 500, objectFit: "contain", display: "block", transition: "opacity .3s" }} onError={e => { e.target.src = P.fb; }} />
-      </div>
-      {gallery.length > 1 && <div style={{ display: "flex", alignItems: "center", gap: ".8rem", marginBottom: "1rem" }}>
-        <button onClick={prev} style={{ flexShrink: 0, width: 36, height: 36, borderRadius: "50%", background: theme === "light" ? c.bg2 : "rgba(255,255,255,.1)", border: "1px solid " + c.border, color: c.text, fontSize: "1.1rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>&#8249;</button>
-        <div style={{ flex: 1, display: "flex", gap: ".4rem", overflowX: "auto", paddingBottom: ".3rem", scrollbarWidth: "none" }}>
-          {gallery.map((img, i) => <img key={i} src={img} alt="" onClick={() => setActiveImg(i)} style={{ flexShrink: 0, width: 64, height: 48, objectFit: "cover", borderRadius: 4, cursor: "pointer", border: i === activeImg ? "2px solid " + YELLOW : "2px solid transparent", opacity: i === activeImg ? 1 : 0.5, transition: "all .2s" }} onError={e => { e.target.style.display = "none"; }} />)}
+  // Scroll strip
+  const scrollStrip = (dir) => {
+    if (!stripRef.current) return;
+    stripRef.current.scrollBy({ left: dir * 220, behavior: "smooth" });
+  };
+
+  // Related projects
+  const related = (projects || []).filter(p => p.category === project.category && p.id !== project.id).slice(0, 3);
+
+  // Go to another project + scroll top
+  const goProject = (p) => { if (onProj) onProj(p); if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" }); };
+
+  const InfoRow = ({ kind, label, value }) => {
+    if (!value) return null;
+    return (
+      <div style={{ display: "flex", alignItems: "flex-start", gap: ".85rem", paddingBottom: ".9rem", marginBottom: ".9rem", borderBottom: "1px solid " + softBorder }}>
+        <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind={kind} /></div>
+        <div style={{ flex: 1, display: "flex", justifyContent: "space-between", gap: "1rem", alignItems: "flex-start" }}>
+          <span style={{ fontSize: ".66rem", letterSpacing: "2px", textTransform: "uppercase", color: panelMuted, fontWeight: 600, flexShrink: 0 }}>{label}</span>
+          <span style={{ fontSize: ".88rem", color: panelText, textAlign: "right", lineHeight: 1.45 }}>{value}</span>
         </div>
-        <button onClick={next} style={{ flexShrink: 0, width: 36, height: 36, borderRadius: "50%", background: theme === "light" ? c.bg2 : "rgba(255,255,255,.1)", border: "1px solid " + c.border, color: c.text, fontSize: "1.1rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>&#8250;</button>
-      </div>}
-    </Reveal>
-    <Reveal delay={0.1}>
-      <h1 style={{ fontFamily: FD, fontSize: "2rem", fontWeight: 600, marginBottom: "1.2rem" }}>{project.name}</h1>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: "1.2rem", padding: "1.2rem 0", borderTop: "1px solid " + c.border, borderBottom: "1px solid " + c.border, marginBottom: "1.5rem" }}>
-        {[[t.port.cat, project.category], [t.port.yr, project.year], ...(project.period ? [[t.port.pd, project.period]] : []), [t.port.sc, project.scope], [t.port.cl, project.client], [t.port.loc, project.location], [t.port.cost, project.cost || "N/A"]].map(([l, v]) => <div key={l}><div style={{ fontSize: ".65rem", color: c.text3, textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: ".15rem" }}>{l}</div><div style={{ fontSize: ".92rem", color: c.text }}>{v}</div></div>)}
       </div>
-      <p style={{ fontSize: ".95rem", color: c.text2, lineHeight: 1.8 }}>{project.description}</p>
-      {project.before_after && project.before_after.length > 0 && (
-        <div style={{ marginTop: "2rem" }}>
-          <h3 style={{ fontFamily: FD, fontSize: "1.3rem", fontWeight: 600, marginBottom: "1rem", color: c.text }}>Before &amp; After</h3>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            {project.before_after.map((pair, i) => (
-              <div key={i} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }} className="hgr">
-                <div>
-                  <div style={{ fontSize: ".65rem", letterSpacing: "2px", textTransform: "uppercase", color: c.text3, marginBottom: ".4rem", fontWeight: 600 }}>Before</div>
-                  {pair.before ? <img src={pair.before} alt="Before" style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid " + c.border }} onError={e => { e.target.style.display = "none"; }} /> : <div style={{ height: 160, background: c.bg2, borderRadius: 8, border: "1px dashed " + c.border }} />}
+    );
+  };
+
+  return <div style={{ background: cream, minHeight: "100vh" }}>
+
+    {/* HERO */}
+    <section style={{ position: "relative", minHeight: "clamp(420px, 58vw, 520px)", overflow: "hidden" }}>
+      <img src={project.image} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} onError={e => { e.target.src = P.fb; }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.95) 0%, rgba(0,0,0,.75) 40%, rgba(0,0,0,.2) 100%)" }} />
+      <div style={{ position: "relative", zIndex: 1, minHeight: "clamp(420px, 58vw, 520px)", maxWidth: 1250, margin: "0 auto", padding: "6rem 6% 3rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        {/* Breadcrumb */}
+        <nav style={{ display: "flex", alignItems: "center", gap: ".5rem", flexWrap: "wrap", fontSize: ".72rem", color: "rgba(255,255,255,.6)", marginBottom: "1.6rem" }}>
+          <button onClick={onHome} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0, fontFamily: FB, fontSize: ".72rem" }}
+            onMouseEnter={e => e.currentTarget.style.color = "#fff"}
+            onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.6)"}>{t.nav.home}</button>
+          <span>/</span>
+          <button onClick={onPortfolio} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0, fontFamily: FB, fontSize: ".72rem" }}
+            onMouseEnter={e => e.currentTarget.style.color = "#fff"}
+            onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.6)"}>{t.nav.portfolio}</button>
+          <span>/</span>
+          {/* TODO: wire up category pre-filter on portfolio page */}
+          <button onClick={onPortfolio} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0, fontFamily: FB, fontSize: ".72rem" }}
+            onMouseEnter={e => e.currentTarget.style.color = "#fff"}
+            onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.6)"}>{project.category}</button>
+          <span>/</span>
+          <span style={{ color: "#fff" }}>{project.name}</span>
+        </nav>
+
+        <div style={{ fontSize: ".72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".9rem" }}>{catEyebrow}</div>
+
+        <h1 style={{ fontFamily: FD, fontSize: "clamp(2.2rem, 5vw, 3.6rem)", fontWeight: 500, color: "#fff", lineHeight: 1.1, margin: "0 0 1.2rem", letterSpacing: "-0.5px", maxWidth: 780 }}>{project.name}</h1>
+
+        {firstSentence && <p style={{ fontSize: "1rem", color: "rgba(255,255,255,.82)", lineHeight: 1.65, maxWidth: 560, margin: "0 0 2rem" }}>{firstSentence}</p>}
+
+        {/* Quick facts */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem", marginBottom: "2.2rem" }}>
+          {project.year && <div>
+            <div style={{ fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".35rem" }}>{t.port.yr}</div>
+            <div style={{ fontSize: ".9rem", color: "#fff" }}>{project.year}</div>
+          </div>}
+          {project.scope && <div>
+            <div style={{ fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".35rem" }}>{t.port.sc}</div>
+            <div style={{ fontSize: ".9rem", color: "#fff", maxWidth: 260, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{scopeItems[0] || project.scope}</div>
+          </div>}
+          {project.cost && <div>
+            <div style={{ fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".35rem" }}>{t.port.cost}</div>
+            <div style={{ fontSize: ".9rem", color: "#fff" }}>{project.cost}</div>
+          </div>}
+        </div>
+
+        <button onClick={onBack} style={{ alignSelf: "flex-start", display: "inline-flex", alignItems: "center", gap: ".5rem", background: "transparent", border: "none", color: "rgba(255,255,255,.8)", fontFamily: FB, fontSize: ".72rem", fontWeight: 500, letterSpacing: "2.5px", textTransform: "uppercase", cursor: "pointer", padding: 0, transition: "color .2s" }}
+          onMouseEnter={e => e.currentTarget.style.color = YELLOW}
+          onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.8)"}>{"\u2190"} {t.port.bktp}</button>
+      </div>
+    </section>
+
+    {/* GALLERY STRIP */}
+    {galleryAll.length > 0 && (
+      <section style={{ background: cream, padding: "1.6rem 0" }}>
+        <div style={{ maxWidth: 1250, margin: "0 auto", padding: "0 6%", position: "relative" }}>
+          <div ref={stripRef} style={{ display: "flex", gap: "0.75rem", overflowX: "auto", scrollBehavior: "smooth", scrollbarWidth: "none", paddingBottom: 2 }}>
+            {galleryAll.map((img, i) => (
+              <div key={i} onClick={() => setLightboxIndex(i)} style={{ flexShrink: 0, width: "clamp(150px, 18vw, 200px)", aspectRatio: "4 / 3", cursor: "pointer", position: "relative", overflow: "hidden", background: "#111" }}>
+                <img src={img} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform .3s" }}
+                  onMouseEnter={e => e.target.style.transform = "scale(1.05)"}
+                  onMouseLeave={e => e.target.style.transform = ""}
+                  onError={e => { e.target.src = P.fb; }} />
+              </div>
+            ))}
+          </div>
+          {galleryAll.length > 1 && (
+            <>
+              <button onClick={() => scrollStrip(-1)} aria-label="Scroll left" style={{ position: "absolute", left: "-6px", top: "50%", transform: "translateY(-50%)", width: 40, height: 40, borderRadius: "50%", background: YELLOW, border: "none", color: "#111", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem", boxShadow: "0 4px 12px rgba(0,0,0,.2)" }}>{"\u2039"}</button>
+              <button onClick={() => scrollStrip(1)} aria-label="Scroll right" style={{ position: "absolute", right: "-6px", top: "50%", transform: "translateY(-50%)", width: 40, height: 40, borderRadius: "50%", background: YELLOW, border: "none", color: "#111", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem", boxShadow: "0 4px 12px rgba(0,0,0,.2)" }}>{"\u203A"}</button>
+            </>
+          )}
+        </div>
+      </section>
+    )}
+
+    {/* OVERVIEW + SIDEBAR */}
+    <section style={{ background: cream, padding: "3.5rem 6% 4rem" }}>
+      <div className="hgr" style={{ maxWidth: 1250, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 360px", gap: "3.5rem", alignItems: "start" }}>
+        <div>
+          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.7rem, 3vw, 2.3rem)", fontWeight: 500, color: panelText, margin: "0 0 .7rem", lineHeight: 1.2 }}>{t.port.ov}</h2>
+          <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "1.8rem" }} />
+          <div style={{ fontSize: ".95rem", color: isLight ? "rgba(0,0,0,.72)" : "rgba(255,255,255,.75)", lineHeight: 1.8 }}>
+            {overviewText.split(/\r?\n/).filter(Boolean).map((para, i) => (
+              <p key={i} style={{ margin: i === 0 ? 0 : "1rem 0 0" }}>{para.trim()}</p>
+            ))}
+          </div>
+        </div>
+        <aside style={{ background: panelBg, border: "1px solid " + panelBorder, padding: "1.8rem 1.6rem" }}>
+          <InfoRow kind="user"  label={t.port.cl}   value={project.client} />
+          <InfoRow kind="map"   label={t.port.loc}  value={project.location} />
+          <InfoRow kind="build" label={t.port.typ}  value={project.category} />
+          <InfoRow kind="ruler" label={t.port.ar}   value={project.area} />
+          <InfoRow kind="cal"   label={t.port.comp} value={project.year} />
+        </aside>
+      </div>
+    </section>
+
+    {/* OUR SCOPE */}
+    {project.scope && (
+      <section style={{ background: creamAlt, padding: "3.5rem 6%" }}>
+        <div style={{ maxWidth: 1250, margin: "0 auto", display: "grid", gridTemplateColumns: galleryAll.length > 0 ? "280px 1fr" : "1fr", gap: "2.5rem", alignItems: "start" }} className="hgr">
+          <div>
+            <div style={{ fontSize: ".72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.4rem" }}>{t.port.osc}</div>
+            {scopeItems.length > 1 ? (
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: ".75rem" }}>
+                {scopeItems.map((item, i) => (
+                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: ".75rem", fontSize: ".88rem", color: isLight ? "rgba(0,0,0,.8)" : "rgba(255,255,255,.8)", lineHeight: 1.55 }}>
+                    <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" /></div>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <div style={{ display: "flex", alignItems: "flex-start", gap: ".75rem", fontSize: ".9rem", color: isLight ? "rgba(0,0,0,.8)" : "rgba(255,255,255,.8)", lineHeight: 1.7 }}>
+                <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" /></div>
+                <span>{project.scope}</span>
+              </div>
+            )}
+          </div>
+          {galleryAll.length > 0 && (
+            <div style={{ display: "grid", gridTemplateColumns: galleryAll.length >= 2 ? "1fr 1fr" : "1fr", gap: "1rem" }} className="hgr">
+              {(galleryAll.length >= 2 ? galleryAll.slice(0, 2) : [galleryAll[0]]).map((img, i) => (
+                <div key={i} style={{ aspectRatio: "4 / 3", overflow: "hidden", background: "#111" }}>
+                  <img src={img} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} onError={e => { e.target.src = P.fb; }} />
                 </div>
-                <div>
-                  <div style={{ fontSize: ".65rem", letterSpacing: "2px", textTransform: "uppercase", color: c.text3, marginBottom: ".4rem", fontWeight: 600 }}>After</div>
-                  {pair.after ? <img src={pair.after} alt="After" style={{ width: "100%", height: "auto", borderRadius: 8, border: "1px solid " + c.border }} onError={e => { e.target.style.display = "none"; }} /> : <div style={{ height: 160, background: c.bg2, borderRadius: 8, border: "1px dashed " + c.border }} />}
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+    )}
+
+    {/* BEFORE & AFTER */}
+    {project.before_after && project.before_after.length > 0 && (
+      <section style={{ background: cream, padding: "3.5rem 6% 4rem" }}>
+        <div style={{ maxWidth: 1250, margin: "0 auto" }}>
+          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.7rem, 3vw, 2.3rem)", fontWeight: 500, color: panelText, margin: "0 0 .6rem", lineHeight: 1.2 }}>{t.port.ba}</h2>
+          <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "2rem" }} />
+          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+            {project.before_after.map((pair, i) => (
+              <div key={i} className="hgr" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.2rem" }}>
+                {["before", "after"].map((side) => (
+                  <div key={side} style={{ position: "relative" }}>
+                    <div style={{ position: "absolute", top: ".6rem", left: ".6rem", zIndex: 2, fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 700, background: "rgba(0,0,0,.6)", padding: ".3rem .55rem" }}>{side === "before" ? t.port.bf : t.port.af}</div>
+                    {pair[side] ? <img src={pair[side]} alt={side} style={{ width: "100%", height: "auto", display: "block", background: "#111" }} onError={e => { e.target.style.display = "none"; }} /> : <div style={{ height: 240, background: panelBg, border: "1px dashed " + panelBorder }} />}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* RELATED PROJECTS */}
+    {related.length > 0 && (
+      <section style={{ background: cream, padding: "4rem 6% 5rem" }}>
+        <div style={{ maxWidth: 1250, margin: "0 auto" }}>
+          <div className="portHeader" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: "1.5rem", marginBottom: "2.5rem", flexWrap: "wrap" }}>
+            <div>
+              <h2 style={{ fontFamily: FD, fontSize: "clamp(1.7rem, 3vw, 2.3rem)", fontWeight: 500, color: panelText, margin: "0 0 .6rem", lineHeight: 1.2 }}>{t.port.rel}</h2>
+              <div style={{ width: 48, height: 2, background: YELLOW }} />
+            </div>
+            <a onClick={onPortfolio} style={{ fontSize: ".72rem", color: panelText, letterSpacing: "2.5px", textTransform: "uppercase", fontWeight: 600, cursor: "pointer", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: ".5rem", transition: "color .2s" }}
+              onMouseEnter={e => e.currentTarget.style.color = YELLOW}
+              onMouseLeave={e => e.currentTarget.style.color = panelText}>{t.port.all} <span style={{ color: YELLOW }}>{"\u2192"}</span></a>
+          </div>
+          <div className="pgr" style={{ display: "grid", gridTemplateColumns: "repeat(" + Math.min(3, related.length) + ", 1fr)", gap: "1.4rem" }}>
+            {related.map((p) => (
+              <div key={p.id} className="pcard ovcard" onClick={() => goProject(p)} style={{ position: "relative", overflow: "hidden", cursor: "pointer", aspectRatio: "4 / 5", background: "#111" }}>
+                <img src={p.image} alt={p.name} className="ovimg" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transition: "transform .7s ease" }} onError={e => { e.target.src = P.fb; }} />
+                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,.92) 0%, rgba(0,0,0,.55) 45%, rgba(0,0,0,.05) 100%)" }} />
+                <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "1.6rem 1.5rem 1.7rem", color: "#fff" }}>
+                  <div style={{ fontSize: "0.64rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.55rem" }}>{p.category || "Project"}</div>
+                  <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 500, color: "#fff", lineHeight: 1.3, marginBottom: "1.1rem" }}>{p.name}</h3>
+                  <div className="ovpill" style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", padding: "0.6rem 1.1rem", border: "1px solid rgba(255,255,255,.45)", color: "#fff", fontSize: "0.66rem", letterSpacing: "2.5px", textTransform: "uppercase", fontWeight: 600, transition: "background .25s, color .25s, border-color .25s" }}>{t.port.more} <span>{"\u2192"}</span></div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      )}
-    </Reveal>
+      </section>
+    )}
+
+    {/* LIGHTBOX */}
+    {lightboxIndex !== null && galleryAll[lightboxIndex] && (
+      <div onClick={() => setLightboxIndex(null)} style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,.95)", zIndex: 50, display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <button aria-label="Close" onClick={(e) => { e.stopPropagation(); setLightboxIndex(null); }} style={{ position: "absolute", top: "1.2rem", right: "1.2rem", width: 44, height: 44, borderRadius: "50%", background: "rgba(255,255,255,.12)", border: "none", color: "#fff", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.4rem" }}>{"\u00D7"}</button>
+        {galleryAll.length > 1 && (
+          <>
+            <button aria-label="Previous" onClick={(e) => { e.stopPropagation(); setLightboxIndex(i => (i - 1 + galleryAll.length) % galleryAll.length); }} style={{ position: "absolute", left: "1.2rem", top: "50%", transform: "translateY(-50%)", width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,.12)", border: "none", color: "#fff", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem" }}>{"\u2039"}</button>
+            <button aria-label="Next" onClick={(e) => { e.stopPropagation(); setLightboxIndex(i => (i + 1) % galleryAll.length); }} style={{ position: "absolute", right: "1.2rem", top: "50%", transform: "translateY(-50%)", width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,.12)", border: "none", color: "#fff", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.5rem" }}>{"\u203A"}</button>
+          </>
+        )}
+        <img onClick={(e) => e.stopPropagation()} src={galleryAll[lightboxIndex]} alt="" style={{ maxWidth: "90vw", maxHeight: "85vh", objectFit: "contain", display: "block" }} onError={e => { e.target.src = P.fb; }} />
+        <div style={{ position: "absolute", bottom: "1.4rem", left: 0, right: 0, textAlign: "center", color: "rgba(255,255,255,.7)", fontSize: ".85rem", fontFamily: FB, letterSpacing: "1px" }}>{(lightboxIndex + 1) + " / " + galleryAll.length}</div>
+      </div>
+    )}
+
   </div>;
 }
 
@@ -816,7 +1052,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
 
   if (!auth) return <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}><ALogin t={t} c={c} onAuth={() => setAuth(true)} onBack={onBack} /></div>;
 
-  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else if (tab === "careers") setFd({ title: "", department: "", location: "", description: "", requirements: "", apply_email: "", is_active: true }); else setFd({ name: "", logo: "" }); setEditing("new"); };
+  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", area: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else if (tab === "careers") setFd({ title: "", department: "", location: "", description: "", requirements: "", apply_email: "", is_active: true }); else setFd({ name: "", logo: "" }); setEditing("new"); };
   const toggleJob = async (job) => { try { const updated = await api.updateJob(job.id, { ...job, is_active: !job.is_active }); setJobs(jobs.map(j => j.id === job.id ? updated : j)); } catch (e) { alert('Error: ' + e.message); } };
   const startEdit = item => { setFd({ ...item, gallery: item.gallery || [], before_after: item.before_after || [] }); setEditing(item); };
   const isDemo = (id) => typeof id === 'string' && /^\d+$/.test(id);
@@ -930,7 +1166,10 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
           <div><label style={lS}>{t.ad.pcl}</label><input style={iS} value={fd.client || ""} onChange={e => setFd(f => ({ ...f, client: e.target.value }))} /></div>
           <div><label style={lS}>{t.ad.pl}</label><input style={iS} value={fd.location || ""} onChange={e => setFd(f => ({ ...f, location: e.target.value }))} /></div>
         </div>
-        <div><label style={lS}>{t.ad.pv}</label><input style={iS} placeholder="e.g. 5,000,000" value={fd.cost || ""} onChange={e => setFd(f => ({ ...f, cost: e.target.value }))} /></div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: ".8rem" }}>
+          <div><label style={lS}>{t.ad.parea}</label><input style={iS} placeholder="e.g. 1,200 sq.m." value={fd.area || ""} onChange={e => setFd(f => ({ ...f, area: e.target.value }))} /></div>
+          <div><label style={lS}>{t.ad.pv}</label><input style={iS} placeholder="e.g. 5,000,000" value={fd.cost || ""} onChange={e => setFd(f => ({ ...f, cost: e.target.value }))} /></div>
+        </div>
         <div>
           <label style={lS}>{t.ad.pi}</label>
           <div style={{ display: "flex", gap: ".5rem", alignItems: "center", flexWrap: "wrap" }}>

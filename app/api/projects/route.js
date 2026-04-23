@@ -36,6 +36,7 @@ export async function POST(request) {
       scope: body.scope,
       client: body.client,
       location: body.location,
+      area: body.area || '',
       cost: body.cost,
       image: body.image,
       gallery: body.gallery || [],
