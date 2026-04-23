@@ -33,7 +33,7 @@ const TX = {
     about:{title:"Our Story",p1:"WIDE-ELEVEN CO., LTD. has been established since February of 2014, prioritizing in the industry of interior design & construction. We are committed to provide the best interior construction services to our clients by transforming their dreaming design of space into reality, within the budget and time frame as allowed.",p2:"Over the past 12 years, we have expanded gradually, and have been working on more than 400 projects to date, with an accumulative number of clients coming from the appraisal for our credibility, speed and quality of work.",ms:"Our Mission",mt:"To transform every client's vision into reality through exceptional craftsmanship, innovative design solutions, and unwavering commitment to quality \u2014 on time, within budget, and beyond expectations.",bg:"Years of Excellence"},
     cli:{title:"Our Clients & Partners"},
     svc:{title:"Our Expertise",heading:"End-to-End Solutions, Tailored for You",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",s:"Design & Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",s:"Interior Fit-Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",s:"Refurbishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",s:"MEP Works",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",s:"Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
-    port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
+    port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
     ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
@@ -46,7 +46,7 @@ const TX = {
     about:{title:"เรื่องราวของเรา",p1:"บริษัท ไวด์-อีเลฟเว่น จำกัด ก่อตั้งขึ้นเมื่อเดือนกุมภาพันธ์ พ.ศ. 2557 โดยมุ่งเน้นในอุตสาหกรรมออกแบบและก่อสร้างตกแต่งภายใน เรามุ่งมั่นมอบบริการก่อสร้างตกแต่งภายในที่ดีที่สุดให้กับลูกค้า โดยเปลี่ยนการออกแบบพื้นที่ในฝันให้กลายเป็นความจริง ภายใต้งบประมาณและกรอบเวลาที่กำหนด",p2:"ตลอดระยะเวลากว่า 12 ปีที่ผ่านมา เราเติบโตอย่างต่อเนื่อง และได้ดำเนินงานมากกว่า 400 โครงการจนถึงปัจจุบัน ด้วยจำนวนลูกค้าที่เพิ่มขึ้นจากการยอมรับในความน่าเชื่อถือ ความรวดเร็ว และคุณภาพของงาน",ms:"พันธกิจของเรา",mt:"เปลี่ยนวิสัยทัศน์ของลูกค้าทุกรายให้เป็นจริง ด้วยฝีมือช่างชั้นยอด โซลูชันการออกแบบที่สร้างสรรค์ และความมุ่งมั่นในคุณภาพอย่างไม่ลดละ \u2014 ตรงเวลา ตามงบประมาณ และเหนือความคาดหมาย",bg:"ปีแห่งความเป็นเลิศ"},
     cli:{title:"ลูกค้าและพันธมิตรของเรา"},
     svc:{title:"ความเชี่ยวชาญของเรา",heading:"โซลูชันครบวงจร ปรับให้เหมาะกับคุณ",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",s:"ออกแบบและวางแผน",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",s:"ตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",s:"งานปรับปรุง",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",s:"งานระบบ MEP",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",s:"ประเมินงบประมาณ",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
-    port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"โครงการทั้งหมด",as:"สำรวจผลงานทั้งหมดของเรา",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
+    port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
     ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
@@ -180,7 +180,7 @@ export default function App() {
       </div>}
 
       {page === "home" && <HomePage t={t} c={c} theme={theme} projects={projects} clients={clients} onAll={() => go("portfolio")} onProj={p => go("project", p)} />}
-      {page === "portfolio" && <AllProjects t={t} c={c} projects={projects} cats={cats} onProj={p => go("project", p)} onBack={() => go("home")} />}
+      {page === "portfolio" && <AllProjects t={t} c={c} theme={theme} projects={projects} cats={cats} onProj={p => go("project", p)} onBack={() => go("home")} />}
       {page === "project" && selP && <ProjDetail t={t} c={c} theme={theme} project={selP} onBack={() => go("portfolio")} />}
       {page === "careers" && <CareersPage t={t} c={c} theme={theme} jobs={jobs} onJob={j => go("job", j)} />}
       {page === "job" && selP && <JobDetail t={t} c={c} theme={theme} job={selP} onBack={() => go("careers")} />}
@@ -585,36 +585,160 @@ function CForm({ t, c, theme }) {
   </div>;
 }
 
-function AllProjects({ t, c, projects, cats, onProj, onBack }) {
+function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
   const [filter, setFilter] = useState("All");
+  const [currentPage, setCurrentPage] = useState(1);
+  const gridRef = useRef(null);
+  const ITEMS_PER_PAGE = 6;
   const allCats = ["All", ...cats];
   const filtered = filter === "All" ? projects : projects.filter(p => p.category === filter);
-  return <div style={{ paddingTop: "7rem" }}>
-    <div style={{ textAlign: "center", padding: "0 6% 1.5rem" }}>
-    <button onClick={onBack} style={{ padding: ".5rem 1.5rem", background: "#111", color: YELLOW, border: "none", fontFamily: FB, fontSize: ".78rem", fontWeight: 600, letterSpacing: "1.5px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3 }}>{"\u2190 " + t.port.bk}</button>
-      <h1 style={{ fontFamily: FD, fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 600, margin: ".8rem 0 .4rem" }}>{t.port.at}</h1>
-      <p style={{ color: c.text2, fontSize: ".9rem" }}>{t.port.as}</p>
-    </div>
-    <div style={{ display: "flex", gap: ".4rem", justifyContent: "center", flexWrap: "wrap", padding: "0 6% 2rem" }}>
-      {allCats.map(cat => <button key={cat} onClick={() => setFilter(cat)} style={{ padding: ".4rem 1rem", background: filter === cat ? YELLOW : "transparent", border: "1px solid " + (filter === cat ? YELLOW : c.border), color: filter === cat ? "#111" : c.text2, fontFamily: FB, fontSize: ".7rem", letterSpacing: "1px", textTransform: "uppercase", cursor: "pointer", borderRadius: 3, fontWeight: filter === cat ? 700 : 400 }}>{cat}</button>)}
-    </div>
-    <div style={{ padding: "0 6% 4rem", maxWidth: 1100, margin: "0 auto" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(300px, 100%), 1fr))", gap: "1.3rem" }}>
-        {filtered.map((p, i) => <Reveal key={p.id} delay={i * 0.05}><div onClick={() => onProj(p)} style={{ border: "1px solid " + c.border, borderRadius: 10, overflow: "hidden", cursor: "pointer", background: c.bg2, transition: "transform .3s" }} onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; }} onMouseLeave={e => { e.currentTarget.style.transform = ""; }}>
-          <img src={p.image} alt={p.name} style={{ width: "100%", height: 200, objectFit: "cover" }} onError={e => { e.target.src = P.fb; }} />
-          <div style={{ padding: "1.1rem" }}>
-            <div style={{ fontSize: ".62rem", color: YELLOW, letterSpacing: "2px", textTransform: "uppercase", marginBottom: ".3rem" }}>{p.category}</div>
-            <h3 style={{ fontFamily: FD, fontSize: "1rem", fontWeight: 600, marginBottom: ".6rem", lineHeight: 1.3, color: c.text }}>{p.name}</h3>
-            <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: ".15rem .6rem", fontSize: ".72rem" }}>
-              <span style={{ color: c.text3, textTransform: "uppercase", letterSpacing: "1px" }}>{t.port.yr}</span><span style={{ color: c.text2 }}>{p.year}</span>
-              {p.period && <><span style={{ color: c.text3, textTransform: "uppercase", letterSpacing: "1px" }}>{t.port.pd}</span><span style={{ color: c.text2 }}>{p.period}</span></>}
-              <span style={{ color: c.text3, textTransform: "uppercase", letterSpacing: "1px" }}>{t.port.sc}</span><span style={{ color: c.text2 }}>{p.scope}</span>
-              {p.cost && <><span style={{ color: c.text3, textTransform: "uppercase", letterSpacing: "1px" }}>{t.port.cost}</span><span style={{ color: c.text2 }}>{p.cost}</span></>}
+  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
+  useEffect(() => { if (currentPage > totalPages) setCurrentPage(1); }, [totalPages, currentPage]);
+  const paginated = filtered.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+
+  const isLight = theme === "light";
+  const cream = isLight ? "#f5f1ea" : c.bg2;
+  const cardBg = isLight ? "#ffffff" : c.bg3;
+  const cardText = isLight ? "#1a1a1a" : "#ffffff";
+  const cardMuted = isLight ? "rgba(0,0,0,.55)" : "rgba(255,255,255,.55)";
+  const cardBorder = isLight ? "rgba(0,0,0,.1)" : "rgba(255,255,255,.1)";
+  const tabActiveBg = "#1a1a1a";
+  const tabInactiveText = isLight ? "rgba(0,0,0,.7)" : "rgba(255,255,255,.7)";
+
+  const handleFilter = (cat) => { setFilter(cat); setCurrentPage(1); };
+  const handlePageChange = (newPage) => {
+    if (newPage < 1 || newPage > totalPages) return;
+    setCurrentPage(newPage);
+    if (gridRef.current) gridRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  // Build pagination number list with ellipsis
+  const buildPages = () => {
+    if (totalPages <= 5) return Array.from({ length: totalPages }, (_, i) => i + 1);
+    const pages = [];
+    const cur = currentPage;
+    pages.push(1);
+    if (cur > 3) pages.push("…");
+    const start = Math.max(2, cur - 1);
+    const end = Math.min(totalPages - 1, cur + 1);
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (cur < totalPages - 2) pages.push("…");
+    pages.push(totalPages);
+    return pages;
+  };
+
+  const pageBtnBase = { width: 40, height: 40, display: "inline-flex", alignItems: "center", justifyContent: "center", fontFamily: FB, fontSize: ".85rem", cursor: "pointer", border: "1px solid " + (isLight ? "rgba(0,0,0,.15)" : "rgba(255,255,255,.15)"), background: cardBg, color: cardText, borderRadius: 0, padding: 0, transition: "background .2s, color .2s" };
+
+  return <div style={{ background: cream, minHeight: "100vh" }}>
+    {/* HERO BANNER */}
+    <section style={{ position: "relative", height: "clamp(260px, 38vw, 380px)", overflow: "hidden" }}>
+      <img src={P.hero} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.82) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.3) 100%)" }} />
+      <div style={{ position: "relative", zIndex: 1, height: "100%", maxWidth: 1200, margin: "0 auto", padding: "5rem 6% 1.5rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <button onClick={onBack} style={{ alignSelf: "flex-start", marginBottom: "1rem", background: "transparent", border: "none", color: "rgba(255,255,255,.8)", fontFamily: FB, fontSize: ".72rem", fontWeight: 500, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", padding: 0 }}
+          onMouseEnter={e => e.currentTarget.style.color = YELLOW}
+          onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.8)"}>{"\u2190 " + t.port.bk}</button>
+        <div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.9rem" }}>{t.port.allEyebrow}</div>
+        <h1 style={{ fontFamily: FD, fontSize: "clamp(2.2rem, 5vw, 3.6rem)", fontWeight: 500, color: "#fff", lineHeight: 1.1, margin: "0 0 1rem", letterSpacing: "-0.5px" }}>{t.port.at}</h1>
+        <p style={{ fontSize: "0.98rem", color: "rgba(255,255,255,.8)", lineHeight: 1.65, maxWidth: 560, margin: 0 }}>{t.port.as}</p>
+      </div>
+    </section>
+
+    {projects.length === 0 ? (
+      <div style={{ padding: "5rem 6%", textAlign: "center", color: c.text2, whiteSpace: "pre-line", fontSize: "1rem", lineHeight: 1.7 }}>{t.port.noneAll}</div>
+    ) : (
+      <>
+        {/* FILTER BAR */}
+        <div style={{ background: cream, padding: "2rem 6%", borderBottom: "1px solid " + cardBorder }}>
+          <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+            <div className="allFilterRow" style={{ display: "flex", gap: "0.6rem", flexWrap: "wrap", overflowX: "auto" }}>
+              {allCats.map(cat => {
+                const active = filter === cat;
+                const label = cat === "All" ? t.port.allLabel : cat;
+                return <button key={cat} onClick={() => handleFilter(cat)} style={{
+                  flexShrink: 0,
+                  padding: "0.7rem 1.2rem",
+                  background: active ? tabActiveBg : "transparent",
+                  border: "none",
+                  color: active ? "#fff" : tabInactiveText,
+                  fontFamily: FB,
+                  fontSize: ".72rem",
+                  letterSpacing: "2px",
+                  textTransform: "uppercase",
+                  cursor: "pointer",
+                  borderRadius: 0,
+                  fontWeight: active ? 600 : 500,
+                  transition: "background .2s, color .2s, border-color .2s"
+                }}
+                  onMouseEnter={e => { if (!active) e.currentTarget.style.color = cardText; }}
+                  onMouseLeave={e => { if (!active) e.currentTarget.style.color = tabInactiveText; }}>{label}</button>;
+              })}
             </div>
           </div>
-        </div></Reveal>)}
-      </div>
-    </div>
+        </div>
+
+        {/* GRID */}
+        <div ref={gridRef} style={{ scrollMarginTop: "5.5rem", padding: "3rem 6% 2rem", maxWidth: 1300, margin: "0 auto" }}>
+          {paginated.length === 0 ? (
+            <div style={{ padding: "3rem 0", textAlign: "center", color: c.text2, fontSize: "1rem" }}>{t.port.noneCat}</div>
+          ) : (
+            <div className="allGrid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.8rem" }}>
+              {paginated.map((p, i) => (
+                <Reveal key={p.id} delay={i * 0.05}>
+                  <div className="pccard" onClick={() => onProj(p)} style={{
+                    display: "flex", flexDirection: "column", cursor: "pointer",
+                    background: cardBg, overflow: "hidden", height: "100%",
+                    boxShadow: isLight ? "0 2px 10px rgba(0,0,0,.06)" : "0 2px 10px rgba(0,0,0,.3)",
+                    transition: "box-shadow .3s, transform .3s"
+                  }}
+                    onMouseEnter={e => { e.currentTarget.style.boxShadow = isLight ? "0 14px 34px rgba(0,0,0,.14)" : "0 14px 34px rgba(0,0,0,.5)"; const im = e.currentTarget.querySelector(".pccardImg"); if (im) im.style.transform = "scale(1.05)"; const ar = e.currentTarget.querySelector(".pccardArr"); if (ar) ar.style.color = YELLOW; }}
+                    onMouseLeave={e => { e.currentTarget.style.boxShadow = isLight ? "0 2px 10px rgba(0,0,0,.06)" : "0 2px 10px rgba(0,0,0,.3)"; const im = e.currentTarget.querySelector(".pccardImg"); if (im) im.style.transform = ""; const ar = e.currentTarget.querySelector(".pccardArr"); if (ar) ar.style.color = cardText; }}>
+                    <div style={{ position: "relative", aspectRatio: "4 / 3", overflow: "hidden", background: "#111" }}>
+                      <img src={p.image} alt={p.name} className="pccardImg" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transition: "transform .5s ease" }} onError={e => { e.target.src = P.fb; }} />
+                    </div>
+                    <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
+                      <div style={{ fontSize: "0.62rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".75rem" }}>{(p.category || "").toUpperCase() + " " + t.port.suf.toUpperCase()}</div>
+                      <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 500, color: cardText, lineHeight: 1.3, margin: "0 0 1.25rem", minHeight: "2.6em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{p.name}</h3>
+                      <div style={{ marginTop: "auto", display: "grid", gridTemplateColumns: "auto 1fr auto auto", gap: "1rem", alignItems: "start", paddingTop: "1rem", borderTop: "1px solid " + cardBorder }}>
+                        <div>
+                          <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.yr}</div>
+                          <div style={{ fontSize: ".82rem", color: cardText }}>{p.year || "\u2014"}</div>
+                        </div>
+                        <div>
+                          <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.sc}</div>
+                          <div style={{ fontSize: ".82rem", color: cardText, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{p.scope || "\u2014"}</div>
+                        </div>
+                        <div>
+                          <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.cost}</div>
+                          <div style={{ fontSize: ".82rem", color: cardText }}>{p.cost || "\u2014"}</div>
+                        </div>
+                        <div className="pccardArr" style={{ alignSelf: "center", fontSize: "1.1rem", color: cardText, transition: "color .2s" }}>{"\u2192"}</div>
+                      </div>
+                    </div>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* PAGINATION */}
+        {filtered.length > ITEMS_PER_PAGE && (
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem", padding: "1.5rem 6% 5rem", flexWrap: "wrap" }}>
+            {buildPages().map((pg, idx) => {
+              if (pg === "…") return <span key={"e" + idx} style={{ color: cardMuted, padding: "0 .4rem", fontFamily: FB, fontSize: ".9rem" }}>{"\u2026"}</span>;
+              const active = pg === currentPage;
+              return <button key={pg} onClick={() => handlePageChange(pg)} style={{ ...pageBtnBase, background: active ? tabActiveBg : cardBg, color: active ? "#fff" : cardText, border: active ? "1px solid " + tabActiveBg : pageBtnBase.border, fontWeight: active ? 700 : 500 }}
+                onMouseEnter={e => { if (!active) e.currentTarget.style.background = isLight ? "rgba(0,0,0,.05)" : "rgba(255,255,255,.05)"; }}
+                onMouseLeave={e => { if (!active) e.currentTarget.style.background = cardBg; }}>{pg}</button>;
+            })}
+            <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage >= totalPages} style={{ ...pageBtnBase, opacity: currentPage >= totalPages ? 0.4 : 1, cursor: currentPage >= totalPages ? "not-allowed" : "pointer" }}
+              onMouseEnter={e => { if (currentPage < totalPages) e.currentTarget.style.background = isLight ? "rgba(0,0,0,.05)" : "rgba(255,255,255,.05)"; }}
+              onMouseLeave={e => { e.currentTarget.style.background = cardBg; }}>{"\u2192"}</button>
+          </div>
+        )}
+      </>
+    )}
   </div>;
 }
 

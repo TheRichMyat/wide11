@@ -53,10 +53,17 @@ input:focus, textarea:focus, select:focus {
   .portHeader { flex-direction: column !important; align-items: flex-start !important; }
 }
 
+@media (max-width: 1024px) {
+  .allGrid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
 @media (max-width: 768px) {
   .dknv { display: none !important; }
   .mbt { display: block !important; }
   .hgr, .fgr, .cgr, .cfgr { grid-template-columns: 1fr !important; }
+  .allGrid { grid-template-columns: 1fr !important; }
+  .allFilterRow { flex-wrap: nowrap !important; overflow-x: auto !important; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .allFilterRow::-webkit-scrollbar { display: none; }
   .sgr { grid-template-columns: repeat(2, 1fr) !important; }
   .sgr .statItem { border-left: none !important; }
   .pgr { grid-template-columns: 1fr !important; }
