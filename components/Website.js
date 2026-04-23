@@ -697,7 +697,7 @@ function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
                       <img src={p.image} alt={p.name} className="pccardImg" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transition: "transform .5s ease" }} onError={e => { e.target.src = P.fb; }} />
                     </div>
                     <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
-                      <div style={{ fontSize: "0.62rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".75rem" }}>{(p.category || "").toUpperCase() + " " + t.port.suf.toUpperCase()}</div>
+                      <div style={{ fontSize: "0.62rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".75rem" }}>{(p.category || "").toUpperCase()}</div>
                       <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 500, color: cardText, lineHeight: 1.3, margin: "0 0 1.25rem", minHeight: "2.6em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{p.name}</h3>
                       <div style={{ marginTop: "auto", display: "grid", gridTemplateColumns: "auto 1fr auto auto", gap: "1rem", alignItems: "start", paddingTop: "1rem", borderTop: "1px solid " + cardBorder }}>
                         <div>
