@@ -28,27 +28,27 @@ function useC(theme) {
 const TX = {
   en: {
     nav:{home:"Home",about:"About",services:"Services",careers:"Careers",portfolio:"Portfolio",contact:"Contact"},
-    hero:{l1:"Crafting Spaces That",l2:"Tell Your Story",sub:"We transform ordinary spaces into extraordinary environments with our bespoke design solutions and expert craftsmanship.",cta:"View Our Portfolio"},
+    hero:{eyebrow:"Premium Interior Design & Construction",l1:"Crafting Exceptional Spaces.",l2:"Built on Trust.",sub:"We transform ordinary spaces into extraordinary environments with bespoke design solutions and expert craftsmanship.",cta:"Start Your Project",cta2:"View Our Work"},
     stats:{a:"12+",al:"Years Experience",b:"400+",bl:"Projects Completed",c:"80\u201390",cl:"Team Members",d:"100%",dl:"Client Commitment"},
     about:{title:"Our Story",p1:"WIDE-ELEVEN CO., LTD. has been established since February of 2014, prioritizing in the industry of interior design & construction. We are committed to provide the best interior construction services to our clients by transforming their dreaming design of space into reality, within the budget and time frame as allowed.",p2:"Over the past 12 years, we have expanded gradually, and have been working on more than 400 projects to date, with an accumulative number of clients coming from the appraisal for our credibility, speed and quality of work.",ms:"Our Mission",mt:"To transform every client's vision into reality through exceptional craftsmanship, innovative design solutions, and unwavering commitment to quality \u2014 on time, within budget, and beyond expectations.",bg:"Years of Excellence"},
     cli:{title:"Our Clients & Partners"},
-    svc:{title:"Our Expertise",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
-    port:{title:"Featured Projects",all:"View All Projects",det:"View Details",at:"All Projects",as:"Explore our complete portfolio.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
-    ct:{title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
-    ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved."},
+    svc:{title:"Our Expertise",heading:"End-to-End Solutions, Tailored for You",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",s:"Design & Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",s:"Interior Fit-Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",s:"Refurbishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",s:"MEP Works",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",s:"Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
+    port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery"},
+    ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
+    ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
     ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
     nav:{home:"หน้าแรก",about:"เกี่ยวกับเรา",services:"บริการ",careers:"ร่วมงานกับเรา",portfolio:"ผลงาน",contact:"ติดต่อ"},
-    hero:{l1:"สร้างสรรค์พื้นที่",l2:"ที่บอกเล่าตัวตนของคุณ",sub:"เราเปลี่ยนพื้นที่ธรรมดาให้กลายเป็นสภาพแวดล้อมที่พิเศษ ด้วยโซลูชันการออกแบบเฉพาะตัวและฝีมือช่างระดับมืออาชีพ",cta:"ดูผลงานของเรา"},
+    hero:{eyebrow:"งานออกแบบและก่อสร้างตกแต่งภายในระดับพรีเมียม",l1:"รังสรรค์พื้นที่อันเป็นเอกลักษณ์.",l2:"บนรากฐานแห่งความไว้วางใจ.",sub:"เราเปลี่ยนพื้นที่ธรรมดาให้กลายเป็นสิ่งพิเศษ ด้วยโซลูชันการออกแบบเฉพาะตัวและงานฝีมือจากผู้เชี่ยวชาญ",cta:"เริ่มโปรเจกต์ของคุณ",cta2:"ดูผลงานของเรา"},
     stats:{a:"12+",al:"ปีประสบการณ์",b:"400+",bl:"โครงการที่สำเร็จ",c:"80\u201390",cl:"สมาชิกทีมงาน",d:"100%",dl:"ความมุ่งมั่นต่อลูกค้า"},
     about:{title:"เรื่องราวของเรา",p1:"บริษัท ไวด์-อีเลฟเว่น จำกัด ก่อตั้งขึ้นเมื่อเดือนกุมภาพันธ์ พ.ศ. 2557 โดยมุ่งเน้นในอุตสาหกรรมออกแบบและก่อสร้างตกแต่งภายใน เรามุ่งมั่นมอบบริการก่อสร้างตกแต่งภายในที่ดีที่สุดให้กับลูกค้า โดยเปลี่ยนการออกแบบพื้นที่ในฝันให้กลายเป็นความจริง ภายใต้งบประมาณและกรอบเวลาที่กำหนด",p2:"ตลอดระยะเวลากว่า 12 ปีที่ผ่านมา เราเติบโตอย่างต่อเนื่อง และได้ดำเนินงานมากกว่า 400 โครงการจนถึงปัจจุบัน ด้วยจำนวนลูกค้าที่เพิ่มขึ้นจากการยอมรับในความน่าเชื่อถือ ความรวดเร็ว และคุณภาพของงาน",ms:"พันธกิจของเรา",mt:"เปลี่ยนวิสัยทัศน์ของลูกค้าทุกรายให้เป็นจริง ด้วยฝีมือช่างชั้นยอด โซลูชันการออกแบบที่สร้างสรรค์ และความมุ่งมั่นในคุณภาพอย่างไม่ลดละ \u2014 ตรงเวลา ตามงบประมาณ และเหนือความคาดหมาย",bg:"ปีแห่งความเป็นเลิศ"},
     cli:{title:"ลูกค้าและพันธมิตรของเรา"},
-    svc:{title:"ความเชี่ยวชาญของเรา",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
-    port:{title:"โครงการเด่น",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",at:"โครงการทั้งหมด",as:"สำรวจผลงานทั้งหมดของเรา",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
-    ct:{title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
-    ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์"},
+    svc:{title:"ความเชี่ยวชาญของเรา",heading:"โซลูชันครบวงจร ปรับให้เหมาะกับคุณ",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",s:"ออกแบบและวางแผน",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",s:"ตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",s:"งานปรับปรุง",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",s:"งานระบบ MEP",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",s:"ประเมินงบประมาณ",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
+    port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"โครงการทั้งหมด",as:"สำรวจผลงานทั้งหมดของเรา",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ"},
+    ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
+    ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
     ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
@@ -186,13 +186,34 @@ export default function App() {
       {page === "job" && selP && <JobDetail t={t} c={c} theme={theme} job={selP} onBack={() => go("careers")} />}
       <ChatWidget />
 
-      <footer style={{ padding: "3rem 6% 1.5rem", borderTop: "1px solid " + c.border, background: c.bg }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "2fr 1fr 1.5fr", gap: "2.5rem", marginBottom: "2rem" }} className="fgr">
-          <div><div style={{ fontFamily: FD, fontSize: "1rem", fontWeight: 700, color: c.text, marginBottom: "0.4rem" }}><span style={{ fontSize: "1.2rem" }}>W</span>IDE-ELEVEN CO., LTD.</div><p style={{ fontSize: "0.8rem", color: c.text2, lineHeight: 1.7 }}>{t.ft.tg}</p><p style={{ fontSize: "0.72rem", color: c.text3 }}>{t.ft.th}</p></div>
-          <div><h5 style={{ fontSize: "0.66rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: "0.6rem", fontWeight: 600 }}>{t.ft.nv}</h5>{["home","about","services","contact"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav[id]}</a>)}<a onClick={() => go("portfolio")} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav.portfolio}</a><a onClick={() => go("careers")} style={{ display: "block", fontSize: "0.8rem", color: c.text2, textDecoration: "none", padding: "0.1rem 0", cursor: "pointer" }}>{t.nav.careers}</a></div>
-          <div><h5 style={{ fontSize: "0.66rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: "0.6rem", fontWeight: 600 }}>{t.ft.co}</h5><p style={{ fontSize: "0.78rem", color: c.text2, lineHeight: 1.8 }}>Tel: 02-409-2308<br />wide11bangkok@gmail.com<br />8/110 Soi Thian Talay 7<br />Bang Khun Thian, Bangkok 10150</p></div>
+      <footer style={{ padding: "3.5rem 6% 1.5rem", background: "#0f0f0f", color: "rgba(255,255,255,.7)", borderTop: "1px solid #1a1a1a" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1.4fr 1fr 1.2fr", gap: "3rem", marginBottom: "2.5rem" }} className="fgr">
+          <div>
+            <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 600, color: "#fff", marginBottom: "0.9rem", letterSpacing: "0.5px" }}><span style={{ fontSize: "1.35rem" }}>W</span>IDE-ELEVEN CO., LTD.</h3>
+            <p style={{ fontSize: "0.85rem", color: "rgba(255,255,255,.6)", lineHeight: 1.75, marginBottom: "0.5rem" }}>{t.ft.tg}</p>
+            <p style={{ fontSize: "0.75rem", color: "rgba(255,255,255,.4)" }}>{t.ft.th}</p>
+          </div>
+          <div>
+            <h4 style={{ fontSize: "0.66rem", letterSpacing: "2.8px", color: YELLOW, textTransform: "uppercase", marginBottom: "1.1rem", fontWeight: 600 }}>{t.ft.nv}</h4>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.45rem 1rem" }}>
+              {["home","about","services","contact"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.82rem", color: "rgba(255,255,255,.68)", textDecoration: "none", cursor: "pointer", transition: "color .2s" }} onMouseEnter={e => e.currentTarget.style.color = YELLOW} onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.68)"}>{t.nav[id]}</a>)}
+              <a onClick={() => go("portfolio")} style={{ fontSize: "0.82rem", color: "rgba(255,255,255,.68)", textDecoration: "none", cursor: "pointer", transition: "color .2s" }} onMouseEnter={e => e.currentTarget.style.color = YELLOW} onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.68)"}>{t.nav.portfolio}</a>
+              <a onClick={() => go("careers")} style={{ fontSize: "0.82rem", color: "rgba(255,255,255,.68)", textDecoration: "none", cursor: "pointer", transition: "color .2s" }} onMouseEnter={e => e.currentTarget.style.color = YELLOW} onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.68)"}>{t.nav.careers}</a>
+            </div>
+          </div>
+          <div>
+            <h4 style={{ fontSize: "0.66rem", letterSpacing: "2.8px", color: YELLOW, textTransform: "uppercase", marginBottom: "1.1rem", fontWeight: 600 }}>{t.ft.co}</h4>
+            <div style={{ fontSize: "0.83rem", color: "rgba(255,255,255,.68)", lineHeight: 1.9 }}>
+              <div>Tel: 02-409-2308</div>
+              <div>wide11bangkok@gmail.com</div>
+              <div>8/110 Soi Thian Talay 7,<br />Bang Khun Thian, Bangkok 10150</div>
+            </div>
+          </div>
         </div>
-        <div style={{ textAlign: "center", paddingTop: "1rem", borderTop: "1px solid " + c.border }}><p style={{ fontSize: "0.68rem", color: c.text3 }}>{t.ft.rg}</p><a onClick={() => go("admin")} style={{ fontSize: "0.6rem", color: c.text3, textDecoration: "none", cursor: "pointer" }}>Admin</a></div>
+        <div style={{ maxWidth: 1200, margin: "0 auto", paddingTop: "1.3rem", borderTop: "1px solid rgba(255,255,255,.1)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem" }}>
+          <p style={{ fontSize: "0.72rem", color: "rgba(255,255,255,.45)", margin: 0 }}>{t.ft.rg}</p>
+          <a onClick={() => go("admin")} style={{ fontSize: "0.65rem", color: "rgba(255,255,255,.35)", textDecoration: "none", cursor: "pointer", letterSpacing: "1.8px", textTransform: "uppercase" }}>Admin</a>
+        </div>
       </footer>
     </div>
   );
@@ -200,25 +221,103 @@ export default function App() {
 
 function Fonts() { return null; }
 
+function StatIcon({ idx }) {
+  const s = { width: 30, height: 30, stroke: "currentColor", strokeWidth: 1.5, fill: "none", strokeLinecap: "round", strokeLinejoin: "round" };
+  // 0 Years Experience — clock
+  if (idx === 0) return (<svg {...s} viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>);
+  // 1 Projects Completed — check circle
+  if (idx === 1) return (<svg {...s} viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>);
+  // 2 Team — people
+  if (idx === 2) return (<svg {...s} viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c.5-3.5 3-5 6-5s5.5 1.5 6 5"/><circle cx="17" cy="9" r="2.5"/><path d="M21 18c-.3-2.3-1.8-3.5-4-3.5"/></svg>);
+  // 3 Client Commitment — heart
+  return (<svg {...s} viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.5-7 10-7 10z"/></svg>);
+}
+
+function ServiceIcon({ idx, color }) {
+  const s = { width: 28, height: 28, stroke: color, strokeWidth: 1.4, fill: "none", strokeLinecap: "round", strokeLinejoin: "round" };
+  // 0 Design & Space Planning — drafting/ruler + pencil
+  if (idx === 0) return (
+    <svg {...s} viewBox="0 0 24 24"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 3v18"/><path d="M14 14l4 4"/></svg>
+  );
+  // 1 Interior Fitting Out — sofa/chair
+  if (idx === 1) return (
+    <svg {...s} viewBox="0 0 24 24"><path d="M3 11v6a1 1 0 001 1h16a1 1 0 001-1v-6"/><path d="M5 11V8a3 3 0 013-3h8a3 3 0 013 3v3"/><path d="M3 11a2 2 0 014 0v3M17 11a2 2 0 014 0v3"/><path d="M7 18v2M17 18v2"/></svg>
+  );
+  // 2 Refurnishing — paint brush / refresh
+  if (idx === 2) return (
+    <svg {...s} viewBox="0 0 24 24"><path d="M4 21h4l10-10a2.83 2.83 0 10-4-4L4 17v4z"/><path d="M13 7l4 4"/><path d="M18 3l3 3"/></svg>
+  );
+  // 3 MEP — lightning/bolt in circle
+  if (idx === 3) return (
+    <svg {...s} viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+  );
+  // 4 Consultation & Budget — chart / clipboard
+  return (
+    <svg {...s} viewBox="0 0 24 24"><path d="M9 4h6a1 1 0 011 1v2H8V5a1 1 0 011-1z"/><path d="M6 7h12v13a1 1 0 01-1 1H7a1 1 0 01-1-1V7z"/><path d="M9 12l2 2 4-4"/></svg>
+  );
+}
+
 function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
+  const scrollToId = (id) => { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: "smooth" }); };
   return <div>
     {/* HERO */}
     <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "0 6%", position: "relative", backgroundImage: "url(" + P.hero + ")", backgroundSize: "cover", backgroundPosition: "center" }}>
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.4) 60%, rgba(0,0,0,.25) 100%)" }} />
-      <div style={{ position: "relative", zIndex: 1, maxWidth: 620, paddingTop: "5rem" }}>
-        <Reveal><h1 style={{ fontFamily: FD, fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)", fontWeight: 700, lineHeight: 1.1, color: "#fff", marginBottom: "1.5rem" }}>{t.hero.l1}<br />{t.hero.l2}</h1></Reveal>
-        <Reveal delay={0.15}><p style={{ fontSize: "1rem", color: "rgba(255,255,255,.82)", lineHeight: 1.7, marginBottom: "2rem", maxWidth: 480 }}>{t.hero.sub}</p></Reveal>
-        <Reveal delay={0.3}><button onClick={onAll} style={{ padding: "1rem 2.5rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: "0.8rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", border: "none", cursor: "pointer" }}>{t.hero.cta}</button></Reveal>
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.78) 0%, rgba(0,0,0,.55) 50%, rgba(0,0,0,.22) 100%)" }} />
+      <div style={{ position: "relative", zIndex: 1, maxWidth: 760, paddingTop: "4rem" }}>
+        <Reveal><div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.1rem" }}>{t.hero.eyebrow}</div></Reveal>
+        <Reveal delay={0.1}><h1 style={{ fontFamily: FD, fontSize: "clamp(2.6rem, 6vw, 4.8rem)", fontWeight: 500, lineHeight: 1.1, marginBottom: "1.6rem", letterSpacing: "-0.5px" }}>
+          <span style={{ color: "#fff" }}>{t.hero.l1}</span><br />
+          <span style={{ color: YELLOW }}>{t.hero.l2}</span>
+        </h1></Reveal>
+        <Reveal delay={0.2}><p style={{ fontSize: "1.05rem", color: "rgba(255,255,255,.8)", lineHeight: 1.7, marginBottom: "2.2rem", maxWidth: 540 }}>{t.hero.sub}</p></Reveal>
+        <Reveal delay={0.3}><div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+          <button onClick={() => scrollToId("contact")} style={{ padding: "0.95rem 2.1rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: "0.78rem", fontWeight: 600, letterSpacing: "2.5px", textTransform: "uppercase", border: "none", cursor: "pointer", transition: "transform .2s, box-shadow .2s" }}
+            onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 8px 22px rgba(255,195,0,.4)"; }}
+            onMouseLeave={e => { e.currentTarget.style.transform = ""; e.currentTarget.style.boxShadow = ""; }}>{t.hero.cta}</button>
+          <button onClick={onAll} style={{ padding: "0.95rem 2.1rem", background: "transparent", color: "#fff", fontFamily: FB, fontSize: "0.78rem", fontWeight: 500, letterSpacing: "2.5px", textTransform: "uppercase", border: "1px solid rgba(255,255,255,.6)", cursor: "pointer", transition: "background .2s, border-color .2s" }}
+            onMouseEnter={e => { e.currentTarget.style.background = "rgba(255,255,255,.12)"; e.currentTarget.style.borderColor = "#fff"; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "rgba(255,255,255,.6)"; }}>{t.hero.cta2}</button>
+        </div></Reveal>
       </div>
     </section>
 
-    {/* STATS */}
-    <section style={{ background: c.dark, padding: "4rem 6%", position: "relative", overflow: "hidden" }}>
-      <div style={{ position: "absolute", inset: 0, backgroundImage: "url(" + P.stats + ")", backgroundSize: "cover", backgroundPosition: "center", opacity: 0.12 }} />
-      <div style={{ position: "relative", maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "2rem", textAlign: "center" }} className="sgr">
-        {[[t.stats.a, t.stats.al], [t.stats.b, t.stats.bl], [t.stats.c, t.stats.cl], [t.stats.d, t.stats.dl]].map(([v, l], i) => (
-          <Reveal key={i} delay={i * 0.1}><div><div style={{ fontFamily: FD, fontSize: "clamp(2rem, 3.5vw, 3.2rem)", fontWeight: 600, color: YELLOW }}>{v}</div><div style={{ fontSize: "0.7rem", color: "rgba(255,255,255,.55)", letterSpacing: "3px", textTransform: "uppercase", marginTop: ".4rem" }}>{l}</div></div></Reveal>
+    {/* STATS — always dark, attached directly below hero */}
+    <section style={{ background: "#1a1a1a", padding: "2rem 6%" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4, 1fr)" }} className="sgr">
+        {[
+          { v: t.stats.a, l: t.stats.al, ic: 0 },
+          { v: t.stats.b, l: t.stats.bl, ic: 1 },
+          { v: t.stats.c, l: t.stats.cl, ic: 2 },
+          { v: t.stats.d, l: t.stats.dl, ic: 3 },
+        ].map((s, i) => (
+          <Reveal key={i} delay={i * 0.08}>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem", padding: "1rem 1.3rem", borderLeft: i === 0 ? "none" : "1px solid rgba(255,255,255,.14)" }} className="statItem">
+              <div style={{ flexShrink: 0, color: YELLOW }}><StatIcon idx={s.ic} /></div>
+              <div>
+                <div style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 500, color: "#fff", lineHeight: 1.1 }}>{s.v}</div>
+                <div style={{ fontSize: "0.66rem", color: "rgba(255,255,255,.6)", letterSpacing: "2.5px", textTransform: "uppercase", marginTop: ".35rem" }}>{s.l}</div>
+              </div>
+            </div>
+          </Reveal>
         ))}
+      </div>
+    </section>
+
+    {/* PORTFOLIO — Spaces We're Proud Of */}
+    <section id="portfolio" style={{ background: theme === "light" ? "#f5f1ea" : c.bg2, padding: "5rem 6% 5.5rem" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+        <Reveal>
+          <div className="portHeader" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: "1.5rem", marginBottom: "3rem", flexWrap: "wrap" }}>
+            <div>
+              <div style={{ fontSize: "0.7rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.port.eyebrow}</div>
+              <h2 style={{ fontFamily: FD, fontSize: "clamp(1.9rem, 3.2vw, 2.8rem)", fontWeight: 500, color: c.text, lineHeight: 1.15, margin: 0 }}>{t.port.title}</h2>
+            </div>
+            <a onClick={onAll} style={{ fontSize: "0.72rem", color: c.text, letterSpacing: "2.5px", textTransform: "uppercase", fontWeight: 600, cursor: "pointer", textDecoration: "none", transition: "color .2s", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
+              onMouseEnter={e => e.currentTarget.style.color = YELLOW}
+              onMouseLeave={e => e.currentTarget.style.color = c.text}>{t.port.all} <span style={{ color: YELLOW }}>{"\u2192"}</span></a>
+          </div>
+        </Reveal>
+        <PortfolioSlider projects={projects} onProj={onProj} t={t} c={c} theme={theme} />
       </div>
     </section>
 
@@ -240,6 +339,32 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
       </div>
     </section>
 
+    {/* SERVICES */}
+    <section id="services" style={{ background: c.bg, padding: "5.5rem 6%" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
+        <Reveal>
+          <div style={{ fontSize: "0.7rem", color: YELLOW, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.svc.title}</div>
+          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.9rem, 3.2vw, 2.8rem)", fontWeight: 500, marginBottom: ".9rem", color: c.text, lineHeight: 1.2 }}>{t.svc.heading}</h2>
+          <div style={{ width: 64, height: 2, background: YELLOW, margin: "0 auto 3.5rem" }} />
+        </Reveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "2rem", alignItems: "start" }} className="svcgr">
+          {t.svc.items.map((s, i) => (
+            <Reveal key={i} delay={i * 0.08}>
+              <div style={{ textAlign: "center", padding: "0 0.3rem" }}>
+                <div style={{ width: 76, height: 76, borderRadius: "50%", border: "1px solid " + (theme === "light" ? "rgba(0,0,0,.12)" : "rgba(255,255,255,.18)"), display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.4rem", background: "transparent", transition: "border-color .3s, transform .3s" }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = YELLOW; e.currentTarget.style.transform = "translateY(-3px)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = theme === "light" ? "rgba(0,0,0,.12)" : "rgba(255,255,255,.18)"; e.currentTarget.style.transform = ""; }}>
+                  <ServiceIcon idx={i} color={c.text} />
+                </div>
+                <h3 style={{ fontFamily: FD, fontSize: "1.1rem", fontWeight: 500, marginBottom: ".9rem", color: c.text, lineHeight: 1.3 }}>{s.s || s.t}</h3>
+                <p style={{ fontSize: "0.76rem", color: c.text2, lineHeight: 1.6 }}>{s.d}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+
     {/* CLIENTS */}
     <Reveal><section id="clients" style={{ background: c.bg, padding: "4.5rem 6%" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", textAlign: "center" }}>
@@ -249,87 +374,151 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
       </div>
     </section></Reveal>
 
-    {/* SERVICES */}
-    <section id="services" style={{ background: c.bg2, padding: "5.5rem 6%" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto", textAlign: "center" }}>
-        <Reveal><h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, marginBottom: ".4rem" }}>{t.svc.title}</h2><div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 2.5rem", borderRadius: 2 }} /></Reveal>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem", justifyContent: "center" }} className="svcgr">
-          {t.svc.items.map((s, i) => (
-            <Reveal key={i} delay={i * 0.05} style={{ width: "calc(33.333% - 0.8rem)", minWidth: 250 }}><div style={{ background: theme === "light" ? "#fff" : c.bg3, padding: "1.2rem 1rem", borderRadius: 10, textAlign: "left", border: "1px solid " + c.border, boxShadow: theme === "light" ? "0 2px 14px rgba(0,0,0,.07)" : "none", transition: "transform .3s, box-shadow .3s", cursor: "default", height: "100%" }}
-              onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; }} onMouseLeave={e => { e.currentTarget.style.transform = ""; }}>
-              <div style={{ width: 32, height: 32, borderRadius: 8, background: "rgba(255,195,0,.12)", display: "flex", alignItems: "center", justifyContent: "center", color: "#b8920a", marginBottom: "0.6rem", fontSize: "0.9rem", fontWeight: 700, fontFamily: FD }}>{String(i + 1).padStart(2, "0")}</div>
-              <h3 style={{ fontFamily: FD, fontSize: "0.95rem", fontWeight: 600, marginBottom: ".3rem", color: c.text }}>{s.t}</h3>
-              <p style={{ fontSize: "0.78rem", color: c.text2, lineHeight: 1.5 }}>{s.d}</p>
-            </div></Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    {/* PORTFOLIO */}
-    <section id="portfolio" style={{ background: c.dark, padding: "5.5rem 6%" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-        <Reveal><div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, color: "#fff", marginBottom: ".4rem" }}>{t.port.title}</h2>
-          <div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 0", borderRadius: 2 }} />
-        </div></Reveal>
-        <PortfolioSlider projects={projects} onProj={onProj} t={t} />
-        <Reveal><div style={{ textAlign: "center", marginTop: "2rem" }}><a onClick={onAll} style={{ fontSize: "0.82rem", color: YELLOW, textDecoration: "none", cursor: "pointer", letterSpacing: "1px" }}>{t.port.all} {"\u2192"}</a></div></Reveal>
-      </div>
-    </section>
-
-    {/* CONTACT */}
-    <section id="contact" style={{ background: c.bg, padding: "5.5rem 6%" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-        <Reveal><div style={{ marginBottom: "2.5rem" }}>
-          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, marginBottom: ".4rem" }}>{t.ct.title}</h2>
-          <div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem 0 .8rem", borderRadius: 2 }} />
-          <p style={{ fontSize: "0.92rem", color: c.text2 }}>{t.ct.sub}</p>
-        </div></Reveal>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1.5fr", gap: "3rem", alignItems: "start" }} className="cgr">
-          <Reveal delay={0.1}><div style={{ display: "flex", flexDirection: "column", gap: "1.8rem" }}>
-            {[[t.ct.ca, "02-409-2308"], [t.ct.em, "wide11bangkok@gmail.com"], [t.ct.vi, "8/110 Soi Thian Talay 7 (Soi Tientalay 7), Bang Khun Thian, Bangkok 10150"]].map(([lb, val]) => (
-              <div key={lb}>
-                <h4 style={{ fontSize: "0.68rem", letterSpacing: "2px", color: YELLOW, textTransform: "uppercase", marginBottom: ".4rem", fontWeight: 600 }}>{lb}</h4>
-                <p style={{ fontSize: "0.92rem", color: c.text2, lineHeight: 1.7 }}>{val}</p>
+    {/* CONTACT — compact split layout */}
+    <section id="contact" style={{ background: c.bg2, padding: "4rem 6%" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1.15fr", gap: "3.5rem", alignItems: "start" }} className="cgr">
+          <Reveal>
+            <div>
+              <div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.75rem" }}>{t.ct.eyebrow}</div>
+              <h2 style={{ fontFamily: FD, fontSize: "clamp(1.7rem, 2.8vw, 2.3rem)", fontWeight: 500, color: c.text, lineHeight: 1.2, marginBottom: "0.85rem" }}>{t.ct.heading}</h2>
+              <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "1.25rem" }} />
+              <p style={{ fontSize: "0.92rem", color: c.text2, lineHeight: 1.65, marginBottom: "1.75rem", maxWidth: 440 }}>{t.ct.sub}</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                {[
+                  { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.72 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0122 16.92z"/></svg>), val: "02-409-2308", align: "center" },
+                  { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>), val: "wide11bangkok@gmail.com", align: "center" },
+                  { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>), val: "8/110 Soi Thian Talay 7,\nBang Khun Thian, Bangkok 10150", align: "flex-start" },
+                ].map((row, idx) => (
+                  <div key={idx} style={{ display: "flex", gap: "0.7rem", alignItems: row.align }}>
+                    <div style={{ flexShrink: 0, marginTop: row.align === "flex-start" ? 3 : 0 }}>{row.icon}</div>
+                    <p style={{ fontSize: "0.9rem", color: c.text, lineHeight: 1.55, whiteSpace: "pre-line" }}>{row.val}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div></Reveal>
-          <Reveal delay={0.2}><CForm t={t} c={c} /></Reveal>
+            </div>
+          </Reveal>
+          <Reveal delay={0.15}>
+            <CForm t={t} c={c} theme={theme} />
+          </Reveal>
         </div>
       </div>
     </section>
   </div>;
 }
 
-function PortfolioSlider({ projects, onProj, t }) {
-  const scrollRef = useRef(null);
-  const scrollBy = (dir) => {
-    if (!scrollRef.current) return;
-    const card = scrollRef.current.querySelector('.pcard');
-    const w = card ? card.offsetWidth + 16 : 300;
-    scrollRef.current.scrollBy({ left: dir * w, behavior: 'smooth' });
+function PortfolioSlider({ projects, onProj, t, c, theme }) {
+  const perSlide = 3;
+  const totalSlides = Math.max(1, Math.ceil(projects.length / perSlide));
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const [isInView, setIsInView] = useState(false);
+  const sectionRef = useRef(null);
+  const pauseTimerRef = useRef(null);
+
+  const pauseAutoRotate = () => {
+    setIsPaused(true);
+    if (pauseTimerRef.current) clearTimeout(pauseTimerRef.current);
+    pauseTimerRef.current = setTimeout(() => { setIsPaused(false); }, 12000);
   };
-  const items = projects.slice(0, 3);
+
+  // Clamp current slide if projects shrink
+  useEffect(() => {
+    if (currentSlide >= totalSlides) setCurrentSlide(0);
+  }, [totalSlides, currentSlide]);
+
+  // Auto-rotate
+  useEffect(() => {
+    if (isPaused || totalSlides <= 1) return;
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % totalSlides);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, [isPaused, totalSlides]);
+
+  // IntersectionObserver for in-view gating of keyboard
+  useEffect(() => {
+    if (!sectionRef.current) return;
+    const obs = new IntersectionObserver(([entry]) => { setIsInView(entry.isIntersecting); }, { threshold: 0.2 });
+    obs.observe(sectionRef.current);
+    return () => obs.disconnect();
+  }, []);
+
+  // Arrow keys
+  useEffect(() => {
+    const handleKey = (e) => {
+      if (!isInView || totalSlides <= 1) return;
+      if (e.key === "ArrowLeft") {
+        setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
+        pauseAutoRotate();
+      } else if (e.key === "ArrowRight") {
+        setCurrentSlide((prev) => (prev + 1) % totalSlides);
+        pauseAutoRotate();
+      }
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [isInView, totalSlides]);
+
+  // Cleanup pause timer
+  useEffect(() => () => { if (pauseTimerRef.current) clearTimeout(pauseTimerRef.current); }, []);
+
+  // Build slides array
+  const slides = [];
+  for (let i = 0; i < projects.length; i += perSlide) {
+    slides.push(projects.slice(i, i + perSlide));
+  }
+  if (slides.length === 0) slides.push([]);
+
+  const showDots = projects.length > perSlide;
+
   return (
-    <div style={{ position: "relative" }}>
-      <div ref={scrollRef} className="pgr" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
-        {items.map((p, i) => (
-          <Reveal key={p.id} delay={i * 0.1}><div className="pcard" onClick={() => onProj(p)} style={{ background: "#222", borderRadius: 12, overflow: "hidden", cursor: "pointer", transition: "transform .3s" }}
-            onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-5px)"; }} onMouseLeave={e => { e.currentTarget.style.transform = ""; }}>
-            <div style={{ overflow: "hidden", height: 220 }}><img src={p.image} alt={p.name} style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform .5s" }} onMouseEnter={e => { e.target.style.transform = "scale(1.05)"; }} onMouseLeave={e => { e.target.style.transform = ""; }} onError={e => { e.target.src = P.fb; }} /></div>
-            <div style={{ padding: "1.3rem" }}>
-              <h3 style={{ fontFamily: FD, fontSize: "1.08rem", fontWeight: 600, color: "#fff", marginBottom: ".4rem", lineHeight: 1.3 }}>{p.name}</h3>
-              <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,.5)", marginBottom: "1.1rem" }}>{(p.description || "").substring(0, 55)}...</p>
-              <div style={{ display: "inline-block", padding: ".55rem 1.8rem", border: "1px solid rgba(255,255,255,.25)", color: "#fff", fontSize: "0.7rem", letterSpacing: "1.5px", textTransform: "uppercase", fontWeight: 500 }}>{t.port.det}</div>
+    <div ref={sectionRef} style={{ position: "relative" }}>
+      <div style={{ overflow: "hidden" }}>
+        <div style={{
+          display: "flex",
+          width: "100%",
+          transform: "translateX(-" + (currentSlide * 100) + "%)",
+          transition: "transform .5s ease-out"
+        }}>
+          {slides.map((slide, sIdx) => (
+            <div key={sIdx} className="pgr" style={{ flex: "0 0 100%", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.4rem" }}>
+              {slide.map((p, i) => (
+                <div key={p.id} className="pcard ovcard" onClick={() => onProj(p)} style={{ position: "relative", overflow: "hidden", cursor: "pointer", aspectRatio: "4 / 5", background: "#111" }}>
+                  <img src={p.image} alt={p.name} className="ovimg" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transition: "transform .7s ease" }} onError={e => { e.target.src = P.fb; }} />
+                  <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,.92) 0%, rgba(0,0,0,.55) 45%, rgba(0,0,0,.05) 100%)" }} />
+                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "1.6rem 1.5rem 1.7rem", color: "#fff" }}>
+                    <div style={{ fontSize: "0.64rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.55rem" }}>{p.category || "Project"}</div>
+                    <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 500, color: "#fff", lineHeight: 1.3, marginBottom: "1.1rem" }}>{p.name}</h3>
+                    <div className="ovpill" style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", padding: "0.6rem 1.1rem", border: "1px solid rgba(255,255,255,.45)", color: "#fff", fontSize: "0.66rem", letterSpacing: "2.5px", textTransform: "uppercase", fontWeight: 600, transition: "background .25s, color .25s, border-color .25s" }}>{t.port.more} <span>{"\u2192"}</span></div>
+                  </div>
+                </div>
+              ))}
             </div>
-          </div></Reveal>
-        ))}
+          ))}
+        </div>
       </div>
-      <div className="pslnav" style={{ display: "none", justifyContent: "center", gap: "1rem", marginTop: "1rem" }}>
-        <button onClick={() => scrollBy(-1)} style={{ width: 40, height: 40, borderRadius: "50%", background: "rgba(255,255,255,.15)", border: "1px solid rgba(255,255,255,.25)", color: "#fff", fontSize: "1.1rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>&#8249;</button>
-        <button onClick={() => scrollBy(1)} style={{ width: 40, height: 40, borderRadius: "50%", background: "rgba(255,255,255,.15)", border: "1px solid rgba(255,255,255,.25)", color: "#fff", fontSize: "1.1rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>&#8250;</button>
-      </div>
+      {showDots && (
+        <div style={{ display: "flex", justifyContent: "center", gap: "0.5rem", marginTop: "2rem" }}>
+          {Array.from({ length: totalSlides }).map((_, i) => (
+            <button
+              key={i}
+              onClick={() => { setCurrentSlide(i); pauseAutoRotate(); }}
+              aria-label={"Go to slide " + (i + 1)}
+              style={{
+                height: 8,
+                width: currentSlide === i ? 24 : 8,
+                borderRadius: 999,
+                background: currentSlide === i ? YELLOW : (theme === "light" ? "rgba(0,0,0,.25)" : "rgba(255,255,255,.25)"),
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+                transition: "width .3s ease, background .3s ease"
+              }}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -346,25 +535,15 @@ function Carousel({ clients, c }) {
         width: "max-content"
       }}>
         {doubled.map((cl, i) => (
-          <div key={cl.id + "-" + i} style={{ flex: "0 0 180px", textAlign: "center" }}>
-            <div style={{
-              height: 80, border: "1px solid " + c.border, borderRadius: 8,
-              display: "flex", alignItems: "center", justifyContent: "center",
-              padding: ".8rem", background: c.bg2, overflow: "hidden"
-            }}>
-              <img src={cl.logo} alt={cl.name} style={{
-                maxWidth: "100%", maxHeight: "100%", objectFit: "contain",
-                filter: "grayscale(100%)", transition: "filter .3s"
-              }}
-                onMouseEnter={e => { e.target.style.filter = "none"; }}
-                onMouseLeave={e => { e.target.style.filter = "grayscale(100%)"; }}
-                onError={e => { e.target.style.display = "none"; }}
-              />
-            </div>
-            <div style={{
-              fontSize: "0.65rem", color: c.text3, marginTop: ".4rem",
-              letterSpacing: "1px", textTransform: "uppercase"
-            }}>{cl.name}</div>
+          <div key={cl.id + "-" + i} style={{ flex: "0 0 160px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <img src={cl.logo} alt={cl.name} style={{
+              maxWidth: "100%", maxHeight: 56, objectFit: "contain",
+              filter: "grayscale(100%)", opacity: 0.6, transition: "filter .3s, opacity .3s"
+            }}
+              onMouseEnter={e => { e.target.style.filter = "none"; e.target.style.opacity = 1; }}
+              onMouseLeave={e => { e.target.style.filter = "grayscale(100%)"; e.target.style.opacity = 0.6; }}
+              onError={e => { e.target.style.display = "none"; }}
+            />
           </div>
         ))}
       </div>
@@ -372,7 +551,7 @@ function Carousel({ clients, c }) {
   );
 }
 
-function CForm({ t, c }) {
+function CForm({ t, c, theme }) {
   const [f, sF] = useState({ name: "", email: "", phone: "", msg: "" });
   const [st, sSt] = useState("idle");
   const go = async () => {
@@ -387,14 +566,22 @@ function CForm({ t, c }) {
       alert("Failed to send message. Please try again or email us directly.");
     }
   };
-  const iS = { width: "100%", padding: ".82rem 1rem", background: c.bg2, border: "1px solid " + c.border, color: c.text, fontFamily: FB, fontSize: ".88rem", borderRadius: 5 };
-  return <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-    <input style={iS} placeholder={t.ct.fn} value={f.name} onChange={e => sF(x => ({ ...x, name: e.target.value }))} />
-    <input style={iS} type="email" placeholder={t.ct.fe} value={f.email} onChange={e => sF(x => ({ ...x, email: e.target.value }))} />
-    <input style={iS} placeholder={t.ct.fp} value={f.phone} onChange={e => sF(x => ({ ...x, phone: e.target.value }))} />
-    <textarea style={{ ...iS, minHeight: 120, resize: "vertical" }} placeholder={t.ct.fm} value={f.msg} onChange={e => sF(x => ({ ...x, msg: e.target.value }))} />
-    {st === "sent" ? <div style={{ padding: ".8rem", background: "rgba(255,195,0,.1)", border: "1px solid " + YELLOW, borderRadius: 5, color: "#b8920a", textAlign: "center", fontSize: ".88rem" }}>{t.ct.st}</div>
-    : <button onClick={go} disabled={st === "sending"} style={{ alignSelf: "flex-start", padding: ".85rem 2.2rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".78rem", fontWeight: 700, letterSpacing: "2px", textTransform: "uppercase", border: "none", cursor: "pointer", borderRadius: 3, opacity: st === "sending" ? 0.6 : 1 }}>{st === "sending" ? t.ct.sg : t.ct.sn}</button>}
+  const borderC = theme === "light" ? "rgba(0,0,0,0.15)" : "rgba(255,255,255,0.15)";
+  const iS = { width: "100%", padding: "0.9rem 1rem", background: "transparent", border: "1px solid " + borderC, color: c.text, fontFamily: FB, fontSize: ".88rem", borderRadius: 0, transition: "border-color .2s" };
+  const onFocus = e => { e.target.style.borderColor = YELLOW; };
+  const onBlur = e => { e.target.style.borderColor = borderC; };
+  return <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.9rem" }} className="cfgr">
+      <input style={iS} onFocus={onFocus} onBlur={onBlur} placeholder={t.ct.fn} value={f.name} onChange={e => sF(x => ({ ...x, name: e.target.value }))} />
+      <input style={iS} onFocus={onFocus} onBlur={onBlur} type="email" placeholder={t.ct.fe} value={f.email} onChange={e => sF(x => ({ ...x, email: e.target.value }))} />
+    </div>
+    <input style={iS} onFocus={onFocus} onBlur={onBlur} placeholder={t.ct.fp} value={f.phone} onChange={e => sF(x => ({ ...x, phone: e.target.value }))} />
+    <textarea style={{ ...iS, minHeight: 120, resize: "vertical" }} onFocus={onFocus} onBlur={onBlur} placeholder={t.ct.fm} value={f.msg} onChange={e => sF(x => ({ ...x, msg: e.target.value }))} />
+    {st === "sent" ? <div style={{ padding: ".8rem", background: "rgba(255,195,0,.1)", border: "1px solid " + YELLOW, borderRadius: 0, color: "#b8920a", textAlign: "center", fontSize: ".88rem" }}>{t.ct.st}</div>
+    : <button onClick={go} disabled={st === "sending"} style={{ alignSelf: "flex-start", display: "inline-flex", alignItems: "center", gap: "0.5rem", padding: "0.75rem 1.7rem", background: YELLOW, color: "#111", fontFamily: FB, fontSize: ".72rem", fontWeight: 600, letterSpacing: "2.5px", textTransform: "uppercase", border: "none", cursor: "pointer", borderRadius: 0, opacity: st === "sending" ? 0.6 : 1, transition: "background .2s, color .2s" }}
+      onMouseEnter={e => { if (st !== "sending") { e.currentTarget.style.background = "#111"; e.currentTarget.style.color = "#fff"; } }}
+      onMouseLeave={e => { e.currentTarget.style.background = YELLOW; e.currentTarget.style.color = "#111"; }}>
+      {st === "sending" ? t.ct.sg : t.ct.sn} <span>{"\u2192"}</span></button>}
   </div>;
 }
 

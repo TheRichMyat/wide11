@@ -3,3 +3,6 @@ node_modules/
 .env.local
 .env
 *.log
+.claude/settings.local.json
+Upgrade*.png
+WIDE11_*.md

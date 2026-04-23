@@ -40,17 +40,27 @@ input:focus, textarea:focus, select:focus {
 .dknv { display: flex; }
 .mbt { display: none; }
 
+/* Hero — overlay project card hover */
+.ovcard:hover .ovimg { transform: scale(1.06); }
+.ovcard:hover .ovpill { color: #ffc300; border-color: rgba(255,195,0,.55); }
+.ovcard:hover .ovpill span { color: #ffc300; transform: translateX(4px); }
+.ovpill span { display: inline-block; transition: transform .25s ease; }
+
 @media (max-width: 1024px) {
   .dknv { display: none !important; }
   .mbt { display: block !important; }
+  .svcgr { grid-template-columns: repeat(3, 1fr) !important; row-gap: 2.5rem !important; }
+  .portHeader { flex-direction: column !important; align-items: flex-start !important; }
 }
 
 @media (max-width: 768px) {
   .dknv { display: none !important; }
   .mbt { display: block !important; }
-  .hgr, .fgr, .cgr { grid-template-columns: 1fr !important; }
+  .hgr, .fgr, .cgr, .cfgr { grid-template-columns: 1fr !important; }
   .sgr { grid-template-columns: repeat(2, 1fr) !important; }
+  .sgr .statItem { border-left: none !important; }
   .pgr { grid-template-columns: 1fr !important; }
+  .svcgr { grid-template-columns: repeat(2, 1fr) !important; row-gap: 2.5rem !important; }
   .svcgr > div { width: 100% !important; min-width: 0 !important; }
 
   #home > div:nth-child(2) {
@@ -62,7 +72,6 @@ input:focus, textarea:focus, select:focus {
   }
   #home button {
     margin: 0;
-    margin-bottom: 3rem;
   }
 
   /* Featured projects mobile slider */
@@ -85,4 +94,5 @@ input:focus, textarea:focus, select:focus {
 
 @media (max-width: 480px) {
   .sgr { grid-template-columns: 1fr !important; }
+  .svcgr { grid-template-columns: 1fr !important; }
 }
