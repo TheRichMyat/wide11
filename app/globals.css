@@ -97,6 +97,7 @@ input:focus, textarea:focus, select:focus {
     scroll-snap-align: start;
   }
   .pslnav { display: flex !important; }
+  .adminLink { display: none !important; }
 }
 
 @media (max-width: 480px) {

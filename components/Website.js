@@ -212,7 +212,7 @@ export default function App() {
         </div>
         <div style={{ maxWidth: 1200, margin: "0 auto", paddingTop: "1.3rem", borderTop: "1px solid rgba(255,255,255,.1)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem" }}>
           <p style={{ fontSize: "0.72rem", color: "rgba(255,255,255,.45)", margin: 0 }}>{t.ft.rg}</p>
-          <a onClick={() => go("admin")} style={{ fontSize: "0.65rem", color: "rgba(255,255,255,.35)", textDecoration: "none", cursor: "pointer", letterSpacing: "1.8px", textTransform: "uppercase" }}>Admin</a>
+          <a className="adminLink" onClick={() => go("admin")} style={{ fontSize: "0.65rem", color: "rgba(255,255,255,.35)", textDecoration: "none", cursor: "pointer", letterSpacing: "1.8px", textTransform: "uppercase" }}>Admin</a>
         </div>
       </footer>
     </div>
@@ -824,9 +824,9 @@ function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onPro
   const InfoRow = ({ kind, label, value }) => {
     if (!value) return null;
     return (
-      <div style={{ display: "flex", alignItems: "flex-start", gap: ".85rem", paddingBottom: ".9rem", marginBottom: ".9rem", borderBottom: "1px solid " + softBorder }}>
-        <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind={kind} /></div>
-        <div style={{ flex: 1, display: "flex", justifyContent: "space-between", gap: "1rem", alignItems: "flex-start" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: ".85rem", paddingBottom: ".9rem", marginBottom: ".9rem", borderBottom: "1px solid " + softBorder }}>
+        <div style={{ flexShrink: 0 }}><DIcon kind={kind} /></div>
+        <div style={{ flex: 1, display: "flex", justifyContent: "space-between", gap: "1rem", alignItems: "center" }}>
           <span style={{ fontSize: ".66rem", letterSpacing: "2px", textTransform: "uppercase", color: panelMuted, fontWeight: 600, flexShrink: 0 }}>{label}</span>
           <span style={{ fontSize: ".88rem", color: panelText, textAlign: "right", lineHeight: 1.45 }}>{value}</span>
         </div>
