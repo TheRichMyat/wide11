@@ -261,7 +261,7 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
   const scrollToId = (id) => { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: "smooth" }); };
   return <div>
     {/* HERO */}
-    <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "0 6%", position: "relative", backgroundImage: "url(" + P.hero + ")", backgroundSize: "cover", backgroundPosition: "center" }}>
+    <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "0 6%", position: "relative", backgroundImage: "url(/hero-2026.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
       <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.78) 0%, rgba(0,0,0,.55) 50%, rgba(0,0,0,.22) 100%)" }} />
       <div style={{ position: "relative", zIndex: 1, maxWidth: 760, paddingTop: "4rem" }}>
         <Reveal><div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.1rem" }}>{t.hero.eyebrow}</div></Reveal>
@@ -632,7 +632,7 @@ function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
   return <div style={{ background: cream, minHeight: "100vh" }}>
     {/* HERO BANNER */}
     <section style={{ position: "relative", height: "clamp(260px, 38vw, 380px)", overflow: "hidden" }}>
-      <img src={P.hero} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <img src="/hero-2026.jpg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
       <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.82) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.3) 100%)" }} />
       <div style={{ position: "relative", zIndex: 1, height: "100%", maxWidth: 1200, margin: "0 auto", padding: "5rem 6% 1.5rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <button onClick={onBack} style={{ alignSelf: "flex-start", marginBottom: "1rem", background: "transparent", border: "none", color: "rgba(255,255,255,.8)", fontFamily: FB, fontSize: ".72rem", fontWeight: 500, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", padding: 0 }}
