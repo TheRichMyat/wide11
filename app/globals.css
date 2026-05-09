@@ -100,6 +100,16 @@ input:focus, textarea:focus, select:focus {
   .adminLink { display: none !important; }
 }
 
+/* Clients grid — responsive column count, mobile-first */
+.clientGrid { grid-template-columns: repeat(2, 1fr) !important; }
+@media (min-width: 640px) {
+  .clientGrid { grid-template-columns: repeat(3, 1fr) !important; }
+}
+@media (min-width: 768px) {
+  .clientGrid { grid-template-columns: repeat(4, 1fr) !important; column-gap: 3rem !important; row-gap: 3.5rem !important; }
+  .clientCell { height: 88px !important; }
+}
+
 @media (max-width: 480px) {
   .sgr { grid-template-columns: 1fr !important; }
   .svcgr { grid-template-columns: 1fr !important; }

@@ -367,10 +367,23 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
 
     {/* CLIENTS */}
     <Reveal><section id="clients" style={{ background: c.bg, padding: "4.5rem 6%" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto", textAlign: "center" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
         <h2 style={{ fontFamily: FD, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", fontWeight: 600, marginBottom: ".4rem" }}>{t.cli.title}</h2>
-        <div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 2rem", borderRadius: 2 }} />
-        <Carousel clients={clients} c={c} />
+        <div style={{ width: 45, height: 3, background: YELLOW, margin: ".6rem auto 2.6rem", borderRadius: 2 }} />
+        <div className="clientGrid" style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", columnGap: "2rem", rowGap: "2.5rem", maxWidth: 1100, margin: "0 auto", alignItems: "center", justifyItems: "center" }}>
+          {clients.filter(cl => cl.logo).map(cl => (
+            <div key={cl.id} className="clientCell" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%", height: 64 }}>
+              <img
+                className="client-logo"
+                src={cl.logo}
+                alt={cl.name || ""}
+                loading="lazy"
+                style={{ maxHeight: "100%", maxWidth: "85%", width: "auto", objectFit: "contain", filter: theme === "dark" ? "invert(1) brightness(1.2)" : "none" }}
+                onError={e => { e.target.style.display = "none"; }}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section></Reveal>
 
@@ -699,7 +712,7 @@ function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
                     <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                       <div style={{ fontSize: "0.62rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".75rem" }}>{(p.category || "").toUpperCase()}</div>
                       <h3 style={{ fontFamily: FD, fontSize: "1.15rem", fontWeight: 500, color: cardText, lineHeight: 1.3, margin: "0 0 1.25rem", minHeight: "2.6em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{p.name}</h3>
-                      <div style={{ marginTop: "auto", display: "grid", gridTemplateColumns: "auto 1fr auto auto", gap: "1rem", alignItems: "start", paddingTop: "1rem", borderTop: "1px solid " + cardBorder }}>
+                      <div style={{ marginTop: "auto", display: "grid", gridTemplateColumns: "auto 1fr auto", gap: "1rem", alignItems: "start", paddingTop: "1rem", borderTop: "1px solid " + cardBorder }}>
                         <div>
                           <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.yr}</div>
                           <div style={{ fontSize: ".82rem", color: cardText }}>{p.year || "\u2014"}</div>
@@ -707,10 +720,6 @@ function AllProjects({ t, c, theme, projects, cats, onProj, onBack }) {
                         <div>
                           <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.sc}</div>
                           <div style={{ fontSize: ".82rem", color: cardText, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{p.scope || "\u2014"}</div>
-                        </div>
-                        <div>
-                          <div style={{ fontSize: ".58rem", color: cardMuted, letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: ".25rem", fontWeight: 600 }}>{t.port.cost}</div>
-                          <div style={{ fontSize: ".82rem", color: cardText }}>{p.cost || "\u2014"}</div>
                         </div>
                         <div className="pccardArr" style={{ alignSelf: "center", fontSize: "1.1rem", color: cardText, transition: "color .2s" }}>{"\u2192"}</div>
                       </div>
@@ -874,10 +883,6 @@ function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onPro
           {project.scope && <div>
             <div style={{ fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".35rem" }}>{t.port.sc}</div>
             <div style={{ fontSize: ".9rem", color: "#fff", maxWidth: 260, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{scopeItems[0] || project.scope}</div>
-          </div>}
-          {project.cost && <div>
-            <div style={{ fontSize: ".6rem", letterSpacing: "3px", textTransform: "uppercase", color: YELLOW, fontWeight: 600, marginBottom: ".35rem" }}>{t.port.cost}</div>
-            <div style={{ fontSize: ".9rem", color: "#fff" }}>{project.cost}</div>
           </div>}
         </div>
 
