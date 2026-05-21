@@ -36,7 +36,7 @@ const TX = {
     port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery",bktp:"Back to Projects",ov:"Project Overview",typ:"Project Type",ar:"Area",comp:"Completion",osc:"Our Scope",ba:"Before & After",bf:"Before",af:"After",rel:"Related Projects"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
-    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Confirmation link sent to the new email. Click it to finish the change.",acctPwOk:"Password updated.",acctErr:"Update failed:",acctMismatch:"New passwords don't match.",acctMinLen:"Password must be at least 6 characters."},
+    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctConfEm:"Confirm New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Email updated. Use the new email next time you log in.",acctPwOk:"Password updated. Use the new password next time you log in.",acctErr:"Update failed:",acctMismatch:"Entries don't match.",acctMinLen:"Password must be at least 6 characters.",acctEmWarn:"This change is instant. Double-check the spelling — a typo will lock you out."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
@@ -49,7 +49,7 @@ const TX = {
     port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ",bktp:"กลับไปหน้าผลงาน",ov:"ภาพรวมโครงการ",typ:"ประเภทโครงการ",ar:"พื้นที่",comp:"ปีที่แล้วเสร็จ",osc:"ขอบเขตงานของเรา",ba:"ก่อน & หลัง",bf:"ก่อน",af:"หลัง",rel:"โครงการที่เกี่ยวข้อง"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
-    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"ส่งลิงก์ยืนยันไปยังอีเมลใหม่แล้ว กดลิงก์เพื่อเสร็จสิ้นการเปลี่ยนแปลง",acctPwOk:"อัปเดตรหัสผ่านแล้ว",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"รหัสผ่านใหม่ไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร"},
+    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctConfEm:"ยืนยันอีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"อัปเดตอีเมลแล้ว ใช้อีเมลใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctPwOk:"อัปเดตรหัสผ่านแล้ว ใช้รหัสผ่านใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"ข้อมูลไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",acctEmWarn:"การเปลี่ยนแปลงนี้มีผลทันที ตรวจสอบการสะกดอีกครั้ง พิมพ์ผิดจะทำให้คุณเข้าระบบไม่ได้"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
 };
@@ -66,7 +66,6 @@ const DEM_C = [{id:"1",name:"Park Hyatt Bangkok",logo:P.pk},{id:"2",name:"Rosewo
 const DEF_CATS = ["Hotel Projects","Office Projects","Fitness Center Extension Projects"];
 
 import { api } from '@/lib/api-client';
-import { createClient as createSbClient } from '@/lib/supabase-browser';
 
 function f2b(file){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(file)})}
 // Intersection observer hook for scroll animations
@@ -1327,6 +1326,7 @@ function ChatWidget() {
 function AccountPanel({ t, c, theme, iS, lS, bS }) {
   const [curEmail, setCurEmail] = useState("");
   const [newEmail, setNewEmail] = useState("");
+  const [confEmail, setConfEmail] = useState("");
   const [emMsg, setEmMsg] = useState(null);
   const [emErr, setEmErr] = useState(null);
   const [emBusy, setEmBusy] = useState(false);
@@ -1337,24 +1337,12 @@ function AccountPanel({ t, c, theme, iS, lS, bS }) {
   const [pwErr, setPwErr] = useState(null);
   const [pwBusy, setPwBusy] = useState(false);
 
-  const getSbWithSession = async () => {
-    const sb = createSbClient();
-    try {
-      const stored = JSON.parse(localStorage.getItem('we_session') || 'null');
-      if (stored?.access_token && stored?.refresh_token) {
-        await sb.auth.setSession({ access_token: stored.access_token, refresh_token: stored.refresh_token });
-      }
-    } catch {}
-    return sb;
-  };
-
   useEffect(() => {
     let active = true;
     (async () => {
       try {
-        const sb = await getSbWithSession();
-        const { data } = await sb.auth.getUser();
-        if (active && data?.user?.email) setCurEmail(data.user.email);
+        const u = await api.getAccount();
+        if (active && u?.email) setCurEmail(u.email);
       } catch {}
     })();
     return () => { active = false; };
@@ -1363,13 +1351,13 @@ function AccountPanel({ t, c, theme, iS, lS, bS }) {
   const submitEmail = async () => {
     setEmMsg(null); setEmErr(null);
     if (!newEmail || newEmail === curEmail) return;
+    if (newEmail !== confEmail) { setEmErr(t.ad.acctMismatch); return; }
     setEmBusy(true);
     try {
-      const sb = await getSbWithSession();
-      const { error } = await sb.auth.updateUser({ email: newEmail });
-      if (error) throw error;
+      const r = await api.updateAccount({ email: newEmail });
       setEmMsg(t.ad.acctEmOk);
-      setNewEmail("");
+      if (r?.email) setCurEmail(r.email);
+      setNewEmail(""); setConfEmail("");
     } catch (e) {
       setEmErr(t.ad.acctErr + " " + (e.message || ""));
     } finally {
@@ -1383,9 +1371,7 @@ function AccountPanel({ t, c, theme, iS, lS, bS }) {
     if (newPw !== confPw) { setPwErr(t.ad.acctMismatch); return; }
     setPwBusy(true);
     try {
-      const sb = await getSbWithSession();
-      const { error } = await sb.auth.updateUser({ password: newPw });
-      if (error) throw error;
+      await api.updateAccount({ password: newPw });
       setPwMsg(t.ad.acctPwOk);
       setNewPw(""); setConfPw("");
     } catch (e) {
@@ -1402,9 +1388,11 @@ function AccountPanel({ t, c, theme, iS, lS, bS }) {
     <div>
       <div style={cardStyle}>
         <div style={sectionTitle}>{t.ad.acctUpE}</div>
-        <div style={{ fontSize: ".78rem", color: c.text3, marginBottom: "1rem" }}>{t.ad.acctCur}: <span style={{ color: c.text }}>{curEmail || "—"}</span></div>
+        <div style={{ fontSize: ".78rem", color: c.text3, marginBottom: ".6rem" }}>{t.ad.acctCur}: <span style={{ color: c.text }}>{curEmail || "—"}</span></div>
+        <div style={{ fontSize: ".74rem", color: "#c44", marginBottom: "1rem", lineHeight: 1.45 }}>{t.ad.acctEmWarn}</div>
         <div style={{ display: "flex", flexDirection: "column", gap: ".7rem" }}>
-          <div><label style={lS}>{t.ad.acctNew}</label><input type="email" style={iS} value={newEmail} onChange={e => setNewEmail(e.target.value)} placeholder="admin@wide-11.com" /></div>
+          <div><label style={lS}>{t.ad.acctNew}</label><input type="email" style={iS} value={newEmail} onChange={e => setNewEmail(e.target.value)} placeholder="admin@wide-11.com" autoComplete="off" /></div>
+          <div><label style={lS}>{t.ad.acctConfEm}</label><input type="email" style={iS} value={confEmail} onChange={e => setConfEmail(e.target.value)} autoComplete="off" /></div>
           {emMsg && <div style={{ fontSize: ".78rem", color: "#2a7", lineHeight: 1.45 }}>{emMsg}</div>}
           {emErr && <div style={{ fontSize: ".78rem", color: "#c44", lineHeight: 1.45 }}>{emErr}</div>}
           <button style={{ ...bS(true, false), opacity: emBusy ? 0.6 : 1, alignSelf: "flex-start" }} disabled={emBusy} onClick={submitEmail}>{emBusy ? "..." : t.ad.acctUpE}</button>
