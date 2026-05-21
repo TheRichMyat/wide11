@@ -21,7 +21,7 @@ export async function POST(request) {
 
     const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
-      to: process.env.CONTACT_TO_EMAIL || 'wide11bangkok@gmail.com',
+      to: process.env.CONTACT_TO_EMAIL || 'admin@wide-11.com',
       subject: `New Inquiry from ${name} — Wide-Eleven Website`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

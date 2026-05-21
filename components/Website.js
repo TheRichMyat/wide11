@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 
 const P = {
   hero: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  about: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800",
+  about: "/our-story-2026.jpg",
   stats: "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1200",
   h1: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
   h2: "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -36,7 +36,7 @@ const TX = {
     port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery",bktp:"Back to Projects",ov:"Project Overview",typ:"Project Type",ar:"Area",comp:"Completion",osc:"Our Scope",ba:"Before & After",bf:"Before",af:"After",rel:"Related Projects"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
-    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet."},
+    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Confirmation link sent to the new email. Click it to finish the change.",acctPwOk:"Password updated.",acctErr:"Update failed:",acctMismatch:"New passwords don't match.",acctMinLen:"Password must be at least 6 characters."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
@@ -49,7 +49,7 @@ const TX = {
     port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ",bktp:"กลับไปหน้าผลงาน",ov:"ภาพรวมโครงการ",typ:"ประเภทโครงการ",ar:"พื้นที่",comp:"ปีที่แล้วเสร็จ",osc:"ขอบเขตงานของเรา",ba:"ก่อน & หลัง",bf:"ก่อน",af:"หลัง",rel:"โครงการที่เกี่ยวข้อง"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
-    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน"},
+    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"ส่งลิงก์ยืนยันไปยังอีเมลใหม่แล้ว กดลิงก์เพื่อเสร็จสิ้นการเปลี่ยนแปลง",acctPwOk:"อัปเดตรหัสผ่านแล้ว",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"รหัสผ่านใหม่ไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
 };
@@ -66,6 +66,7 @@ const DEM_C = [{id:"1",name:"Park Hyatt Bangkok",logo:P.pk},{id:"2",name:"Rosewo
 const DEF_CATS = ["Hotel Projects","Office Projects","Fitness Center Extension Projects"];
 
 import { api } from '@/lib/api-client';
+import { createClient as createSbClient } from '@/lib/supabase-browser';
 
 function f2b(file){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(file)})}
 // Intersection observer hook for scroll animations
@@ -205,7 +206,7 @@ export default function App() {
             <h4 style={{ fontSize: "0.66rem", letterSpacing: "2.8px", color: YELLOW, textTransform: "uppercase", marginBottom: "1.1rem", fontWeight: 600 }}>{t.ft.co}</h4>
             <div style={{ fontSize: "0.83rem", color: "rgba(255,255,255,.68)", lineHeight: 1.9 }}>
               <div>Tel: 02-409-2308</div>
-              <div>wide11bangkok@gmail.com</div>
+              <div>admin@wide-11.com</div>
               <div>8/110 Soi Thian Talay 7,<br />Bang Khun Thian, Bangkok 10150</div>
             </div>
           </div>
@@ -309,7 +310,7 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
         <Reveal>
           <div className="portHeader" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: "1.5rem", marginBottom: "3rem", flexWrap: "wrap" }}>
             <div>
-              <div style={{ fontSize: "0.7rem", color: YELLOW, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.port.eyebrow}</div>
+              <div style={{ fontSize: "0.7rem", color: c.text3, letterSpacing: "3px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.port.eyebrow}</div>
               <h2 style={{ fontFamily: FD, fontSize: "clamp(1.9rem, 3.2vw, 2.8rem)", fontWeight: 500, color: c.text, lineHeight: 1.15, margin: 0 }}>{t.port.title}</h2>
             </div>
             <a onClick={onAll} style={{ fontSize: "0.72rem", color: c.text, letterSpacing: "2.5px", textTransform: "uppercase", fontWeight: 600, cursor: "pointer", textDecoration: "none", transition: "color .2s", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
@@ -343,7 +344,7 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
     <section id="services" style={{ background: c.bg, padding: "5.5rem 6%" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
         <Reveal>
-          <div style={{ fontSize: "0.7rem", color: YELLOW, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.svc.title}</div>
+          <div style={{ fontSize: "0.7rem", color: c.text3, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.svc.title}</div>
           <h2 style={{ fontFamily: FD, fontSize: "clamp(1.9rem, 3.2vw, 2.8rem)", fontWeight: 500, marginBottom: ".9rem", color: c.text, lineHeight: 1.2 }}>{t.svc.heading}</h2>
           <div style={{ width: 64, height: 2, background: YELLOW, margin: "0 auto 3.5rem" }} />
         </Reveal>
@@ -393,14 +394,14 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1.15fr", gap: "3.5rem", alignItems: "start" }} className="cgr">
           <Reveal>
             <div>
-              <div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.75rem" }}>{t.ct.eyebrow}</div>
+              <div style={{ fontSize: "0.72rem", color: c.text3, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.75rem" }}>{t.ct.eyebrow}</div>
               <h2 style={{ fontFamily: FD, fontSize: "clamp(1.7rem, 2.8vw, 2.3rem)", fontWeight: 500, color: c.text, lineHeight: 1.2, marginBottom: "0.85rem" }}>{t.ct.heading}</h2>
               <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "1.25rem" }} />
               <p style={{ fontSize: "0.92rem", color: c.text2, lineHeight: 1.65, marginBottom: "1.75rem", maxWidth: 440 }}>{t.ct.sub}</p>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
                 {[
                   { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.72 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0122 16.92z"/></svg>), val: "02-409-2308", align: "center" },
-                  { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>), val: "wide11bangkok@gmail.com", align: "center" },
+                  { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>), val: "admin@wide-11.com", align: "center" },
                   { icon: (<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={YELLOW} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>), val: "8/110 Soi Thian Talay 7,\nBang Khun Thian, Bangkok 10150", align: "flex-start" },
                 ].map((row, idx) => (
                   <div key={idx} style={{ display: "flex", gap: "0.7rem", alignItems: row.align }}>
@@ -1147,7 +1148,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       </div>
     </div>
     <div style={{ display: "flex", gap: 0, marginBottom: "1.5rem", flexWrap: "wrap" }}>
-      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca], ["careers", t.ad.jb]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
+      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca], ["careers", t.ad.jb], ["account", t.ad.acct]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
     </div>
 
     {tab === "categories" && <div>
@@ -1158,7 +1159,9 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>{cats.map(cat => { const catObj = catObjs.find(co => co.name === cat); return <div key={cat} style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", padding: ".4rem .8rem", border: "1px solid " + c.border, borderRadius: 4, fontSize: ".8rem", color: c.text }}>{cat}<button onClick={async () => { if (catObj) { try { await api.deleteCategory(catObj.id); } catch {} } setCats(cats.filter(x => x !== cat)); }} style={{ background: "none", border: "none", color: "#c44", cursor: "pointer", fontSize: ".9rem", lineHeight: 1 }}>{"\u00D7"}</button></div>; })}</div>
     </div>}
 
-    {tab !== "categories" && tab !== "careers" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
+    {tab === "account" && <AccountPanel t={t} c={c} theme={theme} iS={iS} lS={lS} bS={bS} />}
+
+    {tab !== "categories" && tab !== "careers" && tab !== "account" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
       {tab === "projects" ? <div style={{ display: "flex", flexDirection: "column", gap: ".8rem" }}>
         <div><label style={lS}>{t.ad.pn}</label><input style={iS} value={fd.name || ""} onChange={e => setFd(f => ({ ...f, name: e.target.value }))} /></div>
         <div><label style={lS}>{t.ad.pc}</label><select style={iS} value={fd.category || ""} onChange={e => setFd(f => ({ ...f, category: e.target.value }))}>{cats.map(o => <option key={o} value={o}>{o}</option>)}</select></div>
@@ -1235,7 +1238,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       <div style={{ display: "flex", gap: ".5rem", marginTop: ".5rem" }}><button style={bS(true, false)} onClick={save}>{t.ad.sv}</button><button style={bS(false, false)} onClick={() => setEditing(null)}>{t.ad.cn}</button></div>
     </div>}
 
-    {tab !== "categories" && tab !== "careers" && !editing && <div>
+    {tab !== "categories" && tab !== "careers" && tab !== "account" && !editing && <div>
       <div style={{ marginBottom: "1.2rem" }}><button style={bS(true, false)} onClick={startNew}>{t.ad.an}</button></div>
       {(tab === "projects" ? projects : clients).length === 0 ? <div style={{ textAlign: "center", padding: "2rem", color: c.text3, border: "1px dashed " + c.border, borderRadius: 8 }}>{tab === "projects" ? t.ad.np : t.ad.nc}</div>
       : <div style={{ overflowX: "auto" }}><table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -1260,7 +1263,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       </div>
       <div><label style={lS}>{t.ad.jds}</label><textarea style={{ ...iS, minHeight: 100, resize: "vertical" }} value={fd.description || ""} onChange={e => setFd(f => ({ ...f, description: e.target.value }))} /></div>
       <div><label style={lS}>{t.ad.jrq}</label><textarea style={{ ...iS, minHeight: 120, resize: "vertical" }} placeholder={"- Bachelor's degree in relevant field\n- 3+ years experience\n- Strong communication skills"} value={fd.requirements || ""} onChange={e => setFd(f => ({ ...f, requirements: e.target.value }))} /></div>
-      <div><label style={lS}>{t.ad.jem}</label><input type="email" style={iS} placeholder="wide11bangkok@gmail.com" value={fd.apply_email || ""} onChange={e => setFd(f => ({ ...f, apply_email: e.target.value }))} /></div>
+      <div><label style={lS}>{t.ad.jem}</label><input type="email" style={iS} placeholder="admin@wide-11.com" value={fd.apply_email || ""} onChange={e => setFd(f => ({ ...f, apply_email: e.target.value }))} /></div>
       <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
         <label style={lS}>{t.ad.iac}</label>
         <button onClick={() => setFd(f => ({ ...f, is_active: !f.is_active }))} style={{ padding: ".3rem .9rem", fontSize: ".7rem", borderRadius: 20, border: "1px solid " + (fd.is_active ? "#4caf50" : c.border), background: fd.is_active ? "#4caf50" : "none", color: fd.is_active ? "#fff" : c.text2, cursor: "pointer", fontFamily: FB, fontWeight: 600, letterSpacing: ".5px" }}>{fd.is_active ? t.ad.iac : t.ad.jin}</button>
@@ -1317,6 +1320,108 @@ function ChatWidget() {
           ? <svg width="20" height="20" viewBox="0 0 24 24" fill="#111"><path d="M18 6L6 18M6 6l12 12" stroke="#111" strokeWidth="2.5" strokeLinecap="round"/></svg>
           : <svg width="22" height="22" viewBox="0 0 24 24" fill="#111"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>}
       </button>
+    </div>
+  );
+}
+
+function AccountPanel({ t, c, theme, iS, lS, bS }) {
+  const [curEmail, setCurEmail] = useState("");
+  const [newEmail, setNewEmail] = useState("");
+  const [emMsg, setEmMsg] = useState(null);
+  const [emErr, setEmErr] = useState(null);
+  const [emBusy, setEmBusy] = useState(false);
+
+  const [newPw, setNewPw] = useState("");
+  const [confPw, setConfPw] = useState("");
+  const [pwMsg, setPwMsg] = useState(null);
+  const [pwErr, setPwErr] = useState(null);
+  const [pwBusy, setPwBusy] = useState(false);
+
+  const getSbWithSession = async () => {
+    const sb = createSbClient();
+    try {
+      const stored = JSON.parse(localStorage.getItem('we_session') || 'null');
+      if (stored?.access_token && stored?.refresh_token) {
+        await sb.auth.setSession({ access_token: stored.access_token, refresh_token: stored.refresh_token });
+      }
+    } catch {}
+    return sb;
+  };
+
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      try {
+        const sb = await getSbWithSession();
+        const { data } = await sb.auth.getUser();
+        if (active && data?.user?.email) setCurEmail(data.user.email);
+      } catch {}
+    })();
+    return () => { active = false; };
+  }, []);
+
+  const submitEmail = async () => {
+    setEmMsg(null); setEmErr(null);
+    if (!newEmail || newEmail === curEmail) return;
+    setEmBusy(true);
+    try {
+      const sb = await getSbWithSession();
+      const { error } = await sb.auth.updateUser({ email: newEmail });
+      if (error) throw error;
+      setEmMsg(t.ad.acctEmOk);
+      setNewEmail("");
+    } catch (e) {
+      setEmErr(t.ad.acctErr + " " + (e.message || ""));
+    } finally {
+      setEmBusy(false);
+    }
+  };
+
+  const submitPw = async () => {
+    setPwMsg(null); setPwErr(null);
+    if (newPw.length < 6) { setPwErr(t.ad.acctMinLen); return; }
+    if (newPw !== confPw) { setPwErr(t.ad.acctMismatch); return; }
+    setPwBusy(true);
+    try {
+      const sb = await getSbWithSession();
+      const { error } = await sb.auth.updateUser({ password: newPw });
+      if (error) throw error;
+      setPwMsg(t.ad.acctPwOk);
+      setNewPw(""); setConfPw("");
+    } catch (e) {
+      setPwErr(t.ad.acctErr + " " + (e.message || ""));
+    } finally {
+      setPwBusy(false);
+    }
+  };
+
+  const cardStyle = { background: theme === "dark" ? c.bg2 : "#fff", border: "1px solid " + c.border, borderRadius: 6, padding: "1.4rem 1.5rem", marginBottom: "1.5rem", maxWidth: 520 };
+  const sectionTitle = { fontFamily: FD, fontSize: "1.05rem", fontWeight: 600, color: c.text, marginBottom: ".25rem" };
+
+  return (
+    <div>
+      <div style={cardStyle}>
+        <div style={sectionTitle}>{t.ad.acctUpE}</div>
+        <div style={{ fontSize: ".78rem", color: c.text3, marginBottom: "1rem" }}>{t.ad.acctCur}: <span style={{ color: c.text }}>{curEmail || "—"}</span></div>
+        <div style={{ display: "flex", flexDirection: "column", gap: ".7rem" }}>
+          <div><label style={lS}>{t.ad.acctNew}</label><input type="email" style={iS} value={newEmail} onChange={e => setNewEmail(e.target.value)} placeholder="admin@wide-11.com" /></div>
+          {emMsg && <div style={{ fontSize: ".78rem", color: "#2a7", lineHeight: 1.45 }}>{emMsg}</div>}
+          {emErr && <div style={{ fontSize: ".78rem", color: "#c44", lineHeight: 1.45 }}>{emErr}</div>}
+          <button style={{ ...bS(true, false), opacity: emBusy ? 0.6 : 1, alignSelf: "flex-start" }} disabled={emBusy} onClick={submitEmail}>{emBusy ? "..." : t.ad.acctUpE}</button>
+        </div>
+      </div>
+
+      <div style={cardStyle}>
+        <div style={sectionTitle}>{t.ad.acctUpPw}</div>
+        <div style={{ fontSize: ".78rem", color: c.text3, marginBottom: "1rem" }}>{t.ad.acctMinLen}</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: ".7rem" }}>
+          <div><label style={lS}>{t.ad.acctNewPw}</label><input type="password" style={iS} value={newPw} onChange={e => setNewPw(e.target.value)} autoComplete="new-password" /></div>
+          <div><label style={lS}>{t.ad.acctConfPw}</label><input type="password" style={iS} value={confPw} onChange={e => setConfPw(e.target.value)} autoComplete="new-password" /></div>
+          {pwMsg && <div style={{ fontSize: ".78rem", color: "#2a7", lineHeight: 1.45 }}>{pwMsg}</div>}
+          {pwErr && <div style={{ fontSize: ".78rem", color: "#c44", lineHeight: 1.45 }}>{pwErr}</div>}
+          <button style={{ ...bS(true, false), opacity: pwBusy ? 0.6 : 1, alignSelf: "flex-start" }} disabled={pwBusy} onClick={submitPw}>{pwBusy ? "..." : t.ad.acctUpPw}</button>
+        </div>
+      </div>
     </div>
   );
 }
@@ -1405,7 +1510,7 @@ function JobDetail({ t, c, theme, job, onBack }) {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => { setIsMobile(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)); }, []);
 
-  const applyEmail = job.apply_email || "wide11bangkok@gmail.com";
+  const applyEmail = job.apply_email || "admin@wide-11.com";
   const subject = encodeURIComponent("Application for " + job.title);
   const body = encodeURIComponent(
     "Hi Wide-Eleven Team,\n\nI am interested in applying for the " + job.title + " position.\n\nPlease find my details below:\n\nName: \nPhone: \nEmail: \nYears of Experience: \n\nI look forward to hearing from you.\n\nBest regards,"
