@@ -27,7 +27,7 @@ function useC(theme) {
 
 const TX = {
   en: {
-    nav:{home:"Home",about:"About",services:"Services",careers:"Careers",portfolio:"Portfolio",contact:"Contact"},
+    nav:{home:"Home",about:"About",services:"Services",careers:"Careers",portfolio:"Portfolio",news:"News",contact:"Contact"},
     hero:{eyebrow:"Premium Interior Design & Construction",l1:"Crafting Exceptional Spaces.",l2:"Built on Trust.",sub:"We transform ordinary spaces into extraordinary environments with bespoke design solutions and expert craftsmanship.",cta:"Start Your Project",cta2:"View Our Work"},
     stats:{a:"12+",al:"Years Experience",b:"400+",bl:"Projects Completed",c:"80\u201390",cl:"Team Members",d:"100%",dl:"Client Commitment"},
     about:{title:"Our Story",p1:"WIDE-ELEVEN CO., LTD. has been established since February of 2014, prioritizing in the industry of interior design & construction. We are committed to provide the best interior construction services to our clients by transforming their dreaming design of space into reality, within the budget and time frame as allowed.",p2:"Over the past 12 years, we have expanded gradually, and have been working on more than 400 projects to date, with an accumulative number of clients coming from the appraisal for our credibility, speed and quality of work.",ms:"Our Mission",mt:"To transform every client's vision into reality through exceptional craftsmanship, innovative design solutions, and unwavering commitment to quality \u2014 on time, within budget, and beyond expectations.",bg:"Years of Excellence"},
@@ -35,12 +35,13 @@ const TX = {
     svc:{title:"Our Expertise",heading:"End-to-End Solutions, Tailored for You",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",s:"Design & Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",s:"Interior Fit-Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",s:"Refurbishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",s:"MEP Works",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",s:"Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
     port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery",bktp:"Back to Projects",ov:"Project Overview",typ:"Project Type",ar:"Area",comp:"Completion",osc:"Our Scope",ba:"Before & After",bf:"Before",af:"After",rel:"Related Projects"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
+    news:{eyebrow:"Latest News",title:"Stories & Updates",readMore:"Read More",close:"Close"},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
     ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctConfEm:"Confirm New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Email updated. Use the new email next time you log in.",acctPwOk:"Password updated. Use the new password next time you log in.",acctErr:"Update failed:",acctMismatch:"Entries don't match.",acctMinLen:"Password must be at least 6 characters.",acctEmWarn:"This change is instant. Double-check the spelling — a typo will lock you out."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
-    nav:{home:"หน้าแรก",about:"เกี่ยวกับเรา",services:"บริการ",careers:"ร่วมงานกับเรา",portfolio:"ผลงาน",contact:"ติดต่อ"},
+    nav:{home:"หน้าแรก",about:"เกี่ยวกับเรา",services:"บริการ",careers:"ร่วมงานกับเรา",portfolio:"ผลงาน",news:"ข่าวสาร",contact:"ติดต่อ"},
     hero:{eyebrow:"งานออกแบบและก่อสร้างตกแต่งภายในระดับพรีเมียม",l1:"รังสรรค์พื้นที่อันเป็นเอกลักษณ์.",l2:"บนรากฐานแห่งความไว้วางใจ.",sub:"เราเปลี่ยนพื้นที่ธรรมดาให้กลายเป็นสิ่งพิเศษ ด้วยโซลูชันการออกแบบเฉพาะตัวและงานฝีมือจากผู้เชี่ยวชาญ",cta:"เริ่มโปรเจกต์ของคุณ",cta2:"ดูผลงานของเรา"},
     stats:{a:"12+",al:"ปีประสบการณ์",b:"400+",bl:"โครงการที่สำเร็จ",c:"80\u201390",cl:"สมาชิกทีมงาน",d:"100%",dl:"ความมุ่งมั่นต่อลูกค้า"},
     about:{title:"เรื่องราวของเรา",p1:"บริษัท ไวด์-อีเลฟเว่น จำกัด ก่อตั้งขึ้นเมื่อเดือนกุมภาพันธ์ พ.ศ. 2557 โดยมุ่งเน้นในอุตสาหกรรมออกแบบและก่อสร้างตกแต่งภายใน เรามุ่งมั่นมอบบริการก่อสร้างตกแต่งภายในที่ดีที่สุดให้กับลูกค้า โดยเปลี่ยนการออกแบบพื้นที่ในฝันให้กลายเป็นความจริง ภายใต้งบประมาณและกรอบเวลาที่กำหนด",p2:"ตลอดระยะเวลากว่า 12 ปีที่ผ่านมา เราเติบโตอย่างต่อเนื่อง และได้ดำเนินงานมากกว่า 400 โครงการจนถึงปัจจุบัน ด้วยจำนวนลูกค้าที่เพิ่มขึ้นจากการยอมรับในความน่าเชื่อถือ ความรวดเร็ว และคุณภาพของงาน",ms:"พันธกิจของเรา",mt:"เปลี่ยนวิสัยทัศน์ของลูกค้าทุกรายให้เป็นจริง ด้วยฝีมือช่างชั้นยอด โซลูชันการออกแบบที่สร้างสรรค์ และความมุ่งมั่นในคุณภาพอย่างไม่ลดละ \u2014 ตรงเวลา ตามงบประมาณ และเหนือความคาดหมาย",bg:"ปีแห่งความเป็นเลิศ"},
@@ -48,6 +49,7 @@ const TX = {
     svc:{title:"ความเชี่ยวชาญของเรา",heading:"โซลูชันครบวงจร ปรับให้เหมาะกับคุณ",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",s:"ออกแบบและวางแผน",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",s:"ตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",s:"งานปรับปรุง",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",s:"งานระบบ MEP",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",s:"ประเมินงบประมาณ",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
     port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ",bktp:"กลับไปหน้าผลงาน",ov:"ภาพรวมโครงการ",typ:"ประเภทโครงการ",ar:"พื้นที่",comp:"ปีที่แล้วเสร็จ",osc:"ขอบเขตงานของเรา",ba:"ก่อน & หลัง",bf:"ก่อน",af:"หลัง",rel:"โครงการที่เกี่ยวข้อง"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
+    news:{eyebrow:"ข่าวสารล่าสุด",title:"เรื่องราวและอัปเดต",readMore:"อ่านเพิ่มเติม",close:"ปิด"},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
     ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctConfEm:"ยืนยันอีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"อัปเดตอีเมลแล้ว ใช้อีเมลใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctPwOk:"อัปเดตรหัสผ่านแล้ว ใช้รหัสผ่านใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"ข้อมูลไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",acctEmWarn:"การเปลี่ยนแปลงนี้มีผลทันที ตรวจสอบการสะกดอีกครั้ง พิมพ์ผิดจะทำให้คุณเข้าระบบไม่ได้"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
@@ -162,6 +164,7 @@ export default function App() {
           {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav[id]}</a>)}
           <a onClick={() => go("careers")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.careers}</a>
           <a onClick={() => go("portfolio")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.portfolio}</a>
+          <a onClick={() => scrollTo("news")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.news}</a>
           <a onClick={() => scrollTo("contact")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.contact}</a>
         </div>
         <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
@@ -176,6 +179,7 @@ export default function App() {
         {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav[id]}</a>)}
         <a onClick={() => go("careers")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.careers}</a>
         <a onClick={() => go("portfolio")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.portfolio}</a>
+        <a onClick={() => scrollTo("news")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.news}</a>
         <a onClick={() => scrollTo("contact")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.contact}</a>
       </div>}
 
@@ -257,8 +261,57 @@ function ServiceIcon({ idx, color }) {
   );
 }
 
+// TODO: Add TH translations + admin CMS when real news system is implemented.
+const NEWS_ITEMS = [
+  {
+    id: "news-1",
+    category: "PROJECT COMPLETED",
+    date: "March 15, 2026",
+    title: "Wide-Eleven Completes Premium Suite Renovation at Park Hyatt Bangkok",
+    excerpt: "Our team has successfully delivered a full interior fit-out for the Presidential Suite, combining contemporary luxury with timeless craftsmanship across 380 square meters of refined living space.",
+    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
+    body: "After eight months of meticulous craftsmanship, Wide-Eleven has completed the comprehensive renovation of the Presidential Suite at Park Hyatt Bangkok, a landmark project that reaffirms our commitment to luxury hospitality interiors.\n\nThe 380-square-meter suite features bespoke joinery in walnut and brass, custom-designed lighting that adapts to time of day, and floor-to-ceiling glazing that frames panoramic city views. Every surface, from the imported Italian marble bathroom to the hand-stitched leather headboards, was selected to embody Park Hyatt's standard of understated elegance.\n\nOur team coordinated closely with the hotel's design consultants and operations team to ensure zero disruption to neighboring guest experiences during the renovation. The result is a suite that quietly raises the standard for luxury accommodation in Bangkok.\n\nWe extend our gratitude to the Park Hyatt Bangkok team for their continued trust, and to our craftspeople whose patience and precision made this project possible.",
+  },
+  {
+    id: "news-2",
+    category: "AWARDS & RECOGNITION",
+    date: "February 28, 2026",
+    title: "Wide-Eleven Featured in Thailand Tatler Homes 2026 Annual Edition",
+    excerpt: "Our residential project in Sukhumvit has been selected as a featured case study in this year's Thailand Tatler Homes magazine, recognized for outstanding craftsmanship and design integration.",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80",
+    body: "We are honored to share that one of our recently completed residential projects has been featured in the 2026 annual edition of Thailand Tatler Homes magazine, alongside the country's most distinguished interior design work.\n\nThe featured project — a private residence on Sukhumvit Soi 39 — was selected for its careful balance of modern Thai design sensibilities with international luxury standards. The eight-page editorial spread highlights our team's work on custom millwork, the integration of locally sourced materials, and a lighting design that the editors described as \"quietly sculptural.\"\n\nBeing recognized by Thailand Tatler is a meaningful milestone for our team. Over the past twelve years, Wide-Eleven has focused on delivering work that speaks for itself rather than chasing recognition, which makes moments like these all the more rewarding.\n\nWe thank the homeowner for their trust throughout the project, and the Tatler editorial team for their thoughtful coverage of our work.",
+  },
+  {
+    id: "news-3",
+    category: "COMPANY MILESTONE",
+    date: "February 10, 2026",
+    title: "Celebrating 12 Years of Wide-Eleven — Reflecting on Our Journey",
+    excerpt: "From a small team of three in 2014 to over 80 specialists today, we look back at the projects, partnerships, and people who have shaped Wide-Eleven into the firm we are today.",
+    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80",
+    body: "Twelve years ago, Wide-Eleven was founded with a simple belief: that great interior design should transform not just spaces, but the way people experience them. Today, as we mark our twelfth anniversary, we reflect on a journey that has taken us from a small workshop in Bang Khun Thian to over 400 completed projects across Thailand and Southeast Asia.\n\nWhat started as a team of three has grown into a firm of more than eighty specialists — designers, project managers, craftsmen, MEP engineers, and support staff — all united by a commitment to quality and craft. Our portfolio spans hotels, residences, offices, and commercial spaces, but the through-line has always been the same: bespoke solutions, executed with care.\n\nWe owe this longevity to the clients who placed their trust in us, the partners who collaborated with us, and the team members who have given their best work to every project. Some of our earliest clients are still with us today, which we consider the truest measure of success.\n\nAs we look ahead, we are committed to building on this foundation — investing in our people, refining our craft, and continuing to deliver work that we are genuinely proud of. Thank you to everyone who has been part of this journey.",
+  },
+  {
+    id: "news-4",
+    category: "INDUSTRY INSIGHTS",
+    date: "January 22, 2026",
+    title: "The Quiet Return of Craft: Why Hospitality Design is Slowing Down",
+    excerpt: "A reflection on a shift we've observed across our hotel and resort projects — clients increasingly value handcrafted detail over trend-driven aesthetics, and what this means for the industry.",
+    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80",
+    body: "Over the past two years, we have noticed a meaningful shift in how our hospitality clients are approaching interior design. Where once the brief might have called for the latest trend — bold geometric patterns, oversized statement lighting, Instagram-ready moments — the conversation has quietly changed.\n\nToday, the most thoughtful clients are asking for something different: spaces that age gracefully, materials that improve with use, and details that reveal themselves slowly. Handcrafted joinery, natural fibers, locally fired ceramics, and patinated metals are appearing in briefs that, five years ago, would have specified high-gloss finishes and synthetic alternatives.\n\nWe believe this shift reflects a broader recalibration in the luxury hospitality industry. Guests are no longer impressed by spectacle alone; they want spaces that feel grounded, considered, and authentic to their location. The most successful hotels and resorts we have worked with recently are those that have leaned into this trend — embracing imperfection, celebrating local craft, and resisting the temptation to chase what is currently fashionable.\n\nFor our team, this is welcome news. We have always believed that craft is at the heart of meaningful design. It is encouraging to see the industry rediscover what we never stopped valuing.",
+  },
+];
+
 function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
   const scrollToId = (id) => { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: "smooth" }); };
+  const [activeNews, setActiveNews] = useState(null);
+  useEffect(() => {
+    if (!activeNews) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e) => { if (e.key === "Escape") setActiveNews(null); };
+    window.addEventListener("keydown", onKey);
+    return () => { document.body.style.overflow = prev; window.removeEventListener("keydown", onKey); };
+  }, [activeNews]);
   return <div>
     {/* HERO */}
     <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "0 6%", position: "relative", backgroundImage: "url(/hero-2026.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
@@ -386,6 +439,69 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
         </div>
       </div>
     </section></Reveal>
+
+    {/* LATEST NEWS */}
+    <Reveal><section id="news" style={{ background: c.bg, padding: "5rem 6%" }}>
+      <div style={{ maxWidth: 1250, margin: "0 auto" }}>
+        <div style={{ textAlign: "center", marginBottom: "3rem" }}>
+          <div style={{ fontSize: "0.7rem", color: c.text3, letterSpacing: "3.5px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.8rem" }}>{t.news.eyebrow}</div>
+          <h2 style={{ fontFamily: FD, fontSize: "clamp(1.9rem, 3.2vw, 2.8rem)", fontWeight: 500, marginBottom: ".9rem", color: c.text, lineHeight: 1.2 }}>{t.news.title}</h2>
+          <div style={{ width: 48, height: 2, background: YELLOW, margin: "0 auto" }} />
+        </div>
+        <div className="newsGrid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "2rem" }}>
+          {NEWS_ITEMS.map(item => {
+            const cardBg = theme === "dark" ? "#161616" : "#fff";
+            const cardText = theme === "dark" ? "#fff" : "#111";
+            const cardMuted = theme === "dark" ? "rgba(255,255,255,.55)" : "rgba(0,0,0,.55)";
+            const cardBody = theme === "dark" ? "rgba(255,255,255,.7)" : "rgba(0,0,0,.65)";
+            return (
+              <article key={item.id} className="newsCard" onClick={() => setActiveNews(item)} style={{ cursor: "pointer", background: cardBg, display: "flex", flexDirection: "column", boxShadow: theme === "dark" ? "0 1px 3px rgba(0,0,0,.4)" : "0 1px 3px rgba(0,0,0,.08)", transition: "box-shadow .3s, transform .3s", overflow: "hidden" }}
+                onMouseEnter={e => { e.currentTarget.style.boxShadow = theme === "dark" ? "0 12px 30px rgba(0,0,0,.6)" : "0 12px 30px rgba(0,0,0,.15)"; }}
+                onMouseLeave={e => { e.currentTarget.style.boxShadow = theme === "dark" ? "0 1px 3px rgba(0,0,0,.4)" : "0 1px 3px rgba(0,0,0,.08)"; }}>
+                <div style={{ position: "relative", aspectRatio: "4 / 3", overflow: "hidden" }}>
+                  <img className="newsImg" src={item.image} alt={item.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform .5s ease" }} onError={e => { e.target.src = P.fb; }} />
+                  <div style={{ position: "absolute", top: ".75rem", left: ".75rem", fontSize: ".58rem", letterSpacing: "2.5px", textTransform: "uppercase", color: YELLOW, background: "rgba(0,0,0,.72)", padding: ".4rem .7rem", fontWeight: 600 }}>{item.category}</div>
+                </div>
+                <div style={{ padding: "1.25rem 1.4rem 1.4rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
+                  <div style={{ fontSize: ".72rem", color: cardMuted, marginBottom: ".6rem" }}>{item.date}</div>
+                  <h3 style={{ fontFamily: FD, fontSize: "1.05rem", fontWeight: 500, lineHeight: 1.3, color: cardText, margin: "0 0 .7rem", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", minHeight: "2.6em" }}>{item.title}</h3>
+                  <p style={{ fontSize: ".83rem", color: cardBody, lineHeight: 1.6, margin: "0 0 1rem", display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden", flexGrow: 1 }}>{item.excerpt}</p>
+                  <div className="newsMore" style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", fontSize: ".7rem", letterSpacing: "2px", textTransform: "uppercase", color: cardText, fontWeight: 600, transition: "color .2s", marginTop: "auto" }}>
+                    {t.news.readMore} <span style={{ display: "inline-block", transition: "transform .25s ease" }}>{"→"}</span>
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section></Reveal>
+
+    {/* NEWS LIGHTBOX */}
+    {activeNews && (
+      <div onClick={() => setActiveNews(null)} style={{ position: "fixed", inset: 0, zIndex: 200, background: "rgba(0,0,0,.8)", backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)", display: "flex", alignItems: "flex-start", justifyContent: "center", padding: "2rem 1rem", overflowY: "auto" }}>
+        <div onClick={e => e.stopPropagation()} style={{ position: "relative", maxWidth: 820, width: "100%", background: theme === "dark" ? "#161616" : "#fff", marginTop: "1rem", marginBottom: "1rem" }}>
+          <button onClick={() => setActiveNews(null)} aria-label={t.news.close} style={{ position: "absolute", top: ".9rem", right: ".9rem", zIndex: 5, width: 40, height: 40, borderRadius: "50%", background: theme === "dark" ? "rgba(40,40,40,.95)" : "rgba(255,255,255,.95)", border: "none", color: theme === "dark" ? "#fff" : "#111", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.4rem", boxShadow: "0 2px 6px rgba(0,0,0,.25)" }}>{"×"}</button>
+          <div style={{ aspectRatio: "16 / 9", overflow: "hidden" }}>
+            <img src={activeNews.image} alt={activeNews.title} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} onError={e => { e.target.src = P.fb; }} />
+          </div>
+          <div style={{ padding: "2rem 1.8rem 2.4rem" }} className="newsModalBody">
+            <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: ".9rem", marginBottom: "1.1rem" }}>
+              <span style={{ fontSize: ".62rem", letterSpacing: "3px", textTransform: "uppercase", color: c.text3, fontWeight: 600 }}>{activeNews.category}</span>
+              <span style={{ color: theme === "dark" ? "rgba(255,255,255,.4)" : "rgba(0,0,0,.4)" }}>{"·"}</span>
+              <span style={{ fontSize: ".78rem", color: theme === "dark" ? "rgba(255,255,255,.6)" : "rgba(0,0,0,.6)" }}>{activeNews.date}</span>
+            </div>
+            <h2 style={{ fontFamily: FD, fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 500, lineHeight: 1.2, color: theme === "dark" ? "#fff" : "#111", margin: "0 0 1.4rem", letterSpacing: "-.2px" }}>{activeNews.title}</h2>
+            <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "1.8rem" }} />
+            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+              {activeNews.body.split("\n").filter(Boolean).map((para, i) => (
+                <p key={i} style={{ fontSize: ".95rem", lineHeight: 1.75, color: theme === "dark" ? "rgba(255,255,255,.75)" : "rgba(0,0,0,.75)", margin: 0 }}>{para.trim()}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
 
     {/* CONTACT — compact split layout */}
     <section id="contact" style={{ background: c.bg2, padding: "4rem 6%" }}>

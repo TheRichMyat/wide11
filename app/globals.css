@@ -114,3 +114,17 @@ input:focus, textarea:focus, select:focus {
   .sgr { grid-template-columns: 1fr !important; }
   .svcgr { grid-template-columns: 1fr !important; }
 }
+
+/* News grid — mobile-first */
+.newsGrid { grid-template-columns: 1fr !important; }
+@media (min-width: 768px) {
+  .newsGrid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (min-width: 1024px) {
+  .newsGrid { grid-template-columns: repeat(4, 1fr) !important; }
+}
+
+/* News card hover micro-interactions */
+.newsCard:hover .newsImg { transform: scale(1.05); }
+.newsCard:hover .newsMore { color: #ffc300 !important; }
+.newsCard:hover .newsMore span { transform: translateX(4px); }
