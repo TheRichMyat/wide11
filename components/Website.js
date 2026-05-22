@@ -1124,13 +1124,32 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
     } catch (err) { alert('Upload failed: ' + err.message); }
   };
   const addGalleryImg = async (e) => {
-    const file = e.target.files && e.target.files[0];
-    if (!file) return;
-    if ((fd.gallery || []).length >= 15) return;
-    try {
-      const { url } = await api.uploadImage(file);
-      setFd(f => ({ ...f, gallery: [...(f.gallery || []), url] }));
-    } catch (err) { alert('Upload failed: ' + err.message); }
+    const files = Array.from(e.target.files || []);
+    if (files.length === 0) return;
+    // reset the input so picking the same set again still fires onChange
+    const inputEl = e.target;
+    const current = fd.gallery || [];
+    const remaining = Math.max(0, 15 - current.length);
+    if (remaining === 0) { inputEl.value = ''; return; }
+    const toUpload = files.slice(0, remaining);
+    const skipped = files.length - toUpload.length;
+    const failed = [];
+    for (const file of toUpload) {
+      try {
+        const { url } = await api.uploadImage(file);
+        // append one-by-one so partial success is preserved if a later file fails
+        setFd(f => ({ ...f, gallery: [...(f.gallery || []), url] }));
+      } catch (err) {
+        failed.push(file.name + ': ' + (err.message || 'upload failed'));
+      }
+    }
+    inputEl.value = '';
+    if (failed.length || skipped) {
+      const lines = [];
+      if (failed.length) lines.push('Failed:\n' + failed.join('\n'));
+      if (skipped) lines.push(skipped + ' file(s) skipped (15-image limit).');
+      alert(lines.join('\n\n'));
+    }
   };
   const rmGalleryImg = (i) => { setFd(f => ({ ...f, gallery: (f.gallery || []).filter((_, idx) => idx !== i) })); };
 
@@ -1194,7 +1213,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
               <button onClick={() => rmGalleryImg(i)} style={{ position: "absolute", top: -4, right: -4, width: 18, height: 18, borderRadius: "50%", background: "#c44", color: "#fff", border: "none", fontSize: "0.6rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>{"\u00D7"}</button>
             </div>)}
           </div>
-          {(fd.gallery || []).length < 15 && <label style={{ ...bS(false, false), cursor: "pointer", fontSize: ".65rem" }}><input type="file" accept="image/*" style={{ display: "none" }} onChange={addGalleryImg} />{t.ad.addImg} ({(fd.gallery || []).length}/15)</label>}
+          {(fd.gallery || []).length < 15 && <label style={{ ...bS(false, false), cursor: "pointer", fontSize: ".65rem" }}><input type="file" accept="image/*" multiple style={{ display: "none" }} onChange={addGalleryImg} />{t.ad.addImg} ({(fd.gallery || []).length}/15)</label>}
         </div>
         <div>
           <label style={lS}>{t.ad.ba}</label>
