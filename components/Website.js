@@ -1202,7 +1202,8 @@ function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onPro
       <section style={{ background: creamAlt, padding: "3.5rem 6%" }}>
         <div style={{ maxWidth: 1250, margin: "0 auto", display: "grid", gridTemplateColumns: galleryAll.length > 0 ? "280px 1fr" : "1fr", gap: "2.5rem", alignItems: "start" }} className="hgr">
           <div>
-            <div style={{ fontSize: ".72rem", color: isLight ? c.text3 : YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.4rem" }}>{t.port.osc}</div>
+            <div style={{ fontSize: ".72rem", color: isLight ? c.text2 : YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: ".7rem" }}>{t.port.osc}</div>
+            <div style={{ width: 40, height: 2, background: YELLOW, marginBottom: "1.4rem" }} />
             {scopeItems.length > 1 ? (
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: ".75rem" }}>
                 {scopeItems.map((item, i) => (
