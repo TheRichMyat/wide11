@@ -159,20 +159,20 @@ export default function App() {
   return (
     <div ref={wr} style={{ fontFamily: FB, background: c.bg, color: c.text, height: "100vh", overflowY: "auto", transition: "background .4s, color .4s" }}>
       <Fonts />
-      <nav style={{ position: "sticky", top: 0, zIndex: 100, padding: "0.7rem 6%", display: "flex", alignItems: "center", justifyContent: "space-between", background: theme === "light" ? "#FFFFFF" : "#0D0D0D", borderBottom: "1px solid " + c.border, boxShadow: "0 1px 8px rgba(0,0,0,0.06)" }}>
+      <nav style={{ position: "sticky", top: 0, zIndex: 100, padding: "0.45rem 6%", display: "flex", alignItems: "center", justifyContent: "space-between", background: theme === "light" ? "#FFFFFF" : "#0D0D0D", borderBottom: "1px solid " + c.border, boxShadow: "0 1px 8px rgba(0,0,0,0.06)" }}>
         <a onClick={() => go("home")} style={{ cursor: "pointer", textDecoration: "none" }}>
-          <span style={{ fontFamily: FD, fontSize: "clamp(0.75rem, 2.5vw, 1.1rem)", fontWeight: 700, color: c.text }}><span style={{ fontSize: "clamp(0.9rem, 3vw, 1.35rem)" }}>W</span>IDE-ELEVEN CO., LTD.</span>
+          <span style={{ fontFamily: FD, fontSize: "clamp(0.65rem, 2vw, 0.95rem)", fontWeight: 700, color: c.text }}><span style={{ fontSize: "clamp(0.8rem, 2.5vw, 1.15rem)" }}>W</span>IDE-ELEVEN CO., LTD.</span>
         </a>
-        <div className="dknv" style={{ display: "flex", gap: "2.5rem", alignItems: "center" }}>
-          {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav[id]}</a>)}
-          <a onClick={() => go("careers")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.careers}</a>
-          <a onClick={() => go("portfolio")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.portfolio}</a>
-          <a onClick={() => go("news")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.news}</a>
-          <a onClick={() => scrollTo("contact")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.contact}</a>
+        <div className="dknv" style={{ display: "flex", gap: "1.9rem", alignItems: "center" }}>
+          {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.7rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "1.6px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav[id]}</a>)}
+          <a onClick={() => go("careers")} style={{ fontSize: "0.7rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "1.6px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.careers}</a>
+          <a onClick={() => go("portfolio")} style={{ fontSize: "0.7rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "1.6px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.portfolio}</a>
+          <a onClick={() => go("news")} style={{ fontSize: "0.7rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "1.6px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.news}</a>
+          <a onClick={() => scrollTo("contact")} style={{ fontSize: "0.7rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "1.6px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.contact}</a>
         </div>
         <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-          <button onClick={() => setLang(l => l === "en" ? "th" : "en")} style={{ background: "none", border: "1px solid " + c.border, color: c.text, fontFamily: FB, fontSize: "0.72rem", padding: "5px 10px", cursor: "pointer", letterSpacing: "1px", fontWeight: 500, borderRadius: 3 }}>{lang === "en" ? "\u0E44\u0E17\u0E22" : "EN"}</button>
-          <button onClick={() => setTheme(x => x === "light" ? "dark" : "light")} style={{ background: "none", border: "1px solid " + c.border, color: c.text, fontSize: "0.9rem", padding: "4px 8px", cursor: "pointer", borderRadius: 3 }}>{theme === "light" ? "\u263E" : "\u2600"}</button>
+          <button onClick={() => setLang(l => l === "en" ? "th" : "en")} style={{ background: "none", border: "1px solid " + c.border, color: c.text, fontFamily: FB, fontSize: "0.66rem", padding: "3px 8px", cursor: "pointer", letterSpacing: "1px", fontWeight: 500, borderRadius: 3 }}>{lang === "en" ? "\u0E44\u0E17\u0E22" : "EN"}</button>
+          <button onClick={() => setTheme(x => x === "light" ? "dark" : "light")} style={{ background: "none", border: "1px solid " + c.border, color: c.text, fontSize: "0.82rem", padding: "2px 7px", cursor: "pointer", borderRadius: 3 }}>{theme === "light" ? "\u263E" : "\u2600"}</button>
           <button className="mbt" onClick={() => setMob(true)} style={{ display: "none", background: "none", border: "none", color: c.text, fontSize: "1.4rem", cursor: "pointer" }}>{"\u2630"}</button>
         </div>
       </nav>
