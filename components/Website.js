@@ -898,8 +898,8 @@ function getScopeItems(scope) {
 }
 
 // Detail-page inline icon set (small stroke SVGs, gold)
-function DIcon({ kind }) {
-  const p = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: YELLOW, strokeWidth: 1.7, strokeLinecap: "round", strokeLinejoin: "round" };
+function DIcon({ kind, color }) {
+  const p = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: color || YELLOW, strokeWidth: 1.7, strokeLinecap: "round", strokeLinejoin: "round" };
   if (kind === "user")   return <svg {...p}><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>;
   if (kind === "map")    return <svg {...p}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>;
   if (kind === "build")  return <svg {...p}><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21V12h6v9M9 7h.01M15 7h.01M9 11h.01M15 11h.01"/></svg>;
@@ -1202,19 +1202,19 @@ function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onPro
       <section style={{ background: creamAlt, padding: "3.5rem 6%" }}>
         <div style={{ maxWidth: 1250, margin: "0 auto", display: "grid", gridTemplateColumns: galleryAll.length > 0 ? "280px 1fr" : "1fr", gap: "2.5rem", alignItems: "start" }} className="hgr">
           <div>
-            <div style={{ fontSize: ".72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.4rem" }}>{t.port.osc}</div>
+            <div style={{ fontSize: ".72rem", color: isLight ? c.text3 : YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "1.4rem" }}>{t.port.osc}</div>
             {scopeItems.length > 1 ? (
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: ".75rem" }}>
                 {scopeItems.map((item, i) => (
                   <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: ".75rem", fontSize: ".88rem", color: isLight ? "rgba(0,0,0,.8)" : "rgba(255,255,255,.8)", lineHeight: 1.55 }}>
-                    <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" /></div>
+                    <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" color={isLight ? c.text3 : YELLOW} /></div>
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
             ) : (
               <div style={{ display: "flex", alignItems: "flex-start", gap: ".75rem", fontSize: ".9rem", color: isLight ? "rgba(0,0,0,.8)" : "rgba(255,255,255,.8)", lineHeight: 1.7 }}>
-                <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" /></div>
+                <div style={{ flexShrink: 0, marginTop: 2 }}><DIcon kind="check" color={isLight ? c.text3 : YELLOW} /></div>
                 <span>{project.scope}</span>
               </div>
             )}
