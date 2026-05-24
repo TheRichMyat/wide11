@@ -35,9 +35,9 @@ const TX = {
     svc:{title:"Our Expertise",heading:"End-to-End Solutions, Tailored for You",items:[{t:"Design (Perspective & Shop Drawing) & Space Planning",s:"Design & Planning",d:"Perspective & shop drawings, space planning and design consultation tailored to your vision."},{t:"Interior Fitting Out",s:"Interior Fit-Out",d:"Full interior fit-out services for residential, commercial, hospitality and retail spaces."},{t:"Refurnishing Works",s:"Refurbishing Works",d:"Professional refurnishing and upgrading works to breathe new life into existing spaces."},{t:"MEP Works (Mechanical, Electrical, Plumbing)",s:"MEP Works",d:"Mechanical, electrical and plumbing works carried out by trained in-house specialists."},{t:"Consultation & Budget Estimation",s:"Budget Estimation",d:"Expert consultation, advice, and accurate budget estimation for renovation and construction projects of any scale."}]},
     port:{eyebrow:"Featured Projects",title:"Spaces We're Proud Of",subtitle:"A glimpse of recent projects where craftsmanship meets vision.",all:"View All Projects",det:"View Details",more:"View Project",at:"All Projects",as:"Explore our complete portfolio of residential, hospitality, and commercial projects delivered with excellence.",allEyebrow:"Our Portfolio",allLabel:"All Projects",suf:"Project",noneAll:"No projects to display yet.\nCheck back soon.",noneCat:"No projects in this category.",cat:"Category",yr:"Year",pd:"Period",sc:"Scope",cl:"Client",loc:"Location",cost:"Project Value",bk:"Back",imgs:"Project Gallery",bktp:"Back to Projects",ov:"Project Overview",typ:"Project Type",ar:"Area",comp:"Completion",osc:"Our Scope",ba:"Before & After",bf:"Before",af:"After",rel:"Related Projects"},
     ct:{eyebrow:"Get In Touch",heading:"Let's Build Something Amazing Together",title:"Get In Touch",sub:"Tell us about your vision and we will bring it to life.",em:"Email Us",ca:"Call Us",vi:"Visit Us",fn:"Full Name *",fe:"Email Address *",fp:"Phone (optional)",fm:"Tell us about your project *",sn:"Send Message",st:"Message sent!",sg:"Sending..."},
-    news:{eyebrow:"Latest News",title:"Stories & Updates",readMore:"Read More",close:"Close"},
+    news:{eyebrow:"Latest News",title:"Stories & Updates",readMore:"Read More",close:"Close",viewAll:"View All News",allEyebrow:"Our Latest News",allTitle:"Stories & Updates",back:"Back",empty:"No news articles yet."},
     ft:{tg:"Transforming spaces, elevating lives since 2014.",th:"\u0E1A\u0E23\u0E34\u0E29\u0E31\u0E17 \u0E44\u0E27\u0E14\u0E4C-\u0E2D\u0E34\u0E40\u0E25\u0E1F\u0E40\u0E27\u0E48\u0E19 \u0E08\u0E33\u0E01\u0E31\u0E14",nv:"Navigation",co:"Contact",rg:"2026 Wide-Eleven Co., Ltd. All rights reserved.",cta:"Let's Build Something Amazing Together",ctaSub:"Ready to transform your space? Let's start the conversation today.",ctaBtn:"Get In Touch"},
-    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctConfEm:"Confirm New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Email updated. Use the new email next time you log in.",acctPwOk:"Password updated. Use the new password next time you log in.",acctErr:"Update failed:",acctMismatch:"Entries don't match.",acctMinLen:"Password must be at least 6 characters.",acctEmWarn:"This change is instant. Double-check the spelling — a typo will lock you out."},
+    ad:{ti:"Admin Panel",lg:"Admin Login",pw:"Password",en:"Enter",pr:"Projects",ct:"Clients",ca:"Categories",an:"Add New",ed:"Edit",dl:"Delete",sv:"Save",cn:"Cancel",bk:"Back to Site",pn:"Project Name",pc:"Category",py:"Year",pp:"Period",ps:"Scope",pcl:"Client",pl:"Location",parea:"Area",pv:"Project Value",pi:"Cover Image",pd:"Description",cn2:"Client Name",cl:"Logo",up:"Upload",ou:"Or paste URL",np:"No projects yet.",nc:"No clients yet.",ac:"Add Category",acn:"Category Name",gi:"Gallery Images (up to 15)",addImg:"Add Image",rmImg:"Remove",ba:"Before/After Images",bab:"Before",baa:"After",bap:"Add Pair",bar:"Remove Pair",jb:"Careers",jt:"Job Title",jdp:"Department",jlc:"Location",jds:"Job Description",jrq:"Requirements (one per line)",jem:"Apply Email",iac:"Active",jin:"Inactive",tgl:"Toggle Active",nj:"No job postings yet.",nw:"News",ntit:"Title",nex:"Excerpt (card summary)",nbd:"Body (full article — separate paragraphs with blank lines)",ncat:"Category (e.g. PROJECT COMPLETED)",ndate:"Display Date (e.g. March 15, 2026)",nimg:"Hero Image",npub:"Published",nnn:"No news articles yet.",ndr:"Draft",nAdd:"Add Article",nPubBtn:"Publish",nUnpubBtn:"Unpublish",nColImg:"Image",nColStat:"Status",nColTitle:"Title",nColDate:"Date",acct:"Account",acctCur:"Current Email",acctNew:"New Email",acctConfEm:"Confirm New Email",acctUpE:"Update Email",acctCurPw:"Current Password",acctNewPw:"New Password",acctConfPw:"Confirm New Password",acctUpPw:"Update Password",acctEmOk:"Email updated. Use the new email next time you log in.",acctPwOk:"Password updated. Use the new password next time you log in.",acctErr:"Update failed:",acctMismatch:"Entries don't match.",acctMinLen:"Password must be at least 6 characters.",acctEmWarn:"This change is instant. Double-check the spelling — a typo will lock you out."},
     careers:{title:"Join Our Team",sub:"We're looking for talented individuals to help us create extraordinary spaces.",none:"No open positions at this time. Please check back soon.",det:"View Details",apply:"Apply Now",bk:"Back to Careers",desc:"About This Role",reqs:"Requirements",cta:"Interested in this position?"}
   },
   th: {
@@ -49,9 +49,9 @@ const TX = {
     svc:{title:"ความเชี่ยวชาญของเรา",heading:"โซลูชันครบวงจร ปรับให้เหมาะกับคุณ",items:[{t:"ออกแบบ (Perspective & Shop Drawing) และวางผังพื้นที่",s:"ออกแบบและวางแผน",d:"งานเขียนแบบ Perspective และ Shop Drawing วางผังพื้นที่ และให้คำปรึกษาด้านการออกแบบที่ตรงตามวิสัยทัศน์ของคุณ"},{t:"งานตกแต่งภายใน",s:"ตกแต่งภายใน",d:"บริการตกแต่งภายในครบวงจร สำหรับที่อยู่อาศัย อาคารพาณิชย์ โรงแรม และร้านค้าปลีก"},{t:"งานรีเฟอร์นิช",s:"งานปรับปรุง",d:"งานปรับปรุงและอัพเกรดอย่างมืออาชีพ เพื่อเติมชีวิตใหม่ให้กับพื้นที่เดิมของคุณ"},{t:"งานระบบ MEP (เครื่องกล ไฟฟ้า ประปา)",s:"งานระบบ MEP",d:"งานระบบเครื่องกล ไฟฟ้า และประปา ดำเนินการโดยทีมผู้เชี่ยวชาญเฉพาะทางภายในบริษัท"},{t:"ที่ปรึกษาและประมาณราคา",s:"ประเมินงบประมาณ",d:"บริการให้คำปรึกษาจากผู้เชี่ยวชาญ พร้อมประมาณราคาอย่างแม่นยำ สำหรับโครงการปรับปรุงและก่อสร้างทุกขนาด"}]},
     port:{eyebrow:"ผลงานเด่น",title:"พื้นที่ที่เราภาคภูมิใจ",subtitle:"ตัวอย่างผลงานที่ผสานฝีมืองานช่างเข้ากับวิสัยทัศน์ของลูกค้า",all:"ดูโครงการทั้งหมด",det:"ดูรายละเอียด",more:"ดูโครงการ",at:"ผลงานทั้งหมด",as:"สำรวจผลงานครบทุกประเภทของเรา ทั้งที่พักอาศัย โรงแรม และอาคารพาณิชย์ ส่งมอบด้วยมาตรฐานคุณภาพ",allEyebrow:"ผลงานของเรา",allLabel:"ทั้งหมด",suf:"โปรเจกต์",noneAll:"ยังไม่มีโครงการให้แสดง\nโปรดกลับมาใหม่อีกครั้ง",noneCat:"ไม่มีโครงการในหมวดหมู่นี้",cat:"ประเภท",yr:"ปี",pd:"ระยะเวลา",sc:"ขอบเขตงาน",cl:"ลูกค้า",loc:"สถานที่",cost:"มูลค่าโครงการ",bk:"กลับ",imgs:"แกลเลอรีโครงการ",bktp:"กลับไปหน้าผลงาน",ov:"ภาพรวมโครงการ",typ:"ประเภทโครงการ",ar:"พื้นที่",comp:"ปีที่แล้วเสร็จ",osc:"ขอบเขตงานของเรา",ba:"ก่อน & หลัง",bf:"ก่อน",af:"หลัง",rel:"โครงการที่เกี่ยวข้อง"},
     ct:{eyebrow:"ติดต่อเรา",heading:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",title:"ติดต่อเรา",sub:"บอกเล่าวิสัยทัศน์ของคุณ แล้วเราจะทำให้เป็นจริง",em:"อีเมล",ca:"โทรศัพท์",vi:"ที่อยู่",fn:"ชื่อ-นามสกุล *",fe:"อีเมล *",fp:"เบอร์โทรศัพท์ (ไม่บังคับ)",fm:"เล่าให้เราฟังเกี่ยวกับโครงการของคุณ *",sn:"ส่งข้อความ",st:"ส่งข้อความสำเร็จ!",sg:"กำลังส่ง..."},
-    news:{eyebrow:"ข่าวสารล่าสุด",title:"เรื่องราวและอัปเดต",readMore:"อ่านเพิ่มเติม",close:"ปิด"},
+    news:{eyebrow:"ข่าวสารล่าสุด",title:"เรื่องราวและอัปเดต",readMore:"อ่านเพิ่มเติม",close:"ปิด",viewAll:"ดูข่าวทั้งหมด",allEyebrow:"ข่าวสารล่าสุดของเรา",allTitle:"เรื่องราวและอัปเดต",back:"กลับ",empty:"ยังไม่มีบทความข่าว"},
     ft:{tg:"เปลี่ยนพื้นที่ ยกระดับชีวิต ตั้งแต่ พ.ศ. 2557",th:"บริษัท ไวด์-อีเลฟเว่น จำกัด",nv:"เมนู",co:"ติดต่อ",rg:"\u00A9 2569 บริษัท ไวด์-อีเลฟเว่น จำกัด สงวนลิขสิทธิ์",cta:"มาร่วมสร้างสรรค์สิ่งที่ยอดเยี่ยมไปด้วยกัน",ctaSub:"พร้อมเปลี่ยนแปลงพื้นที่ของคุณแล้วหรือยัง? มาเริ่มต้นพูดคุยกันวันนี้",ctaBtn:"ติดต่อเรา"},
-    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctConfEm:"ยืนยันอีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"อัปเดตอีเมลแล้ว ใช้อีเมลใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctPwOk:"อัปเดตรหัสผ่านแล้ว ใช้รหัสผ่านใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"ข้อมูลไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",acctEmWarn:"การเปลี่ยนแปลงนี้มีผลทันที ตรวจสอบการสะกดอีกครั้ง พิมพ์ผิดจะทำให้คุณเข้าระบบไม่ได้"},
+    ad:{ti:"แผงควบคุม",lg:"เข้าสู่ระบบผู้ดูแล",pw:"รหัสผ่าน",en:"เข้าสู่ระบบ",pr:"โครงการ",ct:"ลูกค้า",ca:"ประเภท",an:"เพิ่มใหม่",ed:"แก้ไข",dl:"ลบ",sv:"บันทึก",cn:"ยกเลิก",bk:"กลับหน้าเว็บ",pn:"ชื่อโครงการ",pc:"ประเภท",py:"ปี",pp:"ระยะเวลา",ps:"ขอบเขตงาน",pcl:"ลูกค้า",pl:"สถานที่",parea:"พื้นที่",pv:"มูลค่าโครงการ",pi:"รูปปก",pd:"รายละเอียด",cn2:"ชื่อลูกค้า",cl:"โลโก้",up:"อัปโหลด",ou:"หรือวาง URL",np:"ยังไม่มีโครงการ",nc:"ยังไม่มีลูกค้า",ac:"เพิ่มประเภท",acn:"ชื่อประเภท",gi:"รูปแกลเลอรี (สูงสุด 15 รูป)",addImg:"เพิ่มรูป",rmImg:"ลบ",ba:"รูปก่อน/หลัง",bab:"ก่อน",baa:"หลัง",bap:"เพิ่มคู่",bar:"ลบคู่",jb:"งาน",jt:"ตำแหน่งงาน",jdp:"แผนก",jlc:"สถานที่",jds:"รายละเอียดงาน",jrq:"คุณสมบัติ (บรรทัดละหนึ่งข้อ)",jem:"อีเมลสมัครงาน",iac:"เปิดรับ",jin:"ปิดรับ",tgl:"สลับสถานะ",nj:"ยังไม่มีตำแหน่งงาน",nw:"ข่าวสาร",ntit:"หัวข้อ",nex:"สรุปย่อ (แสดงในการ์ด)",nbd:"เนื้อหา (บทความฉบับเต็ม — เว้นบรรทัดเพื่อแยกย่อหน้า)",ncat:"หมวดหมู่ (เช่น PROJECT COMPLETED)",ndate:"วันที่แสดง (เช่น 15 มีนาคม 2569)",nimg:"รูปหลัก",npub:"เผยแพร่",nnn:"ยังไม่มีบทความข่าว",ndr:"ฉบับร่าง",nAdd:"เพิ่มบทความ",nPubBtn:"เผยแพร่",nUnpubBtn:"ยกเลิกเผยแพร่",nColImg:"รูป",nColStat:"สถานะ",nColTitle:"หัวข้อ",nColDate:"วันที่",acct:"บัญชี",acctCur:"อีเมลปัจจุบัน",acctNew:"อีเมลใหม่",acctConfEm:"ยืนยันอีเมลใหม่",acctUpE:"อัปเดตอีเมล",acctCurPw:"รหัสผ่านปัจจุบัน",acctNewPw:"รหัสผ่านใหม่",acctConfPw:"ยืนยันรหัสผ่านใหม่",acctUpPw:"อัปเดตรหัสผ่าน",acctEmOk:"อัปเดตอีเมลแล้ว ใช้อีเมลใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctPwOk:"อัปเดตรหัสผ่านแล้ว ใช้รหัสผ่านใหม่ในการเข้าสู่ระบบครั้งถัดไป",acctErr:"อัปเดตไม่สำเร็จ:",acctMismatch:"ข้อมูลไม่ตรงกัน",acctMinLen:"รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",acctEmWarn:"การเปลี่ยนแปลงนี้มีผลทันที ตรวจสอบการสะกดอีกครั้ง พิมพ์ผิดจะทำให้คุณเข้าระบบไม่ได้"},
     careers:{title:"ร่วมทีมกับเรา",sub:"เรากำลังมองหาผู้มีความสามารถมาร่วมสร้างสรรค์พื้นที่ที่ยอดเยี่ยมด้วยกัน",none:"ขณะนี้ยังไม่มีตำแหน่งงานที่เปิดรับ โปรดติดตามการอัปเดตจากเรา",det:"ดูรายละเอียด",apply:"สมัครเลย",bk:"กลับไปหน้างาน",desc:"เกี่ยวกับตำแหน่งนี้",reqs:"คุณสมบัติ",cta:"สนใจตำแหน่งนี้?"}
   }
 };
@@ -104,6 +104,7 @@ export default function App() {
   const [clients, setClients] = useState(DEM_C);
   const [cats, setCats] = useState(DEF_CATS);
   const [jobs, setJobs] = useState([]);
+  const [news, setNews] = useState(NEWS_ITEMS);
   const [auth, setAuth] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [pageLoading, setPageLoading] = useState(true);
@@ -115,16 +116,18 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const [pp, cc, ca, jj] = await Promise.all([
+        const [pp, cc, ca, jj, nn] = await Promise.all([
           api.getProjects().catch(() => null),
           api.getClients().catch(() => null),
           api.getCategories().catch(() => null),
           api.getJobs().catch(() => null),
+          api.getNews().catch(() => null),
         ]);
         if (pp && pp.length > 0) setProjects(pp);
         if (cc && cc.length > 0) setClients(cc);
         if (ca && ca.length > 0) setCats(ca.map(c => c.name || c));
         if (jj) setJobs(jj);
+        if (nn && nn.length > 0) setNews(nn);
       } catch (e) { console.error('Failed to load data:', e); }
       setLoaded(true);
     })();
@@ -149,7 +152,7 @@ export default function App() {
 
   if (page === "admin") return (
     <div ref={wr} style={{ fontFamily: FB, background: c.bg, color: c.text, height: "100vh", overflowY: "auto" }}>
-      <Fonts /><Admin t={t} c={c} theme={theme} projects={projects} setProjects={setProjects} clients={clients} setClients={setClients} cats={cats} setCats={setCats} jobs={jobs} setJobs={setJobs} auth={auth} setAuth={setAuth} onBack={() => go("home")} />
+      <Fonts /><Admin t={t} c={c} theme={theme} projects={projects} setProjects={setProjects} clients={clients} setClients={setClients} cats={cats} setCats={setCats} jobs={jobs} setJobs={setJobs} news={news} setNews={setNews} auth={auth} setAuth={setAuth} onBack={() => go("home")} />
     </div>
   );
 
@@ -164,7 +167,7 @@ export default function App() {
           {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav[id]}</a>)}
           <a onClick={() => go("careers")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.careers}</a>
           <a onClick={() => go("portfolio")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.portfolio}</a>
-          <a onClick={() => scrollTo("news")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.news}</a>
+          <a onClick={() => go("news")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.news}</a>
           <a onClick={() => scrollTo("contact")} style={{ fontSize: "0.78rem", fontWeight: 500, color: c.text2, textDecoration: "none", letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer" }}>{t.nav.contact}</a>
         </div>
         <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
@@ -179,12 +182,13 @@ export default function App() {
         {["home","about","services"].map(id => <a key={id} onClick={() => scrollTo(id)} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav[id]}</a>)}
         <a onClick={() => go("careers")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.careers}</a>
         <a onClick={() => go("portfolio")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.portfolio}</a>
-        <a onClick={() => scrollTo("news")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.news}</a>
+        <a onClick={() => go("news")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.news}</a>
         <a onClick={() => scrollTo("contact")} style={{ fontFamily: FD, fontSize: "1.6rem", color: c.text, textDecoration: "none", cursor: "pointer" }}>{t.nav.contact}</a>
       </div>}
 
-      {page === "home" && <HomePage t={t} c={c} theme={theme} projects={projects} clients={clients} onAll={() => go("portfolio")} onProj={p => go("project", p)} />}
+      {page === "home" && <HomePage t={t} c={c} theme={theme} projects={projects} clients={clients} news={news} onAll={() => go("portfolio")} onProj={p => go("project", p)} onAllNews={() => go("news")} />}
       {page === "portfolio" && <AllProjects t={t} c={c} theme={theme} projects={projects} cats={cats} onProj={p => go("project", p)} onBack={() => go("home")} />}
+      {page === "news" && <AllNews t={t} c={c} theme={theme} news={news} onBack={() => go("home")} />}
       {page === "project" && selP && <ProjDetail t={t} c={c} theme={theme} project={selP} projects={projects} onHome={() => go("home")} onPortfolio={() => go("portfolio")} onProj={p => go("project", p)} onBack={() => go("portfolio")} />}
       {page === "careers" && <CareersPage t={t} c={c} theme={theme} jobs={jobs} onJob={j => go("job", j)} />}
       {page === "job" && selP && <JobDetail t={t} c={c} theme={theme} job={selP} onBack={() => go("careers")} />}
@@ -301,7 +305,8 @@ const NEWS_ITEMS = [
   },
 ];
 
-function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
+function HomePage({ t, c, theme, projects, clients, news, onAll, onProj, onAllNews }) {
+  const newsToShow = (news && news.length > 0 ? news : NEWS_ITEMS).slice(0, 4);
   const scrollToId = (id) => { const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: "smooth" }); };
   const [activeNews, setActiveNews] = useState(null);
   useEffect(() => {
@@ -449,7 +454,7 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
           <div style={{ width: 48, height: 2, background: YELLOW, margin: "0 auto" }} />
         </div>
         <div className="newsGrid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "2rem" }}>
-          {NEWS_ITEMS.map(item => {
+          {newsToShow.map(item => {
             const cardBg = theme === "dark" ? "#161616" : "#fff";
             const cardText = theme === "dark" ? "#fff" : "#111";
             const cardMuted = theme === "dark" ? "rgba(255,255,255,.55)" : "rgba(0,0,0,.55)";
@@ -473,6 +478,13 @@ function HomePage({ t, c, theme, projects, clients, onAll, onProj }) {
               </article>
             );
           })}
+        </div>
+        <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
+          <button onClick={onAllNews} style={{ display: "inline-flex", alignItems: "center", gap: ".55rem", padding: ".85rem 2.1rem", background: "transparent", color: c.text, border: "1px solid " + c.border, fontFamily: FB, fontSize: ".72rem", fontWeight: 600, letterSpacing: "2.5px", textTransform: "uppercase", cursor: "pointer", transition: "background .2s, color .2s, border-color .2s" }}
+            onMouseEnter={e => { e.currentTarget.style.background = YELLOW; e.currentTarget.style.color = "#111"; e.currentTarget.style.borderColor = YELLOW; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = c.text; e.currentTarget.style.borderColor = c.border; }}>
+            {t.news.viewAll} <span>{"→"}</span>
+          </button>
         </div>
       </div>
     </section></Reveal>
@@ -897,6 +909,137 @@ function DIcon({ kind }) {
   return null;
 }
 
+function AllNews({ t, c, theme, news, onBack }) {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [activeNews, setActiveNews] = useState(null);
+  const gridRef = useRef(null);
+  const ITEMS_PER_PAGE = 12;
+  const items = Array.isArray(news) ? news : [];
+  const totalPages = Math.max(1, Math.ceil(items.length / ITEMS_PER_PAGE));
+  useEffect(() => { if (currentPage > totalPages) setCurrentPage(1); }, [totalPages, currentPage]);
+  const paginated = items.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+
+  // Lightbox: scroll lock + Escape
+  useEffect(() => {
+    if (!activeNews) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e) => { if (e.key === "Escape") setActiveNews(null); };
+    window.addEventListener("keydown", onKey);
+    return () => { document.body.style.overflow = prev; window.removeEventListener("keydown", onKey); };
+  }, [activeNews]);
+
+  const isLight = theme === "light";
+  const cream = isLight ? "#f5f1ea" : c.bg2;
+  const cardBg = isLight ? "#ffffff" : c.bg3;
+  const cardText = isLight ? "#1a1a1a" : "#ffffff";
+  const cardMuted = isLight ? "rgba(0,0,0,.55)" : "rgba(255,255,255,.55)";
+  const cardBody = isLight ? "rgba(0,0,0,.65)" : "rgba(255,255,255,.7)";
+
+  const handlePageChange = (newPage) => {
+    if (newPage < 1 || newPage > totalPages) return;
+    setCurrentPage(newPage);
+    if (gridRef.current) gridRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+  const buildPages = () => {
+    if (totalPages <= 5) return Array.from({ length: totalPages }, (_, i) => i + 1);
+    const pages = [];
+    const cur = currentPage;
+    pages.push(1);
+    if (cur > 3) pages.push("…");
+    const start = Math.max(2, cur - 1);
+    const end = Math.min(totalPages - 1, cur + 1);
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (cur < totalPages - 2) pages.push("…");
+    pages.push(totalPages);
+    return pages;
+  };
+  const pageBtnBase = { width: 40, height: 40, display: "inline-flex", alignItems: "center", justifyContent: "center", fontFamily: FB, fontSize: ".85rem", cursor: "pointer", border: "1px solid " + (isLight ? "rgba(0,0,0,.15)" : "rgba(255,255,255,.15)"), background: cardBg, color: cardText, borderRadius: 0, padding: 0, transition: "background .2s, color .2s" };
+
+  return <div style={{ background: cream, minHeight: "100vh" }}>
+    {/* HERO BANNER (matches Portfolio page) */}
+    <section style={{ position: "relative", height: "clamp(260px, 38vw, 380px)", overflow: "hidden" }}>
+      <img src="/hero-2026.jpg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(0,0,0,.82) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.3) 100%)" }} />
+      <div style={{ position: "relative", zIndex: 1, height: "100%", maxWidth: 1200, margin: "0 auto", padding: "5rem 6% 1.5rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <button onClick={onBack} style={{ alignSelf: "flex-start", marginBottom: "1rem", background: "transparent", border: "none", color: "rgba(255,255,255,.8)", fontFamily: FB, fontSize: ".72rem", fontWeight: 500, letterSpacing: "2px", textTransform: "uppercase", cursor: "pointer", padding: 0 }}
+          onMouseEnter={e => e.currentTarget.style.color = YELLOW}
+          onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,.8)"}>{"← " + t.news.back}</button>
+        <div style={{ fontSize: "0.72rem", color: YELLOW, letterSpacing: "4px", textTransform: "uppercase", fontWeight: 600, marginBottom: "0.9rem" }}>{t.news.allEyebrow}</div>
+        <h1 style={{ fontFamily: FD, fontSize: "clamp(2.2rem, 5vw, 3.6rem)", fontWeight: 500, color: "#fff", lineHeight: 1.1, margin: "0 0 1rem", letterSpacing: "-0.5px" }}>{t.news.allTitle}</h1>
+      </div>
+    </section>
+
+    {/* GRID */}
+    <section ref={gridRef} style={{ padding: "4rem 6% 5rem" }}>
+      <div style={{ maxWidth: 1250, margin: "0 auto" }}>
+        {items.length === 0 ? (
+          <div style={{ textAlign: "center", padding: "4rem 0", color: cardMuted, fontSize: ".95rem" }}>{t.news.empty}</div>
+        ) : (
+          <>
+            <div className="newsGrid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "2rem" }}>
+              {paginated.map(item => (
+                <article key={item.id} className="newsCard" onClick={() => setActiveNews(item)} style={{ cursor: "pointer", background: cardBg, display: "flex", flexDirection: "column", boxShadow: isLight ? "0 1px 3px rgba(0,0,0,.08)" : "0 1px 3px rgba(0,0,0,.4)", transition: "box-shadow .3s, transform .3s", overflow: "hidden" }}
+                  onMouseEnter={e => { e.currentTarget.style.boxShadow = isLight ? "0 12px 30px rgba(0,0,0,.15)" : "0 12px 30px rgba(0,0,0,.6)"; }}
+                  onMouseLeave={e => { e.currentTarget.style.boxShadow = isLight ? "0 1px 3px rgba(0,0,0,.08)" : "0 1px 3px rgba(0,0,0,.4)"; }}>
+                  <div style={{ position: "relative", aspectRatio: "4 / 3", overflow: "hidden" }}>
+                    <img className="newsImg" src={item.image} alt={item.title} loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform .5s ease" }} onError={e => { e.target.src = P.fb; }} />
+                    <div style={{ position: "absolute", top: ".75rem", left: ".75rem", fontSize: ".58rem", letterSpacing: "2.5px", textTransform: "uppercase", color: YELLOW, background: "rgba(0,0,0,.72)", padding: ".4rem .7rem", fontWeight: 600 }}>{item.category}</div>
+                  </div>
+                  <div style={{ padding: "1.25rem 1.4rem 1.4rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
+                    <div style={{ fontSize: ".72rem", color: cardMuted, marginBottom: ".6rem" }}>{item.date}</div>
+                    <h3 style={{ fontFamily: FD, fontSize: "1.05rem", fontWeight: 500, lineHeight: 1.3, color: cardText, margin: "0 0 .7rem", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", minHeight: "2.6em" }}>{item.title}</h3>
+                    <p style={{ fontSize: ".83rem", color: cardBody, lineHeight: 1.6, margin: "0 0 1rem", display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden", flexGrow: 1 }}>{item.excerpt}</p>
+                    <div className="newsMore" style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", fontSize: ".7rem", letterSpacing: "2px", textTransform: "uppercase", color: cardText, fontWeight: 600, transition: "color .2s", marginTop: "auto" }}>
+                      {t.news.readMore} <span style={{ display: "inline-block", transition: "transform .25s ease" }}>{"→"}</span>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: ".4rem", marginTop: "3rem", flexWrap: "wrap" }}>
+                <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} style={{ ...pageBtnBase, opacity: currentPage === 1 ? 0.4 : 1, cursor: currentPage === 1 ? "default" : "pointer" }}>{"‹"}</button>
+                {buildPages().map((p, i) => p === "…"
+                  ? <span key={"e" + i} style={{ padding: "0 .4rem", color: cardMuted }}>{"…"}</span>
+                  : <button key={p} onClick={() => handlePageChange(p)} style={{ ...pageBtnBase, background: p === currentPage ? YELLOW : cardBg, color: p === currentPage ? "#111" : cardText, borderColor: p === currentPage ? YELLOW : pageBtnBase.border.replace("1px solid ", "") }}>{p}</button>)}
+                <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} style={{ ...pageBtnBase, opacity: currentPage === totalPages ? 0.4 : 1, cursor: currentPage === totalPages ? "default" : "pointer" }}>{"›"}</button>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </section>
+
+    {/* LIGHTBOX (same as home) */}
+    {activeNews && (
+      <div onClick={() => setActiveNews(null)} style={{ position: "fixed", inset: 0, zIndex: 200, background: "rgba(0,0,0,.8)", backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)", display: "flex", alignItems: "flex-start", justifyContent: "center", padding: "2rem 1rem", overflowY: "auto" }}>
+        <div onClick={e => e.stopPropagation()} style={{ position: "relative", maxWidth: 820, width: "100%", background: theme === "dark" ? "#161616" : "#fff", marginTop: "1rem", marginBottom: "1rem" }}>
+          <button onClick={() => setActiveNews(null)} aria-label={t.news.close} style={{ position: "absolute", top: ".9rem", right: ".9rem", zIndex: 5, width: 40, height: 40, borderRadius: "50%", background: theme === "dark" ? "rgba(40,40,40,.95)" : "rgba(255,255,255,.95)", border: "none", color: theme === "dark" ? "#fff" : "#111", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.4rem", boxShadow: "0 2px 6px rgba(0,0,0,.25)" }}>{"×"}</button>
+          <div style={{ aspectRatio: "16 / 9", overflow: "hidden" }}>
+            <img src={activeNews.image} alt={activeNews.title} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} onError={e => { e.target.src = P.fb; }} />
+          </div>
+          <div style={{ padding: "2rem 1.8rem 2.4rem" }}>
+            <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: ".9rem", marginBottom: "1.1rem" }}>
+              <span style={{ fontSize: ".62rem", letterSpacing: "3px", textTransform: "uppercase", color: c.text3, fontWeight: 600 }}>{activeNews.category}</span>
+              <span style={{ color: theme === "dark" ? "rgba(255,255,255,.4)" : "rgba(0,0,0,.4)" }}>{"·"}</span>
+              <span style={{ fontSize: ".78rem", color: theme === "dark" ? "rgba(255,255,255,.6)" : "rgba(0,0,0,.6)" }}>{activeNews.date}</span>
+            </div>
+            <h2 style={{ fontFamily: FD, fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 500, lineHeight: 1.2, color: theme === "dark" ? "#fff" : "#111", margin: "0 0 1.4rem", letterSpacing: "-.2px" }}>{activeNews.title}</h2>
+            <div style={{ width: 48, height: 2, background: YELLOW, marginBottom: "1.8rem" }} />
+            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+              {(activeNews.body || "").split("\n").filter(Boolean).map((para, i) => (
+                <p key={i} style={{ fontSize: ".95rem", lineHeight: 1.75, color: theme === "dark" ? "rgba(255,255,255,.75)" : "rgba(0,0,0,.75)", margin: 0 }}>{para.trim()}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+  </div>;
+}
+
 function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onProj, onBack }) {
   const [lightboxIndex, setLightboxIndex] = useState(null);
   const stripRef = useRef(null);
@@ -1159,7 +1302,7 @@ function ProjDetail({ t, c, theme, project, projects, onHome, onPortfolio, onPro
   </div>;
 }
 
-function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, setCats, jobs, setJobs, auth, setAuth, onBack }) {
+function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, setCats, jobs, setJobs, news, setNews, auth, setAuth, onBack }) {
   const [tab, setTab] = useState("projects");
   const [editing, setEditing] = useState(null);
   const [fd, setFd] = useState({});
@@ -1171,10 +1314,17 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
     if (auth) api.getCategories().then(data => setCatObjs(data || [])).catch(() => {});
   }, [auth, cats]);
 
+  // Refetch ALL news (including drafts) when admin opens the News tab
+  useEffect(() => {
+    if (!auth || tab !== "news") return;
+    api.getAllNews().then(data => { if (data) setNews(data); }).catch(() => {});
+  }, [auth, tab]);
+
   if (!auth) return <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}><ALogin t={t} c={c} onAuth={() => setAuth(true)} onBack={onBack} /></div>;
 
-  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", area: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else if (tab === "careers") setFd({ title: "", department: "", location: "", description: "", requirements: "", apply_email: "", is_active: true }); else setFd({ name: "", logo: "" }); setEditing("new"); };
+  const startNew = () => { if (tab === "projects") setFd({ name: "", category: cats[0] || "", year: "2024", period: "", scope: "", client: "", location: "", area: "", cost: "", image: "", gallery: [], before_after: [], description: "" }); else if (tab === "careers") setFd({ title: "", department: "", location: "", description: "", requirements: "", apply_email: "", is_active: true }); else if (tab === "news") setFd({ title: "", excerpt: "", body: "", category: "", date: "", image: "", is_published: true }); else setFd({ name: "", logo: "" }); setEditing("new"); };
   const toggleJob = async (job) => { try { const updated = await api.updateJob(job.id, { ...job, is_active: !job.is_active }); setJobs(jobs.map(j => j.id === job.id ? updated : j)); } catch (e) { alert('Error: ' + e.message); } };
+  const toggleNews = async (item) => { try { const updated = await api.updateNews(item.id, { ...item, is_published: !item.is_published }); setNews(news.map(n => n.id === item.id ? updated : n)); } catch (e) { alert('Error: ' + e.message); } };
   const startEdit = item => { setFd({ ...item, gallery: item.gallery || [], before_after: item.before_after || [] }); setEditing(item); };
   const isDemo = (id) => typeof id === 'string' && /^\d+$/.test(id);
   const save = async () => {
@@ -1196,6 +1346,14 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
           const updated = await api.updateJob(editing.id, fd);
           setJobs(jobs.map(j => j.id === editing.id ? updated : j));
         }
+      } else if (tab === "news") {
+        if (editing === "new") {
+          const created = await api.createNews(fd);
+          setNews([created, ...news]);
+        } else {
+          const updated = await api.updateNews(editing.id, fd);
+          setNews(news.map(n => n.id === editing.id ? updated : n));
+        }
       } else {
         if (editing === "new" || isDemo(editing.id)) {
           const created = await api.createClient(fd);
@@ -1213,6 +1371,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
     if (!confirm('Are you sure?')) return;
     try {
       if (tab === "careers") { await api.deleteJob(id); setJobs(jobs.filter(j => j.id !== id)); return; }
+      if (tab === "news") { await api.deleteNews(id); setNews(news.filter(n => n.id !== id)); return; }
       if (isDemo(id)) {
         // Demo data — just remove from local state
         if (tab === "projects") setProjects(projects.filter(p => p.id !== id));
@@ -1282,7 +1441,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       </div>
     </div>
     <div style={{ display: "flex", gap: 0, marginBottom: "1.5rem", flexWrap: "wrap" }}>
-      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca], ["careers", t.ad.jb], ["account", t.ad.acct]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
+      {[["projects", t.ad.pr], ["clients", t.ad.ct], ["categories", t.ad.ca], ["careers", t.ad.jb], ["news", t.ad.nw], ["account", t.ad.acct]].map(([k, lb]) => <button key={k} onClick={() => { setTab(k); setEditing(null); }} style={{ padding: ".6rem 1.5rem", background: tab === k ? YELLOW : "none", border: "1px solid " + (tab === k ? YELLOW : c.border), color: tab === k ? "#111" : c.text2, fontFamily: FB, fontSize: ".75rem", letterSpacing: "1px", cursor: "pointer", fontWeight: tab === k ? 700 : 400 }}>{lb}</button>)}
     </div>
 
     {tab === "categories" && <div>
@@ -1295,7 +1454,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
 
     {tab === "account" && <AccountPanel t={t} c={c} theme={theme} iS={iS} lS={lS} bS={bS} />}
 
-    {tab !== "categories" && tab !== "careers" && tab !== "account" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
+    {tab !== "categories" && tab !== "careers" && tab !== "account" && tab !== "news" && editing && <div style={{ maxWidth: 520, display: "flex", flexDirection: "column", gap: ".8rem" }}>
       {tab === "projects" ? <div style={{ display: "flex", flexDirection: "column", gap: ".8rem" }}>
         <div><label style={lS}>{t.ad.pn}</label><input style={iS} value={fd.name || ""} onChange={e => setFd(f => ({ ...f, name: e.target.value }))} /></div>
         <div><label style={lS}>{t.ad.pc}</label><select style={iS} value={fd.category || ""} onChange={e => setFd(f => ({ ...f, category: e.target.value }))}>{cats.map(o => <option key={o} value={o}>{o}</option>)}</select></div>
@@ -1372,7 +1531,7 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
       <div style={{ display: "flex", gap: ".5rem", marginTop: ".5rem" }}><button style={bS(true, false)} onClick={save}>{t.ad.sv}</button><button style={bS(false, false)} onClick={() => setEditing(null)}>{t.ad.cn}</button></div>
     </div>}
 
-    {tab !== "categories" && tab !== "careers" && tab !== "account" && !editing && <div>
+    {tab !== "categories" && tab !== "careers" && tab !== "account" && tab !== "news" && !editing && <div>
       <div style={{ marginBottom: "1.2rem" }}><button style={bS(true, false)} onClick={startNew}>{t.ad.an}</button></div>
       {(tab === "projects" ? projects : clients).length === 0 ? <div style={{ textAlign: "center", padding: "2rem", color: c.text3, border: "1px dashed " + c.border, borderRadius: 8 }}>{tab === "projects" ? t.ad.np : t.ad.nc}</div>
       : <div style={{ overflowX: "auto" }}><table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -1425,6 +1584,79 @@ function Admin({ t, c, theme, projects, setProjects, clients, setClients, cats, 
             </td>
           </tr>)}</tbody>
         </table></div>}
+    </div>}
+
+    {tab === "news" && editing && <div style={{ maxWidth: 640, display: "flex", flexDirection: "column", gap: ".8rem" }}>
+      <div><label style={lS}>{t.ad.ntit}</label><input style={iS} value={fd.title || ""} onChange={e => setFd(f => ({ ...f, title: e.target.value }))} /></div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: ".8rem" }}>
+        <div><label style={lS}>{t.ad.ncat}</label><input style={iS} placeholder="PROJECT COMPLETED" value={fd.category || ""} onChange={e => setFd(f => ({ ...f, category: e.target.value }))} /></div>
+        <div><label style={lS}>{t.ad.ndate}</label><input style={iS} placeholder="March 15, 2026" value={fd.date || ""} onChange={e => setFd(f => ({ ...f, date: e.target.value }))} /></div>
+      </div>
+      <div><label style={lS}>{t.ad.nex}</label><textarea style={{ ...iS, minHeight: 80, resize: "vertical" }} value={fd.excerpt || ""} onChange={e => setFd(f => ({ ...f, excerpt: e.target.value }))} /></div>
+      <div><label style={lS}>{t.ad.nbd}</label><textarea style={{ ...iS, minHeight: 220, resize: "vertical", fontFamily: "inherit" }} value={fd.body || ""} onChange={e => setFd(f => ({ ...f, body: e.target.value }))} /></div>
+      <div>
+        <label style={lS}>{t.ad.nimg}</label>
+        <div style={{ display: "flex", gap: ".5rem", alignItems: "center", flexWrap: "wrap" }}>
+          <label style={{ ...bS(false, false), cursor: "pointer" }}><input type="file" accept="image/*" style={{ display: "none" }} onChange={(e) => handleFile(e, 'image')} />{t.ad.up}</label>
+          <input style={{ ...iS, flex: 1, minWidth: 200 }} placeholder={t.ad.ou} value={fd.image || ""} onChange={e => setFd(f => ({ ...f, image: e.target.value }))} />
+        </div>
+        {fd.image && <img src={fd.image} alt="" style={{ marginTop: ".6rem", maxWidth: 260, maxHeight: 160, objectFit: "cover", border: "1px solid " + c.border }} onError={e => { e.target.style.display = "none"; }} />}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: ".5rem", padding: ".4rem 0" }}>
+        <input type="checkbox" id="news-published" checked={fd.is_published !== false} onChange={e => setFd(f => ({ ...f, is_published: e.target.checked }))} style={{ width: 16, height: 16, cursor: "pointer" }} />
+        <label htmlFor="news-published" style={{ fontSize: ".85rem", color: c.text, cursor: "pointer" }}>{t.ad.npub}</label>
+      </div>
+      <div style={{ marginTop: ".5rem" }}>
+        <button style={bS(true, false)} onClick={save}>{t.ad.sv}</button>
+        <button style={bS(false, false)} onClick={() => setEditing(null)}>{t.ad.cn}</button>
+      </div>
+    </div>}
+
+    {tab === "news" && !editing && <div>
+      <div style={{ marginBottom: "1.2rem" }}><button style={bS(true, false)} onClick={startNew}>{t.ad.nAdd}</button></div>
+      {news.length === 0
+        ? <div style={{ textAlign: "center", padding: "2rem", color: c.text3, border: "1px dashed " + c.border, borderRadius: 8 }}>{t.ad.nnn}</div>
+        : <div style={{ overflowX: "auto", border: "1px solid " + c.border, borderRadius: 6 }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 760 }}>
+            <thead>
+              <tr style={{ background: theme === "dark" ? "rgba(255,255,255,.03)" : "rgba(0,0,0,.025)" }}>
+                <th style={{ textAlign: "left", padding: ".75rem 1rem", fontSize: ".66rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, fontWeight: 600, width: 84 }}>{t.ad.nColImg}</th>
+                <th style={{ textAlign: "left", padding: ".75rem .7rem", fontSize: ".66rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, fontWeight: 600, width: 110 }}>{t.ad.nColStat}</th>
+                <th style={{ textAlign: "left", padding: ".75rem .7rem", fontSize: ".66rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, fontWeight: 600 }}>{t.ad.nColTitle}</th>
+                <th style={{ textAlign: "left", padding: ".75rem .7rem", fontSize: ".66rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, fontWeight: 600, width: 130 }}>{t.ad.nColDate}</th>
+                <th style={{ padding: ".75rem 1rem", width: 260 }} />
+              </tr>
+            </thead>
+            <tbody>{news.map(item => {
+              const isPub = item.is_published !== false;
+              return (
+                <tr key={item.id} style={{ borderTop: "1px solid " + c.border }}>
+                  <td style={{ padding: ".7rem 1rem", verticalAlign: "middle" }}>
+                    {item.image
+                      ? <img src={item.image} alt="" style={{ width: 60, height: 40, objectFit: "cover", display: "block", borderRadius: 3, background: theme === "dark" ? "#222" : "#eee" }} onError={e => { e.target.style.display = "none"; }} />
+                      : <div style={{ width: 60, height: 40, borderRadius: 3, background: theme === "dark" ? "#222" : "#eee", border: "1px dashed " + c.border }} />}
+                  </td>
+                  <td style={{ padding: ".7rem .7rem", verticalAlign: "middle" }}>
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: ".4rem", padding: ".25rem .65rem", borderRadius: 12, fontSize: ".68rem", background: isPub ? "rgba(76,175,80,.12)" : "rgba(120,120,120,.15)", color: isPub ? "#2e7d32" : (theme === "dark" ? "#ccc" : "#666"), fontWeight: 600, whiteSpace: "nowrap", border: "1px solid " + (isPub ? "rgba(76,175,80,.3)" : "rgba(120,120,120,.3)") }}>
+                      <span style={{ width: 6, height: 6, borderRadius: "50%", background: isPub ? "#4caf50" : "#999", display: "inline-block" }} />
+                      {isPub ? t.ad.npub : t.ad.ndr}
+                    </span>
+                  </td>
+                  <td style={{ padding: ".7rem .7rem", verticalAlign: "middle" }}>
+                    <div style={{ fontSize: ".88rem", fontWeight: 500, color: c.text, lineHeight: 1.35, marginBottom: ".2rem", maxWidth: 460, display: "-webkit-box", WebkitLineClamp: 1, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{item.title}</div>
+                    <div style={{ fontSize: ".62rem", letterSpacing: "1.5px", textTransform: "uppercase", color: c.text3, fontWeight: 600 }}>{item.category}</div>
+                  </td>
+                  <td style={{ padding: ".7rem .7rem", verticalAlign: "middle", color: c.text2, fontSize: ".82rem", whiteSpace: "nowrap" }}>{item.date}</td>
+                  <td style={{ padding: ".7rem 1rem", verticalAlign: "middle", whiteSpace: "nowrap", textAlign: "right" }}>
+                    <button style={bS(false, false)} onClick={() => toggleNews(item)}>{isPub ? t.ad.nUnpubBtn : t.ad.nPubBtn}</button>
+                    <button style={bS(false, false)} onClick={() => startEdit(item)}>{t.ad.ed}</button>
+                    <button style={bS(false, true)} onClick={() => del(item.id)}>{t.ad.dl}</button>
+                  </td>
+                </tr>
+              );
+            })}</tbody>
+          </table>
+        </div>}
     </div>}
   </div>;
 }
