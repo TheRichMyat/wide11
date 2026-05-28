@@ -32,3 +32,8 @@ create policy "Admin update job vacancies"
 create policy "Admin delete job vacancies"
   on public.job_vacancies for delete
   using (auth.role() = 'authenticated');
+
+-- Explicit Data API grants (required for tables created on or after
+-- October 30, 2026 — harmless on older projects where it's already default).
+grant select on public.job_vacancies to anon, authenticated;
+grant insert, update, delete on public.job_vacancies to authenticated;

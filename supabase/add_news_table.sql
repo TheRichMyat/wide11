@@ -36,6 +36,11 @@ create policy "Admin delete news"
   on public.news for delete
   using (auth.role() = 'authenticated');
 
+-- Explicit Data API grants (required for tables created on or after
+-- October 30, 2026 — harmless on older projects where it's already default).
+grant select on public.news to anon, authenticated;
+grant insert, update, delete on public.news to authenticated;
+
 -- Seed: the 4 demo articles currently hardcoded on the site.
 -- Inserted with staggered created_at so they sort newest-first in display order.
 insert into public.news (title, excerpt, body, category, date, image, is_published, created_at)
